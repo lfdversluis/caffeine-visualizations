@@ -1,0 +1,361 @@
+---
+- id: asstprof-data-management
+  title: Assistant professor (UD) in Computer Systems - Large-Scale Data-Management (Tenure Track)
+  url: '/asstprof-data-management'
+  shortDescription: Opening Assistant Professor Large-Scale Data-Management Systems
+  longDescription: '/pdfs/HIRING_AsstProf_LSDataManagement_ComputerSystems.pdf'
+
+  whenOpen: >
+    Open: October 1, 2017<br/>
+    Close: <font color="#03a9f4"><b>February 1, 2018, at 23:59, anywhere on Earth</b></font><br/>
+    Vacancy Identifier: <font color="#03a9f4"><b>17264</b></font><br/>
+    Vacancy Type: full-time employment (FTE)<br/>
+
+  profileTopic: >
+    Modern research in computer systems seeks fundamental knowledge, inspired by real-world applications and aiming at societal impact. Our society increasingly produces and consumes data with unprecedented vicissitude: rate, scale, and complexity keep increasing. Consequently, large-scale data-management systems are an emerging and complex challenge for modern computer systems research.
+
+  profileCandidate: >
+    We are looking for a candidate who ideally has a strong international research profile in an area of data-management systems, broadly construed, and a strong track record in teaching computer science courses at university level. The candidate should be able to conduct core data-management systems research, for example, design, development, deployment, analysis, real-world experimentation, and benchmarking. Research could be inspired, among others, by applications in computer science (e.g., cloud computing, big data), and by user-facing applications (e.g., e-Science, business-critical applications, etc.).
+
+  profileCandidatePlus: >
+    The profile for the candidate includes bridging the gap between theory and practice, by collaborating with researchers in fields such as systems security, HPC systems, distributed algorithms, Web science, or data science. The profile requires the candidate to have a clear potential to acquire external funding and run research projects.
+
+  profileCandidateSuccessful: >
+    The successful candidate is expected to pursue a research-inspired teaching program, including teaching introductory and advanced classes at Bachelor and Master level, supervising undergraduate and graduate students, and performing management tasks within the department.
+
+  reqGoals: >
+    A successful candidate will set up a unique, world-class research programme, complemented by high-quality teaching and industry-engagement programmes. A criterion for success is the extent to which the candidate’s research programme stands out in uniqueness while at the same time linking to other research programmes at Vrije Unviersiteit and internationally.
+
+  reqBackground: >
+    Successful candidates will have a background in Computer Science. The ideal candidate can already demonstrate high-quality research credentials, and experience with education processes at both Bachelor and Master level. Significant criteria for demonstrating high quality include already obtained personal grants and research awards, and consistent presence in top-level conferences in relevant fields. We see supervision and development of young researchers as an important aspect of the ideal candidate. We encourage applicants who have already taken roles in creating and delivering courses at academic level. We consider a plus prior experience with attracting funds for projects involving industry and governance, with involvement in research projects that have resulted in demonstrable adoption of technology by industry.
+
+  reqDiversity: >
+    We are actively engaged in increasing diversity in computer science programmes and the Vrije Universiteit Amsterdam is an equal-opportunity employer. We explicitly welcome applications from female candidates.
+
+  reqSkills: >
+    The candidate must be proficient in English, and must be prepared to take courses for qualification as university teacher.
+
+  detailsInitialAppointment: >
+    For tenure-track positions, the initial appointment will be for a period between four and five years. Based on performance indicators agreed at the start of the appointment, a tenure track position will lead to a tenured position in a period of maximally 5 years. In the fifth year of the appointment the tenure decision will be taken.<br/>
+
+    You can find information about our excellent employment conditions at www.workingatvu.nl such as:<br/>
+    Remuneration of 8,3% end-of-year bonus and 8% holiday allowance;<br/>
+    Participation in a solid pension scheme (ABP);<br/>
+    A minimum of 29 holidays in case of full-time employment;<br/>
+    A generous commuting allowance (65%) based on public transport.<br/>
+
+  detailsSalary: >
+
+    The salary will be in accordance with university regulations for academic personnel, and depending on experience, range from a minimum of € 3,475 gross per month (salary scale 11) up to a maximum of
+    € 5,405 gross per month (salary scale 12) based on a full-time employment.
+
+  detailsContact: >
+
+    For additional information please contact:<br/>
+    Prof. Dr. ir. Alexandru Iosup<br/>
+    Telephone: +31-20-59-89468<br/>
+    Secretariate: +31-20-59-83563<br/>
+    e-mail: a.iosup@vu.nl<br/><br/>
+
+    You may find the following websites useful:<br/>
+    <ul>
+      <li><a href="https://atlarge-research.com/aiosup/" target="_blank">Dr. Iosup’s research page</a></li>
+      <li><a href="https://atlarge-research.com/" target="_blank">MCS group website</a> </li>
+      <li><a href="http://cs.vu.nl/en/research/computer-systems/massivizing-computer-systems/index.aspx" target="_blank">MCS group profile</a> </li>
+      <li><a href="http://www.cs.vu.nl/" target="_blank">VU Department of Computer Sciences</a></li>
+      <li><a href="http://amsterdamdatascience.nl/" target="_blank">Amsterdam Data Science</a> </li>
+    </ul>
+
+  detailsApplication: >
+
+    Applicants are requested to send us:
+    <ol>
+      <li>An <font color="#03a9f4"><b>application letter</b></font> in which they describe their abilities and motivation,</li>
+      <li>A short (1-2-page) <font color="#03a9f4"><b>curriculum vitae</b></font>,</li>
+      <li>Short (1-2-page) statements about <font color="#03a9f4"><b>research and teaching vision</b></font>,</li>
+      <li>A few (2-3) <font color="#03a9f4"><b>references</b></font> (name(s) and e-mail address(es)), and </li>
+      <li>Digital links to or copies of 2-3 <font color="#03a9f4"><b>relevant research articles</b></font>.</li>
+    </ol>
+
+    Please send your application <b>before and including 1 February 2017, at 23:59, anywhere on Earth,</b> to <a href="mailto:informatica.secretariaat.few@vu.nl">informatica.secretariaat.few@vu.nl</a>. Please mention the vacancy number in the e-mail header: "<b>[17264]</b>".
+
+  textSection: >
+    The Computer Systems section of the Computer Science department at the Vrije Universiteit Amsterdam has
+    a strong tradition in experimental computer systems research, as witnessed by outstanding publications,
+    high-profile research projects, prestigious awards and grants, and success in raising external funds.
+    Within this section, the Massivizing Computer Systems (MCS) group offers an unique research environment
+    operating at the top level of the field, especially in resource management and scheduling, and performance
+    engineering, of large-scale distributed computing systems, with research results applied to datacenter
+    environments, cloud computing, and big data. The MCS group has a strong track record of creating free
+    open-source software and free open-access data artifacts. The group is also leading international consortia and
+    industry-academia partnerships.
+
+  textDepartment: >
+    The VUA Department of Computer Science has approximately 170 members, including 35 tenured staff members and
+    40-50 PhD students. The tenured staff members form the essential basis for the functioning of the department.
+    A tenured staff member is required to make significant contributions to the research and education programmes, and
+    to spend effort on specific tasks at the department level.
+
+  textFaculty: >
+    Research at the Faculty of Sciences focuses on the areas of Life & Health, Networked World, Fundamentals of
+    Science, and Energy & Sustainability. The faculty’s teaching activities are directly linked to this excellent research.
+    Cooperation with other faculties on the Vrije Universiteit Amsterdam campus generates attractive,
+    high-quality Bachelor’s and Master’s programmes.  At international level, the faculty cooperates closely with
+    leading scientific institutes and other partners.
+
+  textUniversity: >
+    Vrije Universiteit Amsterdam (VU) is a leading, innovative and growing university that is at the heart of society and
+    actively contributes to new developments in teaching and research. Our university has ten faculties, and
+    provides work for over 4,500 staff and scientific education for more than 23,000 students.
+
+  contact:
+  - id: aiosup
+    role: Group Lead
+
+
+- id: phd2-magnadata
+  title: PhD in Computer Systems - MagnaData project at the VU (2/3)
+  url: '/phd2-magnadata'
+  shortDescription: We are looking forward to hire a second PhD student in the MagnaData project.
+  longDescription: '/pdfs/.pdf'
+  whenOpen: Coming soon (to open before January 1, 2018)
+
+  profileTopic: >
+
+  profileCandidate: >
+
+  profileCandidatePlus: >
+
+  profileCandidateSuccessful: >
+
+  reqGoals: >
+
+  reqBackground: >
+
+  reqDiversity: >
+    We are actively engaged in increasing diversity in computer science programmes and the Vrije Universiteit Amsterdam is an equal-opportunity employer. We explicitly welcome applications from female candidates.
+
+  reqSkills: >
+    The candidate must be proficient in English, and must be prepared to take courses for qualification as doctoral researcher.
+
+  detailsInitialAppointment: >
+
+
+  detailsSalary: >
+
+
+
+  detailsContact: >
+
+    For additional information please contact:
+    Prof. Dr. ir. Alexandru Iosup
+    Telephone: +31-20-59-89468
+    Secretariate: +31-20-59-83563
+    e-mail: a.iosup@vu.nl
+
+    You may find the following websites useful:
+    Dr. Iosup’s research page: https://atlarge-research.com/aiosup/
+    MCS group website: https://atlarge-research.com/
+    MCS group profile: http://cs.vu.nl/en/research/computer-systems/massivizing-computer-systems/index.aspx
+    Department of Computer Sciences:  http://www.cs.vu.nl/
+    Amsterdam Data Sciene: http://amsterdamdatascience.nl/
+
+  detailsApplication: >
+
+    Applicants are requested to send us (1) a letter in which they describe their abilities and motivation,
+    (2) a short (1-2-page) curriculum vitae,
+    (3) 1-2 references (name(s) and e-mail adress(es)), and
+    (4) if available, digital links to or copies of 1-2 relevant research articles.
+
+  textSection: >
+    The Computer Systems section of the Computer Science department at the Vrije Universiteit Amsterdam has
+    a strong tradition in experimental computer systems research, as witnessed by outstanding publications,
+    high-profile research projects, prestigious awards and grants, and success in raising external funds.
+    Within this section, the Massivizing Computer Systems (MCS) group offers an unique research environment
+    operating at the top level of the field, especially in resource management and scheduling, and performance
+    engineering, of large-scale distributed computing systems, with research results applied to datacenter
+    environments, cloud computing, and big data. The MCS group has a strong track record of creating free
+    open-source software and free open-access data artifacts. The group is also leading international consortia and
+    industry-academia partnerships.
+
+  textDepartment: >
+    The VUA Department of Computer Science has approximately 170 members, including 35 tenured staff members and
+    40-50 PhD students. The tenured staff members form the essential basis for the functioning of the department.
+    A tenured staff member is required to make significant contributions to the research and education programmes, and
+    to spend effort on specific tasks at the department level.
+
+  textFaculty: >
+    Research at the Faculty of Sciences focuses on the areas of Life & Health, Networked World, Fundamentals of
+    Science, and Energy & Sustainability. The faculty’s teaching activities are directly linked to this excellent research.
+    Cooperation with other faculties on the Vrije Universiteit Amsterdam campus generates attractive,
+    high-quality Bachelor’s and Master’s programmes.  At international level, the faculty cooperates closely with
+    leading scientific institutes and other partners.
+
+  textUniversity: >
+    Vrije Universiteit Amsterdam (VU) is a leading, innovative and growing university that is at the heart of society and
+    actively contributes to new developments in teaching and research. Our university has ten faculties, and
+    provides work for over 4,500 staff and scientific education for more than 23,000 students.
+
+  contact:
+  - id: aiosup
+    role: Group Lead
+
+- id: phd3-magnadata
+  title: PhD in Computer Systems - MagnaData project at the VU (3/3)
+  url: '/phd3-magnadata'
+  shortDescription: We are looking forward to hire a third PhD student in the MagnaData project.
+  longDescription: '/pdfs/.pdf'
+  whenOpen: Coming soon (to open before January 1, 2018)
+
+  profileTopic: >
+
+  profileCandidate: >
+
+  profileCandidatePlus: >
+
+  profileCandidateSuccessful: >
+
+  reqGoals: >
+
+  reqBackground: >
+
+  reqDiversity: >
+    We are actively engaged in increasing diversity in computer science programmes and the Vrije Universiteit Amsterdam is an equal-opportunity employer. We explicitly welcome applications from female candidates.
+
+  reqSkills: >
+    The candidate must be proficient in English, and must be prepared to take courses for qualification as doctoral researcher.
+
+  detailsInitialAppointment: >
+
+
+  detailsSalary: >
+
+
+
+  detailsContact: >
+
+    For additional information please contact:
+    Prof. Dr. ir. Alexandru Iosup
+    Telephone: +31-20-59-89468
+    Secretariate: +31-20-59-83563
+    e-mail: a.iosup@vu.nl
+
+    You may find the following websites useful:
+    Dr. Iosup’s research page: https://atlarge-research.com/aiosup/
+    MCS group website: https://atlarge-research.com/
+    MCS group profile: http://cs.vu.nl/en/research/computer-systems/massivizing-computer-systems/index.aspx
+    Department of Computer Sciences:  http://www.cs.vu.nl/
+    Amsterdam Data Sciene: http://amsterdamdatascience.nl/
+
+  detailsApplication: >
+
+    Applicants are requested to send us (1) a letter in which they describe their abilities and motivation,
+    (2) a short (1-2-page) curriculum vitae,
+    (3) 1-2 references (name(s) and e-mail adress(es)), and
+    (4) if available, digital links to or copies of 1-2 relevant research articles.
+
+  textSection: >
+    The Computer Systems section of the Computer Science department at the Vrije Universiteit Amsterdam has
+    a strong tradition in experimental computer systems research, as witnessed by outstanding publications,
+    high-profile research projects, prestigious awards and grants, and success in raising external funds.
+    Within this section, the Massivizing Computer Systems (MCS) group offers an unique research environment
+    operating at the top level of the field, especially in resource management and scheduling, and performance
+    engineering, of large-scale distributed computing systems, with research results applied to datacenter
+    environments, cloud computing, and big data. The MCS group has a strong track record of creating free
+    open-source software and free open-access data artifacts. The group is also leading international consortia and
+    industry-academia partnerships.
+
+  textDepartment: >
+    The VUA Department of Computer Science has approximately 170 members, including 35 tenured staff members and
+    40-50 PhD students. The tenured staff members form the essential basis for the functioning of the department.
+    A tenured staff member is required to make significant contributions to the research and education programmes, and
+    to spend effort on specific tasks at the department level.
+
+  textFaculty: >
+    Research at the Faculty of Sciences focuses on the areas of Life & Health, Networked World, Fundamentals of
+    Science, and Energy & Sustainability. The faculty’s teaching activities are directly linked to this excellent research.
+    Cooperation with other faculties on the Vrije Universiteit Amsterdam campus generates attractive,
+    high-quality Bachelor’s and Master’s programmes.  At international level, the faculty cooperates closely with
+    leading scientific institutes and other partners.
+
+  textUniversity: >
+    Vrije Universiteit Amsterdam (VU) is a leading, innovative and growing university that is at the heart of society and
+    actively contributes to new developments in teaching and research. Our university has ten faculties, and
+    provides work for over 4,500 staff and scientific education for more than 23,000 students.
+
+  contact:
+  - id: aiosup
+    role: Group Lead
+
+- id: phd1-graphalytics
+  title: PhD in Computer Systems - Graphalytics project at TU Delft
+  url: '/phd1-graphalytics'
+  shortDescription: We are looking forward to hire a PhD student in the Graphalytics project.
+  longDescription: '/pdfs/.pdf'
+  whenOpen: Coming soon (to open before January 1, 2018)
+
+  profileTopic: >
+
+  profileCandidate: >
+
+  profileCandidatePlus: >
+
+  profileCandidateSuccessful: >
+
+  reqGoals: >
+
+  reqBackground: >
+
+  reqDiversity: >
+    We are actively engaged in increasing diversity in computer science programmes and the Vrije Universiteit Amsterdam is an equal-opportunity employer. We explicitly welcome applications from female candidates.
+
+  reqSkills: >
+    The candidate must be proficient in English, and must be prepared to take courses for qualification as doctoral researcher.
+
+  detailsInitialAppointment: >
+
+
+  detailsSalary: >
+
+
+
+  detailsContact: >
+
+    For additional information please contact:
+    Prof. Dr. ir. Alexandru Iosup
+    Telephone: +31-20-59-89468
+    Secretariate: +31-20-59-83563
+    e-mail: a.iosup@vu.nl
+
+    You may find the following websites useful:
+    Dr. Iosup’s research page: https://atlarge-research.com/aiosup/
+    MCS group website: https://atlarge-research.com/
+    MCS group profile: http://cs.vu.nl/en/research/computer-systems/massivizing-computer-systems/index.aspx
+    Department of Computer Sciences:  http://www.cs.vu.nl/
+    Amsterdam Data Sciene: http://amsterdamdatascience.nl/
+
+  detailsApplication: >
+
+    Applicants are requested to send us (1) a letter in which they describe their abilities and motivation,
+    (2) a short (1-2-page) curriculum vitae,
+    (3) 1-2 references (name(s) and e-mail adress(es)), and
+    (4) if available, digital links to or copies of 1-2 relevant research articles.
+
+  textSection: >
+    The Massivizing Computer Systems (MCS) group offers an unique research environment
+    operating at the top level of the field, especially in resource management and scheduling, and performance
+    engineering, of large-scale distributed computing systems, with research results applied to datacenter
+    environments, cloud computing, and big data. The MCS group has a strong track record of creating free
+    open-source software and free open-access data artifacts. The group is also leading international consortia and
+    industry-academia partnerships.
+
+  textDepartment: >
+
+  textFaculty: >
+
+  textUniversity: >
+
+  contact:
+  - id: aiosup
+    role: Group Lead
+

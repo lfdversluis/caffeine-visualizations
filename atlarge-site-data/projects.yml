@@ -1,0 +1,146 @@
+---
+- id: atlarge-website
+  title: Website
+  url: 'http://atlarge-research.com'
+  shortDescription: The AtLarge website
+  longDescription: >
+    Building a scientific website is an art of its own. Not only there
+    are no standard commercial packages to do so, the practice of presenting scientific
+    work and the scientific work itself change over time. Our website project aims
+    to provide a good platform and format to disseminate the results of our research,
+    education, software, data, and other projects.
+  team:
+  - id: aiosup
+    role: Project Lead
+    responsibility: Vision/Management/Raw material
+  - id: gandreadis
+    role: Tech Lead/Design
+    responsibility: Vision/Management/Website design
+
+- id: magnadata
+  title: MagnaData
+  url: 'http://www.ds.ewi.tudelft.nl/~iosup/MagnaData/'
+  source: https://github.com/tudelft-atlarge/
+  shortDescription: Massivizing Datacenter Scheduling to Bring All Data Services to All People
+  longDescription: >
+    Datacenters are factories producing (hosting) data services for
+    our Digital Economy. Like any factory, they need to be efficient, scalable, and
+    effective. MagnaData will develop groundbreaking resource management and scheduling
+    techniques for datacenters, which will help engineers manage increasingly larger
+    datacenters, and address how social and sophisticated customers use data services.
+  team:
+  - id: aiosup
+    role: Project Lead
+    responsibility: Vision/Management/Research
+  - id: lfdversluis
+    role: Tech Lead/Core Team
+    responsibility: Vision/Management/Workflow scheduling
+  - id: vvanbeek
+    role: Core Team
+    responsibility: Vision/Management/Portfolio scheduling
+  - id: gandreadis
+    role: Tech Lead OpenDC
+    responsibility: OpenDC simulation framework
+  - id: loverweel
+    role: Core Team OpenDC
+    responsibility: OpenDC simulation framework
+  - id: mbijman
+    role: Core Team OpenDC
+    responsibility: OpenDC simulation framework
+  - id: "!Ana Lucia Varbanescu (U. of Amsterdam)"
+    role: Team MagnaData/Collaborator
+    responsibility: Performance modeling and analysis, heterogeneous systems
+
+- id: graphalytics
+  title: LDBC Graphalytics
+  url: 'http://graphalytics.org'
+  source: https://github.com/tudelft-atlarge/graphalytics/
+  shortDescription: Benchmarking suite for graph-processing platforms
+  longDescription: >
+    The LDBC Graphalytics benchmark is an industrial-grade benchmark
+    for graph analysis platforms such as Giraph and GraphX. It consists of six core
+    algorithms, standard datasets, synthetic dataset generators, and reference outputs,
+    enabling the objective comparison of graph analysis platforms. It has been adopted
+    by the industry, who used it to benchmark products such as Oracle PGX, Intel GraphMat,
+    and IBM OpenG. More details: <a href="http://ldbcouncil.org/ldbc-graphalytics">http://ldbcouncil.org/ldbc-graphalytics</href>
+  team:
+  - id: aiosup
+    role: Project Lead
+    responsibility: Vision/Management/Research
+  - id: wlngai
+    role: Tech Lead/Core Team
+    responsibility: Management/Granula project
+  - id: thegeman
+    role: Tech Lead/Core Team
+    responsibility: Vision/Management/Grade10
+  - id: "!Arnau Prat-Perez (UPC, Barcelona, Spain)"
+    role: Team Graphalytics/Collaborator
+    responsibility: Graphalytics data generator
+
+- id: opendc
+  title: OpenDC
+  url: 'http://opendc.org'
+  source: https://github.com/tudelft-atlarge/opendc
+  shortDescription: Collaborative Datacenter Simulation and Exploration for Everybody
+  longDescription: >
+    OpenDC is a platform for collaborative datacenter simulation and
+    exploration. Modern datacenters raise numerous research and engineering challenges
+    in modeling, interfacing through APIs and programming languages, resource management
+    and scheduling, giving performance and other non-functional guarantees, performance
+    analysis, etc. Designing approaches that alleviate or resolve these challenges
+    is made more difficult by the lack of analytical methods and by the complexity
+    of testing in real-world environments (especially in production). OpenDC aims
+    to alleviate these issues, by providing a high-quality, flexible, easy-to-use
+    simulation framework for stakeholders from academia and industry.
+  team:
+  - id: aiosup
+    role: Project Lead
+    responsibility: Vision/Management/Research
+  - id: gandreadis
+    role: Tech Lead/Core Team
+    responsibility: Management/Web frontend interface
+  - id: fmastenbroek
+    role: Core Team
+    responsibility: Simulator backend
+  - id: loverweel
+    role: Core Team
+    responsibility: Web server backend, API specification, database schema
+  - id: mbijman
+    role: Team OpenDC
+    responsibility: Simulator backend
+  - id: mebpvisser
+    role: Team OpenDC
+    responsibility: Energy in datacenters
+  - id: stalluri
+    role: Team OpenDC
+    responsibility: Datacenter storage
+  - id: lfdversluis
+    role: Team OpenDC
+    responsibility: Workflow scheduling
+  - id: mneacsu
+    role: Team OpenDC
+    responsibility: Auto-scaling
+
+- id: opencraft
+  title: OpenCraft
+  url: '/opencraft'
+  shortDescription: Massivizing Minecraft-like Networked Virtual Environments
+  longDescription: >
+    OpenCraft is a platform for research in massivizing Minecraft-like
+    Networked Virtual Environments. It focuses on research questions such as: How
+    to make such environments scalable? How to test the performance and scalability
+    of such environments? How to add socially aware resource management and scheduling
+    to such environments, and what is the benefit of it?'
+  team:
+  - id: aiosup
+    role: Project Lead
+    responsibility: Vision/Management/Research
+  - id: jdonkervliet
+    role: Tech Lead/Core Team
+    responsibility: Management/Scalability techniques
+  - id: jvdsar
+    role: Core Team
+    responsibility: Testing and scalability of Minecraft-like environments
+  - id: evdhoeven
+    role: Team OpenCraft
+    responsibility: Socially aware scaling in multiplayer online games

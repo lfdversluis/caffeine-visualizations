@@ -1,0 +1,32 @@
+---
+- id: gwa
+  title: Grid Workloads Archive
+  shortDescription: >
+    The <a href="http://gwa.ewi.tudelft.nl/">Grid Workloads Archive</a>, established 2006, provides open access to workload traces collected from grid and, since 2015, cloud environments. The purpose of this initiative is to facilitate the exchange of datasets. The archive, which includes 7 datasets, is widely used by academics and industry (over 250 citations).
+  url: 'http://gwa.ewi.tudelft.nl/'
+  tags:
+    - grids # TODO: Add more tags
+
+- id: gta
+  title: Game Trace Archive
+  shortDescription: >
+    The <a href="http://gta.st.ewi.tudelft.nl/">Game Trace Archive</a>, established 2012, focuses on providing social and operational traces collected from online (social) games. Currently, it includes 12 traces, and it is starting to become the de facto standard repository of such traces (over 35 citations).
+  url: 'http://gta.st.ewi.tudelft.nl/'
+  tags:
+    - game traces # TODO: Add more tags
+
+- id: fta
+  title: Failure Trace Archive
+  shortDescription: >
+    The <a href="http://fta.scem.uws.edu.au/">Failure Trace Archive</a>, established 2010, is a centralized public repository of availability traces of collected from large-scale distributed computing, and tools for their analysis. The purpose of this archive is to facilitate the design, validation, and comparison of fault-tolerant models and algorithms. The archive, which includes over 25 datasets, is widely used by academics and industry (over 175 citations).
+  url: 'http://fta.scem.uws.edu.au/'
+  tags:
+    - game traces # TODO: Add more tags
+
+- id: p2pta
+  title: Peer-to-Peer Trace Archive
+  shortDescription: >
+    The <a href="http://p2pta.ewi.tudelft.nl/">Peer-to-Peer Trace Archive</a>, established 2010, mimics the Grid Workloads Archive with a focus on peer-to-peer systems. This archive, which currently includes over 20 datasets, is the least used from our archives (over 20 citations).
+  url: 'http://p2pta.ewi.tudelft.nl/'
+  tags:
+    - peer-to-peer # TODO: Add more tags

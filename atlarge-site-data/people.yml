@@ -1,0 +1,906 @@
+---
+- id: aiosup
+  firstName: Alexandru
+  lastName: Iosup
+  degree:
+  - doctor
+  - engineer
+  role: University Research Chair and Full Professor, Vrije Universiteit Amsterdam/Associate Professor, TU Delft/Chief Magic Officer, AtLarge team
+  researchFocus: Massivizing Computer Systems
+  emailAtLarge: A.Iosup@atlarge-research.com
+  emailPublic: A.Iosup@vu.nl
+  emailPrivate: alexandru.iosup@gmail.com
+  homepage: 'http://www.ds.ewi.tudelft.nl/~iosup/'
+  twitter: AIosup
+  linkedin: 'https://www.linkedin.com/in/aiosup/'
+  isFaculty: true
+
+- id: vvanbeek
+  firstName: Vincent
+  lastName: van Beek
+  degree:
+  - to-doctor
+  - engineer
+  role: Ph.D. student, TU Delft/Core Team MagnaData/Senior Engineer at Solvinity, the Netherlands
+  researchFocus: Portfolio scheduling in datacenters
+  emailAtLarge: V.vanBeek@atlarge-research.com
+  emailPublic: Vincent.vanBeek@solvinity.com
+  emailPrivate: ''
+
+- id: ovisser
+  firstName: Otto
+  lastName: Visser
+  degree:
+  - engineer
+  role: Chief Advisor
+  researchFocus: Educational Innovation
+  emailAtLarge: O.Visser@atlarge-research.com
+  emailPublic: o.w.visser@tudelft.nl
+  emailPrivate: ''
+  isFaculty: true
+
+- id: wlngai
+  firstName: Wing Lung
+  lastName: Ngai
+  degree: engineer
+  role: Researcher, Vrije Universiteit Amsterdam/Project Lead Granula project/Tech Lead Graphalytics project
+  researchFocus: Performance modeling, analysis, and benchmarking for graph-processing systems
+  emailAtLarge: W.Ngai@atlarge-research.com
+  emailPublic: winglung.ngai@gmail.com
+  emailPrivate: winglung.ngai@gmail.com
+  isAlumni: true
+
+- id: amusaafir
+  firstName: Ahmed
+  lastName: Musaafir
+  degree: M.Sc. in computer science
+  role: Researcher, Vrije Universiteit Amsterdam/Team Graphalytics
+  researchFocus: Performance modeling, analysis, and benchmarking for graph-processing systems
+  emailAtLarge: a.a.m.musaafir@vu.nl
+  emailPublic: a.a.m.musaafir@vu.nl
+  emailPrivate: ahmedmusaafir@gmail.com
+
+- id: sheldens
+  firstName: Stijn
+  lastName: Heldens
+  degree: engineer
+  role: Researcher, TU Delft/Project Lead HyGraph/Graphalytics project
+  researchFocus: Performance benchmarking and design of graph-processing systems
+  emailAtLarge: s.j.heldens@utwente.nl
+  emailPublic: s.j.heldens@utwente.nl
+  emailPrivate: stijn.heldens@gmail.com
+  isAlumni: true
+
+- id: ailyushkin
+  firstName: Alexey
+  lastName: Ilyushkin
+  degree:
+  - to-doctor
+  - engineer
+  role: Ph.D. student, TU Delft
+  researchFocus: Scientific-workflow management and scheduling
+  emailAtLarge: A.Ilyushkin@atlarge-research.com
+  emailPublic: A.S.Ilyushkin@tudelft.nl
+  emailPrivate: alexey.ilyushkin@gmail.com
+
+- id: lfdversluis
+  firstName: Laurens
+  lastName: Versluis
+  degree:
+  - to-doctor
+  - engineer
+  role: Ph.D. student, Vrije Universiteit Amsterdam/Tech Lead MagnaData project
+  researchFocus: Scheduling complex data-driven workflows in datacenters
+  emailAtLarge: L.Versluis@atlarge-research.com
+  emailPublic: l.f.d.versluis@vu.nl
+  emailPrivate: lfdversluis@gmail.com
+
+- id: bghit
+  firstName: Bogdan
+  lastName: Ghit
+  degree:
+  - doctor
+  - engineer
+  role: Ph.D. student, TU Delft
+  researchFocus: Resource management and scheduling of big data workloads
+  emailAtLarge: B.Ghit@atlarge-research.com
+  emailPublic: b.i.ghit@tudelft.nl
+  emailPrivate: bogdan.ghit@gmail.com
+  isAlumni: true
+
+- id: auta
+  firstName: Alexandru
+  lastName: Uta
+  degree:
+  - doctor
+  - engineer
+  role: Post-doctoral Researcher Vrije Universiteit Amsterdam
+  researchFocus: Understanding and Optimizing the Performance of Distributed Systems
+  emailAtLarge: A.Uta@atlarge-research.com
+  emailPublic: a.uta@vu.nl
+  emailPrivate: a.uta@vu.nl
+
+- id: thegeman
+  firstName: Tim
+  lastName: Hegeman
+  degree: to-engineer
+  role: M.Sc. student, TU Delft/Project Lead Grade10 project/Tech Lead Graphalytics project
+  researchFocus: Identification and analysis of bottlenecks and performance issues for graph-processing systems/Long-term interest in big data systems
+  emailAtLarge: T.Hegeman@atlarge-research.com
+  emailPublic: t.m.hegeman@student.tudelft.nl
+  emailPrivate: tim.m.hegeman@gmail.com
+
+- id: jdonkervliet
+  firstName: Jesse
+  lastName: Donkervliet
+  degree: msc-compsci
+  role: M.Sc. student, TU Delft/Project Lead OpenCraft project
+  researchFocus: Massivizing Minecraft-like multi-player networked environments
+  emailAtLarge: J.Donkervliet@atlarge-research.com
+  emailPublic: J.J.R.Donkervliet@student.tudelft.nl
+  emailPrivate: j.donkervliet@gmail.com
+  isAlumni: true
+
+- id: evaneyk
+  firstName: Erwin
+  lastName: van Eyk
+  degree: to-engineer
+  role: M.Sc. student, TU Delft
+  researchFocus: Resource management and scheduling for FaaS/microservices
+  emailAtLarge: E.vanEyk@atlarge-research.com
+  emailPublic: erwinvaneyk+atlarge@gmail.com
+  emailPrivate: erwinvaneyk@gmail.com
+
+- id: mneacsu
+  firstName: Mihai
+  lastName: Neacsu
+  degree: to-engineer
+  role: M.Sc. student, Vrije Universiteit Amsterdam
+  researchFocus: Auto-scaling in cloud environments
+  emailAtLarge: M.Neacsu@atlarge-research.com
+  emailPublic: mihai.mneacsu@gmail.com
+  emailPrivate: mihai.mneacsu@gmail.com
+
+- id: stalluri
+  firstName: Sacheendra
+  lastName: Talluri
+  degree: to-engineer
+  role: M.Sc. student, TU Delft/Release Manager AtLarge team/Team OpenDC
+  researchFocus: Resource management and scheduling for datacenter storage
+  emailAtLarge: S.Talluri@atlarge-research.com
+  emailPublic: S.Talluri@student.tudelft.nl
+  emailPrivate: sacheendra.t@gmail.com
+
+- id: stau
+  firstName: Sietse
+  lastName: Au
+  degree: msc-compsci
+  role: M.Sc. student, TU Delft/Project Lead JoyGraph
+  researchFocus: Elastic graph processing at scale
+  emailAtLarge: S.Au@atlarge-research.com
+  emailPublic: S.T.Au@student.tudelft.nl
+  emailPrivate: sietse.au@gmail.com
+  isAlumni: true
+
+- id: sma
+  firstName: Shenjun
+  lastName: Ma
+  degree: msc-compsci
+  role: M.Sc. student, TU Delft/Project Member MagnaData
+  researchFocus: Portfolio scheduling for complex industrial workflows
+  emailAtLarge: S.Ma@atlarge-research.com
+  emailPublic: S.Ma@student.tudelt.nl
+  emailPrivate: mashenjun0902@gmail.com
+  isAlumni: true
+
+- id: mavoinea
+  firstName: Maria Anemona
+  lastName: Voinea
+  degree: to-engineer
+  role: M.Sc. student, TU Delft/Project Lead POSSUM
+  researchFocus: Portfolio scheduling for MapReduce clusters
+  emailAtLarge: M.Voinea@atlarge-research.com
+  emailPublic: anemona.voinea@gmail.com
+  emailPrivate: anemona.voinea@gmail.com
+
+- id: evdhoeven
+  firstName: Ernst
+  lastName: van der Hoeven
+  degree: msc-compsci
+  role: M.Sc. student, TU Delft
+  researchFocus: Socially aware scaling in multiplayer online games
+  emailAtLarge: E.vanderHoeven@atlarge-research.com
+  emailPublic: E.vanderHoeven@student.tudelft.nl
+  emailPrivate: ErnstVanDerHoeven@hetnet.nl
+  isAlumni: true
+
+- id: jbertens
+  firstName: Johannes
+  lastName: Bertens
+  degree: msc-compsi
+  role: M.Sc. student, TU Delft
+  researchFocus: BPaaS management and scheduling
+  emailAtLarge: J.Bertens@atlarge-research.com
+  emailPublic: ''
+  emailPrivate: johannes.bertens@gmail.com
+  isAlumni: true
+
+- id: loverweel
+  firstName: Leon
+  lastName: Overweel
+  degree: to-bsc-honours
+  role: Core Team OpenDC
+  researchFocus: Availability-on-Demand in cloud systems
+  emailAtLarge: L.Overweel@atlarge-research.com
+  emailPublic: l.overweel@gmail.com
+  emailPrivate: l.overweel@gmail.com
+  homepage: 'http://leonoverweel.com'
+  twitter: LayOn_OverWhale
+  linkedin: 'https://www.linkedin.com/in/leonoverweel/'
+
+- id: gandreadis
+  firstName: Georgios
+  lastName: Andreadis
+  degree: to-bsc-honours
+  role: Project Lead AtLarge Website/Project Lead OpenDC Global Competition/Core Team OpenDC
+  researchFocus: Datacenter Scheduling
+  emailAtLarge: G.Andreadis@atlarge-research.com
+  emailPublic: G.Andreadis@student.tudelft.nl
+  emailPrivate: Jorgos.Andreadis@gmail.com
+  twitter: geoandreadis
+  linkedin: 'https://www.linkedin.com/in/gandreadis/'
+  homepage: 'https://gandreadis.com'
+
+- id: mbijman
+  firstName: Matthijs
+  lastName: Bijman
+  degree: to-bsc-honours
+  role: Core Team OpenDC
+  researchFocus: Methodology of datacenter simulation
+  emailAtLarge: M.Bijman@atlarge-research.com
+  emailPublic: matthijs@bijman.org
+  emailPrivate: matthijsbijman@gmail.com
+  isVisitor: true
+
+- id: fmastenbroek
+  firstName: Fabian S.
+  lastName: Mastenbroek
+  degree: to-bsc-honours
+  role: Team OpenDC
+  researchFocus: simulation of datacenter technology
+  emailAtLarge: f.s.mastenbroek@student.tudelft.nl
+  emailPublic: f.s.mastenbroek@student.tudelft.nl
+  emailPrivate: mail.fabianm@gmail.com
+
+- id: clemaire
+  firstName: Chris
+  lastName: LeMaire
+  degree: to-bsc-honours
+  role: Team Graphalytics
+  researchFocus: performance analysis of big data systems
+  emailAtLarge: c.lemaire@student.tudelft.nl
+  emailPublic: c.lemaire@student.tudelft.nl
+  emailPrivate: chris.lemaire@telfort.nl
+
+- id: mebpvisser
+  firstName: Maaike
+  lastName: Visser
+  degree: to-bsc-honours
+  role: Team OpenDC
+  researchFocus: Energy management in datacenters
+  emailAtLarge: M.Visser@atlarge-research.com
+  emailPublic: M.E.B.P.Visser@student.tudelft.nl
+  emailPrivate: mebpvisser@gmail.com
+  isVisitor: true
+
+- id: jvdsar
+  firstName: Jerom
+  lastName: van der Sar
+  degree: to-bsc-honours
+  role: Team OpenCraft
+  researchFocus: Testing and scalability of Minecraft-like environments
+  emailAtLarge: J.vanderSar@atlarge-research.com
+  emailPublic: F.J.vanderSar@student.tudelft.nl
+  emailPrivate: jerom.vandersar@gmail.com
+  twitter: JeromSar
+
+- id: yguo
+  firstName: Yong
+  lastName: Guo
+  degree:
+  - doctor
+  - engineer
+  role: Graph processing/Tech Lead Game Trace Archive
+  researchFocus: Distributed Heterogeneous graph processing/Performance evaluation
+  affiliation: 2011-2016
+  emailPublic: ''
+  emailPrivate: guoyongnudt@gmail.com
+  isAlumni: true
+
+- id: sshen
+  firstName: Siqi
+  lastName: Shen
+  degree:
+  - doctor
+  - engineer
+  role: Massivizing online gaming
+  researchFocus: Massivizing Networked Virtual Environments using cloud environments
+  affiliation: 2010-2015
+  emailPublic: ''
+  emailPrivate: siqishen@gmail.com
+  isAlumni: true
+
+- id: jshen
+  firstName: Jie
+  lastName: Shen
+  degree:
+  - doctor
+  - engineer
+  role: Performance modeling/Data partitioning expert
+  researchFocus: Performance modeling and resource management in heterogeneous systems
+  affiliation: 2015-2016
+  emailPublic: ''
+  emailPrivate: carol_coming@126.com
+  isAlumni: true
+
+- id: aljia
+  firstName: Adele Lu
+  lastName: Jia
+  degree:
+  - doctor
+  - engineer
+  role: Social gaming
+  researchFocus: Understanding the characteristics of social gaming communities
+  affiliation: 2014-2016
+  emailPublic: ''
+  emailPrivate: adele.lu.jia@gmail.com
+  isAlumni: true
+
+- id: mcapota
+  firstName: Mihai
+  lastName: Capota
+  degree:
+  - doctor
+  - engineer
+  role: Tech Lead Graphalytics/Team Graphalytics
+  researchFocus: Benchmarking graph-processing platforms
+  affiliation: 2013-2015
+  emailPublic: mihai.capota@intel.com
+  emailPrivate: mihai@mihaic.ro
+  isAlumni: true
+
+- id: nyigitbasi
+  firstName: Nezih
+  lastName: Yigitbasi
+  degree:
+  - doctor
+  - engineer
+  role: Tech Lead GrenchMark and CMeter/Team GrenchMark
+  researchFocus: Benchmarking, performance modeling, and resource management in clouds
+  affiliation: 2010-2015
+  emailPublic: ''
+  emailPrivate: nezihyigitbasi@gmail.com
+  isAlumni: true
+
+- id: sanoep
+  firstName: Shanny
+  lastName: Anoep
+  degree:
+  - engineer
+  role: Team VL-e
+  researchFocus: Workload modeling and resource management in grids
+  affiliation: 2006-2008
+  emailPublic: ''
+  emailPrivate: s.anoep@gmail.com
+  isAlumni: true
+
+- id: aantoniou
+  firstName: Athanasios
+  lastName: Antoniou
+  degree:
+  - engineer
+  role: Team AtLarge
+  researchFocus: Provisioning and allocation, scheduling in clouds
+  affiliation: 2011-2012
+  emailPublic: ''
+  emailPrivate: nassosantoniou@gmail.com
+  isAlumni: true
+
+- id: depema
+  firstName: Dick H.J.
+  lastName: Epema
+  degree:
+  - doctor
+  role: Professor TU Delft
+  researchFocus: Resource management and scheduling/Lead Koala/Co-lead Tribler
+  affiliation: 2004-ongoing
+  emailPublic: ''
+  emailPrivate: D.H.J.Epema@tudelft.nl
+  isCollaborator: true
+
+- id: pboncz
+  firstName: Peter A.
+  lastName: Boncz
+  degree:
+  - doctor
+  role: Researcher CWI/Professor VU/Advisor Databricks Netherlands
+  researchFocus: Databases, linked data
+  affiliation: 2014-ongoing
+  emailPublic: ''
+  emailPrivate: P.Boncz@cwi.nl
+  isCollaborator: true
+
+- id: aalieldin
+  firstName: Ahmed
+  lastName: Ali El-Din
+  degree:
+  - doctor
+  role: SPEC Cloud Group
+  researchFocus: Resource management in clouds
+  affiliation: 2015-ongoing
+  emailPublic: ''
+  emailPrivate: ahmeda@cs.umu.se
+  isCollaborator: true
+
+- id: hchafi
+  firstName: Hassan
+  lastName: Chafi
+  degree:
+  - doctor
+  role: Senior Director, Research and Advanced Development at Oracle Labs
+  researchFocus: Graph processing
+  affiliation: 2014-ongoing
+  emailPublic: ''
+  emailPrivate: Hassan.Chafi@oracle.com
+  isCollaborator: true
+
+- id: tfahringer
+  firstName: Thomas
+  lastName: Fahringer
+  degree:
+  - doctor
+  role: Professor U. Innsbruck
+  researchFocus: Parallel and distributed computing/Lead Askalon
+  affiliation: 2007-ongoing
+  emailPublic: ''
+  emailPrivate: Thomas.Fahringer@dsp.uibk.ac.at
+  isCollaborator: true
+
+- id: edeelman
+  firstName: Ewa
+  lastName: Deelman
+  degree:
+  - doctor
+  role: Professor USC, CA, USA
+  researchFocus: Workflow management systems/Lead Pegasus
+  affiliation: 2015-ongoing
+  emailPublic: ''
+  emailPrivate: deelman@isi.edu
+  isCollaborator: true
+
+- id: pgarbacki
+  firstName: Pawel
+  lastName: Garbacki
+  degree:
+  - doctor
+  role: Facebook/Formerly at Google and Pinterest
+  researchFocus: Large-scale distributed systems
+  affiliation: 2004-2008
+  emailPublic: ''
+  emailPrivate: pawelg@google.com
+  isCollaborator: true
+
+- id: bjavadi
+  firstName: Bahman
+  lastName: Javadi
+  degree:
+  - doctor
+  role: Senior Lecturer, Western Sydney University, Australia
+  researchFocus: Large-scale distributed systems
+  affiliation: 2009-2014
+  emailPublic: ''
+  emailPrivate: b.javadi@uws.edu.au
+  isCollaborator: true
+
+- id: ekalyvianaki
+  firstName: Evangelia (Eva)
+  lastName: Kalyvianaki
+  degree:
+  - doctor
+  role: Lecturer in Cloud Computing, City University of London, UK
+  researchFocus: Cloud computing
+  affiliation: 2016-2017
+  emailPublic: ''
+  emailPrivate: evangelia.kalyvianaki.1@city.ac.uk
+  isCollaborator: true
+
+- id: dkondo
+  firstName: Derrick
+  lastName: Kondo
+  degree:
+  - doctor
+  role: SwEng at Teradata, SFBA, USA
+  researchFocus: Big data
+  affiliation: 2009-2014
+  emailPublic: ''
+  emailPrivate: dkondo@gmail.com
+  isCollaborator: true
+
+- id: skounev
+  firstName: Samuel
+  lastName: Kounev
+  degree:
+  - doctor
+  role: Professor of Software Engineering, U. Wuertzburg, Germany
+  researchFocus: Self-aware computing
+  affiliation: 2009-ongoing
+  emailPublic: ''
+  emailPrivate: samuel.kounev@uni-wuerzburg.de
+  isCollaborator: true
+
+- id: fkuipers
+  firstName: Fernando A.
+  lastName: Kuipers
+  degree:
+  - doctor
+  role: Professor TU Delft
+  researchFocus: Complex Networks
+  affiliation: 2012-ongoing
+  emailPublic: ''
+  emailPrivate: F.A.Kuipers@tudelft.nl
+  isCollaborator: true
+
+- id: cdelaat
+  firstName: Cees T.A.M.
+  lastName: de Laat
+  degree:
+  - doctor
+  role: Professor Universiteit van Amsterdam
+  researchFocus: System and Network Engineering
+  affiliation: 2016-ongoing
+  emailPublic: ''
+  emailPrivate: delaat@uva.nl
+  isCollaborator: true
+
+- id: mlivny
+  firstName: Miron
+  lastName: Livny
+  degree:
+  - doctor
+  role: Professor U. Wisconsin-Madison
+  researchFocus: Resource management and scheduling, cycle scavenging/Lead Condor team
+  affiliation: 2006-2008
+  emailPublic: ''
+  emailPrivate: miron@cs.wisc.edu
+  isCollaborator: true
+
+- id: mmaggio
+  firstName: Martina
+  lastName: Maggio
+  degree:
+  - doctor
+  role: Faculty LTH, Sweden
+  researchFocus: Control systems, cloud computing
+  affiliation: 2016-2017
+  emailPublic: ''
+  emailPrivate: martina@control.lth.se
+  isCollaborator: true
+
+- id: cmartella
+  firstName: Claudio
+  lastName: Martella
+  degree:
+  - doctor
+  role: Sciengineer at Google
+  researchFocus: AI, science, engineering
+  affiliation: 2012-2014
+  emailPublic: ''
+  emailPrivate: claudio.martella@gmail.com
+  isCollaborator: true
+
+- id: aolteanu
+  firstName: Alexandru-Corneliu
+  lastName: Olteanu
+  degree:
+  - doctor
+  role: Research visitor
+  researchFocus: Massivizing online social gaming
+  affiliation: 2012-2014
+  emailPublic: ''
+  emailPrivate: alex.c.olteanu@gmail.com
+  isVisitor: true
+
+- id: kdeng
+  firstName: Kefeng
+  lastName: Deng
+  degree:
+  - doctor
+  role: Research visitor
+  researchFocus: Resource management and scheduling, portfolio scheduling
+  emailPublic: ''
+  emailPrivate: dengkefeng@nudt.edu.cn
+  isVisitor: true
+
+- id: ydeng
+  firstName: Yunhua
+  lastName: Deng
+  degree:
+  - doctor
+  role: Research visitor
+  researchFocus: Resource management and scheduling, online gaming
+  emailPublic: ''
+  emailPrivate: yhdeng@ntu.edu.sg
+  homepage: 'http://yunhuadeng.weebly.com/'
+  isVisitor: true
+
+- id: cstratan
+  firstName: Corina
+  lastName: Stratan
+  degree:
+  - doctor
+  role: Research visitor
+  researchFocus: Workflow management and scheduling, grid computing
+  emailPublic: ''
+  emailPrivate: corina.stratan@gmail.com
+  isVisitor: true
+
+- id: acostan
+  firstName: Alexandru
+  lastName: Costan
+  degree:
+  - doctor
+  role: Research visitor
+  researchFocus: Resource management and scheduling, grid computing
+  emailPublic: ''
+  emailPrivate: alexandru.costan@irisa.fr
+  homepage: 'https://team.inria.fr/kerdata/alexandru-costan/'
+  isVisitor: true
+
+- id: mandreica
+  firstName: Mugurel Ionut
+  lastName: Andreica
+  degree:
+  - doctor
+  role: Research visitor
+  researchFocus: Resource management and scheduling, monitoring
+  emailPublic: ''
+  emailPrivate: mugurelionut@gmail.com
+  homepage: 'http://codeforces.com/profile/mugurelionut'
+  isVisitor: true
+
+- id: rverboon
+  firstName: Ruben
+  lastName: Verboon
+  degree:
+  - engineer
+  role: Honors Track
+  researchFocus: Resource management and scheduling, portfolio scheduling
+  emailPublic: ''
+  emailPrivate: rubenverboon@gmail.com
+  homepage: 'https://github.com/rubenverboon'
+  isAlumni: true
+
+- id: ekula
+  firstName: Elvan
+  lastName: Kula
+  degree:
+  - engineer
+  role: Honors Track
+  researchFocus: Big Data, laws of operation
+  emailPublic: ''
+  emailPrivate: elvann@live.nl
+  homepage: 'https://nl.linkedin.com/in/elvan-kula'
+  isAlumni: true
+
+- id: mbiczak
+  firstName: Marcin
+  lastName: Biczak
+  degree:
+  - engineer
+  role: Researcher in graph-processing team
+  researchFocus: Big data, graph processing
+  emailPublic: ''
+  emailPrivate: marcinbiczak@gmail.com
+  isAlumni: true
+
+- id: dvillegas
+  firstName: David
+  lastName: Villegas
+  degree:
+  - doctor
+  role: Founder, Lead Architect at Senscale
+  researchFocus: Cloud computing
+  affiliation: 2011-2012
+  emailPublic: ''
+  emailPrivate: dville00@gmail.com
+  isVisitor: true
+
+- id: asawant
+  firstName: Anand Ashok
+  lastName: Sawant
+  degree:
+  - engineer
+  - to-doctor
+  role: Honors Track
+  researchFocus: Resource management and scheduling, cloud computing
+  emailPublic: ''
+  emailPrivate: anandsaw@gmail.com
+  homepage: 'https://www.tudelft.nl/staff/a.a.sawant/?no_cache=1'
+  isVisitor: true
+
+- id: jrijsdijk
+  firstName: Jorai
+  lastName: Rijsdijk
+  degree:
+  - to-engineer
+  role: Honors Track
+  researchFocus: Big data, graph processing, Graphalytics
+  emailPublic: ''
+  emailPrivate: jorairijsdijk@gmail.com
+  homepage: 'https://nl.linkedin.com/in/jorairijsdijk'
+  isVisitor: true
+
+- id: apapadopoulos
+  firstName: Allesandro Vittorio
+  lastName: Papadopoulos
+  degree:
+  - doctor
+  role: Assistant Professor at Maelardalen University College (MDH), Sweden
+  researchFocus: Control of computing systems, cloud computing
+  affiliation: 2016-ongoing
+  emailPublic: ''
+  emailPrivate: alessandro.papadopoulos@mdh.se
+  isCollaborator: true
+
+- id: rprodan
+  firstName: Radu
+  lastName: Prodan
+  degree:
+  - doctor
+  role: Associate Professor at U.Innsbruck, Austria
+  researchFocus: Workflow scheduling, cloud computing
+  affiliation: 2007-ongoing
+  emailPublic: ''
+  emailPrivate: radu@dps.uibk.ac.at
+  isCollaborator: true
+
+- id: osonmez
+  firstName: Omer Ozan
+  lastName: Sonmez
+  degree:
+  - doctor
+  role: The KOALA Team
+  researchFocus: Workflow scheduling, grid computing
+  affiliation: 2007-2011
+  emailPublic: ''
+  emailPrivate: osonmez@gmail.com
+  isCollaborator: true
+
+- id: mvsteen
+  firstName: Maarten
+  lastName: van Steen
+  degree:
+  - doctor
+  role: Professor at U.Twente, head of ICT-research institute
+  researchFocus: Distributed systems
+  affiliation: 2006-2008
+  emailPublic: ''
+  emailPrivate: m.r.vansteen@utwente.nl
+  isCollaborator: true
+
+- id: ntapus
+  firstName: Nicolae
+  lastName: Tapus
+  degree:
+  - doctor
+  role: Professor at Politehnica University of Bucharest, Romania
+  researchFocus: Paralell and distributed systems
+  affiliation: 2001-2012
+  emailPublic: ''
+  emailPrivate: nicolae.tapus@cs.pub.ro
+  isCollaborator: true
+
+- id: analucia
+  firstName: Ana Lucia
+  lastName: Varbanescu
+  degree:
+  - doctor
+  role: Assistant Professor at Universiteit van Amsterdam
+  researchFocus: Paralell computing, performance engineering
+  affiliation: 2003-ongoing
+  emailPublic: ''
+  emailPrivate: A.L.Varbanescu@uva.nl
+  isCollaborator: true
+
+- id: svialle
+  firstName: Stephane
+  lastName: Vialle
+  degree:
+  - doctor
+  role: Professor at Supelec, Metz, France
+  researchFocus: Paralell computing
+  affiliation: 2003-2005
+  emailPublic: ''
+  emailPrivate: Stephane.Vialle@supelec.fr
+  isCollaborator: true
+
+- id: twillke
+  firstName: Theodore (Ted)
+  lastName: Willke
+  degree:
+  - doctor
+  role: Senior Principal Engineer at Intel Labs
+  researchFocus: Paralell and distributed computing
+  affiliation: 2014-ongoing
+  emailPublic: ''
+  emailPrivate: Ted.Willke@intel.com
+  isCollaborator: true
+
+- id: yxia
+  firstName: Yinglong
+  lastName: Xia
+  degree:
+  - doctor
+  role: Chief Architect, Huawei/EYWA Cloud Platform
+  researchFocus: Paralell and distributed computing, cloud computing, graph processing
+  affiliation: 2016-ongoing
+  emailPublic: ''
+  emailPrivate: Yinglong.Xia@huawei.com
+  isCollaborator: true
+
+- id: ryahyapour
+  firstName: Ramin
+  lastName: Yahyapour
+  degree:
+  - doctor
+  role: Professor, Managing Director GWDG Datacenter
+  researchFocus: Paralell and distributed computing, resource management and scheduling
+  affiliation: 2006-ongoing
+  emailPublic: ''
+  emailPrivate: ramin.yahyapour@gwdg.de
+  isCollaborator: true
+
+- id: xzhu
+  firstName: Xiaoyun
+  lastName: Zhu
+  degree:
+  - doctor
+  role: ‎Senior Architect, Futurewei Technologies, SFBA, USA
+  researchFocus: Control systems, resource management and scheduling
+  affiliation: 2015-2017
+  emailPublic: ''
+  emailPrivate: Xiaoyun.Zhu@huawei.com
+  isCollaborator: true
+
+- id: cwaij
+  firstName: Caroline
+  lastName: Waij
+  degree:
+  - engineer
+  role: Project Manager
+  researchFocus: Massivizing Computer Systems
+  emailAtLarge: caroline.waij@vu.nl
+  emailPublic: caroline.waij@vu.nl
+  emailPrivate: ''
+  homepage: 'http://www.cs.vu.nl/en/about-the-department/support_staff/waij/index.aspx'
+  isFaculty: true
+
+- id: ltoader
+  firstName: Lucian
+  lastName: Toader
+  degree: msc-compsci
+  role: M.Sc. student, Vrije Universiteit Amsterdam
+  researchFocus: Massivizing Computer Systems
+  emailAtLarge: L.Toader@atlarge-research.com
+  emailPublic: l.toader@student.vu.nl
+  emailPrivate: lucian.toader93@gmail.com
+  
+- id: cesterhuyse
+  firstName: Chris
+  lastName: Esterhuyse
+  degree: to-engineer
+  role: M.Sc. student, VU Amsterdam/Project Opencraft
+  researchFocus: Developing project Opencraft
+  emailAtLarge: ''
+  emailPublic: ''
+  emailPrivate: christopher.esterhuyse@gmail.com

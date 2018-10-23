@@ -1,0 +1,32 @@
+---
+- id: graphalytics
+  title: Graphalytics
+  shortDescription: >
+    The <a href="http://graphalytics.org/">LDBC Graphalytics</a> benchmarking system for graph-processing platforms has been released in April 2015 for public use. The LDBC website hosts Graphalytics introductions <a href="http://ldbcouncil.org/ldbc-graphalytics">for a general audience</a> and <a href="http://ldbcouncil.org/ldbc-graphalytics-0">for graph-processing platform developers</a>. <a href="https://github.com/ldbc/ldbc_graphalytics/">The LDBC GitHub page</a> hosts the newest major release of this software. It has been used as open-source software by our project partners: academic partners such as CWI and UPC, Barcelona, Spain; and industrial LDBC Council members such as Oracle, IBM, and Huawei.
+  github: 'https://github.com/ldbc/ldbc_graphalytics/'
+  tags:
+  - graphs # TODO: Add more tags
+
+- id: granula
+  title: Granula
+  shortDescription: >
+    Initially developed as a component of Graphalytics, <a href="https://github.com/tudelft-atlarge/granula">Granula</a> is a performance modeling, analysis, visualization, and sharing framework for graph processing systems. The latest release is available as open-source software <a href="https://github.com/tudelft-atlarge/granula">on GitHub</a>.
+  github: 'https://github.com/tudelft-atlarge/granula'
+  tags:
+  - graphs # TODO: Add more tags
+
+- id: opendc
+  title: OpenDC
+  shortDescription: >
+    OpenDC: Collaborative Datacenter Simulation and Exploration for Everybody (<a href="http://opendc.org/">opendc.org</a>) is a collaborative editing and simulation framework for datacenters. OpenDC consists of four components, a C++ simulator, a SQLite database, a Python Flask web server, and a TypeScript frontend, all of which are part of the open-source software release <a href="https://github.com/tudelft-atlarge/opendc">on GitHub</a>.
+  github: 'https://github.com/tudelft-atlarge/opendc'
+  tags:
+  - cloud computing # TODO: Add more tags
+
+- id: 2fast
+  title: 2Fast
+  shortDescription: >
+    A version of the 2Fast cooperative download mechanism, which we have co-designed with Pawel Garbacki, has been included in the production version of <a href="http://tribler.org">Tribler</a>, from the first release, as one of the 3 key features of the Tribler project. Tribler has been downloaded over 500,000 times by the end of the first 5 production years, which represent the moral lifetime of the 2Fast software.
+  github: 'https://github.com/Tribler/tribler'
+  tags:
+  - peer-to-peer # TODO: Add more tags

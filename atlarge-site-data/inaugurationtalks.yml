@@ -1,0 +1,143 @@
+---
+- id: inauguration-aiosup-intro-1
+  speaker: aiosup
+  title: >
+    13:30-13:40 Introduction by Alexandru Iosup, June 11, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/tbd.pdf"
+  
+- id: inauguration-dick-epema
+  speaker: depema
+  title: >
+    13:40-14:20 Twenty Years of Scheduling Research--Models, Methods, and Conclusions, June 11, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/Scheduling_dhjepema_20180611.pdf"
+  
+- id: inauguration-vincent-van-beek
+  speaker: vvanbeek
+  title: >
+    14:20-14:40 Resource and Risk Management in Datacenters, June 11, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-06-11_vbeek_inaugural.pdf"
+  
+- id: inauguration-laurens-versluis
+  speaker: lfdversluis
+  title: >
+   14:40-15:00 MagnaData: Scheduling Complex Workflows with Non-Functional Requirements in Datacenters , June 11, 2018
+  year: 2018
+
+  pptx: "/Presentations/2018/2018-06-12_lfdversluis_magnadata-scheduling_v2.pptx"
+  
+- id: inauguration-georgios-andreadis
+  speaker: gandreadis
+  title: >
+    15:00-15:20 A Reference Architecture for Scheduling in Datacenters
+  year: 2018
+  
+- id: inauguration-alexandru-uta
+  speaker: auta
+  title: >
+    15:20-15:40 Understanding and Controlling Performance Variability in Distributed Systems, June 11, 2018
+  year: 2018
+
+  pptx: "/Presentations/2018/2018-06-11_alexu_inaugural-lecture.ppt"
+  
+- id: inauguration-radu-prodan
+  speaker: rprodan
+  title: >
+    16:00-16:45 Massively Multiplayer Online Games on Large-scale Systems, June 11, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-06-11_radu_mmog.pdf"
+  
+- id: inauguration-jerom-van-der-sar
+  speaker: jvdsar
+  title: >
+    16:45-17:00 The Opencraft Project: Understanding and Extending the Scalability of Minecraft-like Online Games, June 11, 2018
+  year: 2018
+
+  pptx: "/Presentations/2018/2018-06-11_jeromvandersar_opencraft.pptx"
+  
+- id: inauguration-bogdan-Ghit
+  speaker: bghit
+  title: >
+    17:00-17:20 Big Data Challenges and Approaches, June 11, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/tbd.pdf"
+  
+
+- id: inauguration-tim-hegeman
+  speaker: thegeman
+  title: >
+    17:20-17:40 The Graphalytics Ecosystem for Performance Benchmarking and Analysis of Graph Processing Systems, June 11, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/tbd.pdf"
+
+- id: inauguration-jesse-donkervliet
+  speaker: jdonkervliet
+  title: >
+    17:40-18:00 Higher Education in Comptuer Systems: Gamification et al., June 11, 2018
+  year: 2018
+
+  pptx: "/Presentations/2018/2018-06-11_jdonkervliet_education.pptx"
+  
+- id: inauguration-alexandru-intro-2
+  speaker: aiosup
+  title: >
+    09:20-09:30 Introduction by Alexandru Iosup, June 12, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/tbd.pdf"
+
+- id: inauguration-sam-kounev
+  speaker: skounev
+  title: >
+    09:30-10:15 Software Engineering: Challenges and Approaches Related to Systems, June 12, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-06-12_kounev-forecasting.pdf"
+
+- id: inauguration-miron-livny
+  speaker: mlivny
+  title: >
+    10:15-11:00 The Condor Experience: Resource Management and Scheduling for High-Throughput Computing and Beyond, June 12, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/tbd.pdf"
+
+- id: inauguration-maria-voinea
+  speaker: mavoinea
+  title: >
+    11:00-11:15 Posum: a Portfolio Scheduler for Big Data Workloads in Cluster Environments, June 12, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/tbd.pdf"
+
+- id: inauguration-Dror-feitelson
+  speaker: "!Dror Feitelson"
+  title: >
+    11:30-12:15 Experimental Computer Science: Focus on Workloads, June 12, 2018
+  year: 2018
+
+  pptx: "/Presentations/2018/2018-06-11_dror-feitelson_inauguration.pptx"
+
+- id: inauguration-andy-tanenbaum
+  speaker: "!Andy Tanenbaum"
+  title: >
+    12:15-12:45 Lessons Learned from 30 Years of MINIX, June 12, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-06-11_tanenbaum_30-years-minix.pdf"
+
+- id: inauguration-teodor-cataniciu
+  speaker: "!Teodor Cătăniciu"
+  title: >
+    12:45-13:00 Restart.network: Talent is Distributed, Opportunity is not (yet), June 12, 2018
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-06-12_theodor_RestartNetwork.pdf"

@@ -1,0 +1,145 @@
+---
+- id: vu
+  title: Vrije Universiteit Amsterdam, Amsterdam, the Netherlands
+  type: host
+  url: 'https://www.vu.nl/'
+
+- id: tudelft
+  title: Delft University of Technology, Delft, the Netherlands
+  type: host
+  url: 'http://www.tudelft.nl/'
+
+- id: berkeley
+  title: UC Berkeley, CA, USA
+  type: host
+  url: 'http://www.berkeley.edu/'
+
+- id: innsbrueck
+  title: U. Innsbrueck, Austria
+  type: host
+  url: 'https://www.uibk.ac.at/'
+
+- id: politehnica-bucharest
+  title: Politehnica University of Bucharest, Romania
+  type: host
+  url: 'http://www.upb.ro/'
+
+- id: technion
+  title: Technion, Haifa, Israel
+  type: host
+  url: 'http://www.technion.ac.il/en/'
+
+- id: tudortmund
+  title: TU Dortmund, Germany
+  type: host
+  url: 'http://www.tu-dortmund.de/'
+
+- id: google
+  title: Google Inc., Mountain View, CA, USA
+  type: sponsor
+  url: 'https://research.google.com/'
+
+- id: ibm
+  title: IBM TJ Watson Research Center, NY, USA
+  type: sponsor
+  url: 'https://www.research.ibm.com/labs/watson/index.shtml'
+
+- id: intel
+  title: Intel Labs, Portland, OR, USA
+  type: sponsor
+  url: 'https://www-ssl.intel.com/content/www/us/en/research/intel-research.html'
+
+- id: nerdalize
+  title: Nerdalize, the Netherlands
+  type: sponsor
+  url: 'http://www.nerdalize.com/'
+
+- id: e-science
+  title: The Netherlnds e-Science Center, the Netherlands
+  type: sponsor
+  url: 'https://www.esciencecenter.nl/'
+
+- id: nwo
+  title: NWO, the Netherlands
+  type: sponsor
+  url: 'http://www.nwo.nl/'
+
+- id: oracle
+  title: Oracle Labs, SF, CA, USA
+  type: sponsor
+  url: 'https://labs.oracle.com/'
+
+- id: salesforce
+  title: Salesforce, the Netherlands
+  type: sponsor
+  url: 'https://www.salesforce.com/'
+
+- id: solvinity
+  title: Solvinity, the Netherlands
+  type: sponsor
+  url: 'https://www.solvinity.com/'
+
+- id: stw
+  title: STW, the Netherlands
+  type: sponsor
+  url: 'http://www.stw.nl/en/'
+
+- id: commit
+  title: COMMIT/, the Netherlands
+  type: partner
+  url: 'http://www.commit-nl.nl/'
+
+- id: cwi
+  title: CWI Amsterdam, the Netherlands
+  type: partner
+  url: 'https://www.cwi.nl/'
+
+- id: das5
+  title: Distributed ASCI Supercomputer 5, the Netherlands
+  type: partner
+  url: 'https://www.cs.vu.nl/das5/'
+
+- id: delft-data-science
+  title: Delft Data Science, the Netherlands
+  type: partner
+  url: 'http://delftdatascience.tudelft.nl/'
+
+- id: gwdg
+  title: GWDG, Goettingen, Germany
+  type: partner
+  url: 'https://www.gwdg.de/'
+
+- id: huawei
+  title: Huawei Research, SF, USA and Munich, Germany
+  type: partner
+  url: 'http://www.huawei.com/en/about-huawei/research-development'
+
+- id: ldbc
+  title: LDBC, international organization
+  type: partner
+  url: 'http://ldbcouncil.org/'
+
+- id: sap
+  title: SAP, Germany
+  type: partner
+  url: 'https://www.sap.com/'
+
+- id: spec
+  title: SPEC Research, international organization
+  type: partner
+  url: 'https://research.spec.org/'
+
+- id: upc
+  title: UPC Barcelona, Spain
+  type: partner
+  url: 'https://www.upc.edu/'
+
+- id: uva
+  title: University of Amsterdam, the Netherlands
+  type: partner
+  url: 'https://www.uva.nl/'
+
+- id: wuertzburg
+  title: U. Wuertzburg, Germany
+  type: partner
+  url: 'http://www.uni-wuerzburg.de/'

@@ -1,0 +1,97 @@
+---
+- id: jonge-akademie-2016
+  title: Inducted in the Royal Dutch Young Academy of Arts and Sciences (De Jonge Akademie), 2016
+  type: research
+  year: 2016
+  description: A. Iosup, for computer science research and related activities.
+
+- id: ict-research-2016
+  title: Winner of the Netherlands Award for ICT Research, 2016
+  type: research
+  year: 2016
+  description: For A. Iosup, for research breakthroughs in ICT.
+
+- id: scale-challenge-2014
+  title: Winner of the IEEE TCSC Scale Challenge. 2014
+  type: research
+  year: 2014
+  description: >
+    For B. Ghit, M. Capota, T. Hegeman, J. Hidders, D.H. J. Epema, and A. Iosup, "V for Vicissitude: The Challenge of Scaling Complex Big Data Workflows".
+
+- id: acm-impact-2012
+  title: Biggest Impact Award, ACM SC/MTAGS 2012
+  type: research
+  year: 2012
+  description: >
+    For A. Iosup, S. Ostermann, N. Yigitbasi, R. Prodan, Th. Fahringer and D.H.J. Epema, "Performance Analysis of Cloud Computing Services for MTC-Based Scientific Computing", IEEE TPDS 2011.
+
+- id: ccgrid-best-paper-2010
+  title: Best paper award, IEEE CCGrid 2010
+  type: research
+  year: 2010
+  description: >
+    For D. Kondo, B. Javadi, A. Iosup, D.H.J. Epema, "The Failure Trace Archive: Enabling Comparative Analysis of Failures in Diverse Distributed Systems".
+
+- id: europar-distinguished-paper-2009
+  title: Distinguished Paper Award, EuroPar Conference 2009
+  type: research
+  year: 2009
+  description: >
+    For A. Iosup, "POGGI: Puzzle-Based Online Games on Grid Infrastructure".
+
+- id: acm-super-comp-src-2007
+  title: 3rd-Place ACM SRC at ACM SuperComputing 2007
+  type: research
+  year: 2007
+  description: >
+    For A. Iosup, "GrenchMark: A Framework for Testing Large-Scale Distributed Computing Systems".
+
+- id: acm-super-comp-paper-2007
+  title: Best Paper & Best Student Nominations, ACM SuperComputing 2007
+  type: research
+  year: 2007
+  description: >
+    For A. Iosup, D.H.J. Epema, T. Tannenbaum, M. Farrellee and M. Livny, "Inter-operating Grids through Delegated MatchMaking".
+
+- id: ieee-p2p-2006
+  title: Best Paper Award, IEEE P2P 2006 conference 2006
+  type: research
+  year: 2006
+  description: >
+    For P. Garbacki, A. Iosup, D.H.J. Epema, M. van Steen, "2Fast: Collaborative Downloads in P2P Networks".
+
+- id: higher-edu-teacher-2015
+  title: Dutch Higher-Education Teacher of the Year 2015
+  type: education
+  year: 2015
+  description: For A. Iosup, awarded by the Minister of Education and ISO.
+
+- id: tud-teacher-2014
+  title: Best Lecturer of the TU Delft (2013-2014)
+  type: education
+  year: 2014
+  description: For A. Iosup.
+
+- id: spectacular-2013
+  title: SPECtacular award, SPEC, 2013
+  type: service
+  year: 2013
+  description: For A. Iosup, for Technical Leadership ('13) and for Outstanding Service ('12).
+
+- id: young-talent-2016
+  title: Young Talent Incentive Award for Informatics and Computer Science, 2016
+  type: education
+  year: 2016
+  description: For G. Andreadis, for the best grades achieved in the first year at a Dutch institution for academic education.
+
+- id: world-port-hackathon-2016
+  title: First Place Prize World Port Hackathon, Rotterdam (2016)
+  type: hackathon
+  year: 2016
+  description: For L. Overweel, D. Vos and W. Raateland, who created a prototype for a blockchain-based solution for smuggling detection in the Port of Rotterdam.
+
+- id: t500-2017
+  title: Recognized as Member of the T500 (2017)
+  type: service
+  year: 2017
+  description: The Next Web and Young Creators elected L. Overweel as one of the most-promising under-25s in the Dutch digital scene.

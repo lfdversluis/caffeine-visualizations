@@ -1,0 +1,283 @@
+---
+- id: comp-sys-vu
+  title: Computer Organization / Systems Architecture, BSc, VU (2017-ongoing)
+  description: >
+    <p>Computers are everywhere, in industry, academia, governance, and many other activities that impact our society.
+    But what are they? How do they work? How to analyze them and to improve their performance?
+    </p>
+    <p>Matching the requirements of the IEEE/ACM CS Curriculum 2013, topics for this course include:
+    the architecture, the structure, the operation and the interconnection of computer components into computer systems,
+    including modern architectures, data representation, assembler programming, virtual machines, the structure of
+    translators, compiling and loading, basic operating systems concepts (I/O, interrupt handling, process).
+    </p>
+  syllabus: >
+    <h5>Study Goals</h5>
+    <p>Upon completing this course, you will be able to:</p>
+    <ol>
+    <li>Explain the basic concepts, historical objectives, and modern functions of digital computers.
+    </li>
+    <li>Describe the basic architecture and operation of digital computers.
+    </li>
+    <li>Use proficiently binary data representation, number representation, and arithmetic and data conversion.
+    </li>
+    <li>Explain at a proficient level the architecture and operation of each of the main components of a digital computer: the basic processing unit, the hierarchical memory system, the I/O system, and the interconnection system.
+    </li>
+    <li>Explain at a basic level various system mechanisms for building faster single-node systems, such as pipelining and caching, and large-scale systems, such as interconnects and program synchronization.
+    </li>
+    <li>Demonstrate proficiency with basic assembly programming by implementing basic operations of digital computing in realistic scenarios.
+    </li>
+    <li>Analyze at a basic level the tradeoffs inherent in the design of digital computers, concerning among others performance (simple modeling), scalability (Amdahl's Law), availability, energy consumption, and cost.
+    </li>
+    </ol>
+
+    <h5>Education Method and Contact Hours</h5>
+    <ul>
+    <li>Total: 6ECs, comprised of Lectures, Tutorial, Self-Study, Practical work.
+    </li>
+    <li>Lectures: 4h/week.
+    </li>
+    <li>Tutorial (Instructie): 2h/week, from week 2.
+    </li>
+    <li>Self-study: in teams of 4-6 students, from week 3.
+    </li>
+    <li>Practical work (Lab): 4h/week, from week 4.
+    </li>
+    </ul>
+
+    <h5>Gamification</h5>
+    <p>This course uses gamification.
+    In our course design, the core of gamification is not that
+    you receive points for every step you make in learning the topics of the course, but that gamification
+    helps stimulate you to take the step without fear of failure, and that it accommodates many types of
+    student abilities and desires. Among other things, our approach to social gamification allows you to
+    choose your own path of advancement:
+    </p>
+    <ol>
+    <li>Attend the Lecture, Tutorial, and Lab sessions you want. (With freedom comes responsibility.)
+    </li>
+    <li>Choose which type of activity to engage with, from being active in Lectures and Tutorials, to
+    programming and demonstrating your technical skill in the Lab, to working in a team to solve
+    exercises in the Self-Study activity. Choose also with whom, for Self-Study.
+    </li>
+    <li>Choose which difficulty of exercises to try, beyond the basic requirements.
+    </li>
+    <li>Choose how to construct your own grade, by combining large rewards from Exams and choice
+    Lab exercises, and small rewards from in-class participation and end-lecture quizzes.
+    </li>
+    <li>Choose to expand your knowledge for the sake of knowledge (outside the grade of the course),
+    by getting invited and then participating in the extra-lectures offered to the best students in the
+    cohort.
+    </li>
+    </ol>
+
+    <h5>Textbooks</h5>
+    <p>(students can pick any)
+    </p>
+    <ol>
+    <li>Carl Hamacher and Zvonko Vranesic, Computer Organization, 6th edition, McGraw-Hill Education, 2011. ISBN-13: 978-0073380650
+    </li>
+    <li>Andrew S. Tanenbaum and Todd Austin, Structured Computer Organization, 6th edition, Pearson, 2012. ISBN-13: 978-0132916523
+    </li>
+    <li>David A. Patterson and John L. Hennessy, Computer Organization and Design: The Hardware/Software Interface, 5th edition, Morgan Kaufmann, 2013. ISBN-13: 978-0124077263
+    </li>
+    </ol>
+
+    <h5>Additional Study Materials</h5>
+    <p>
+    Course and Lab guides are also provided via Blackboard. Introductions to the process of each activity, including assessment,
+    appear in the first session of each activity.
+    </p>
+
+    <h5>Assessment</h5>
+    <ul>
+    <li>(Mandatory) basic lab assignments. Does not award any points. (Turn in to SAs)
+    </li>
+    <li>(Mandatory) final exam, written, multiple choice.
+    </li>
+    <li>(Optional) in-class exercises, oral and written.
+    </li>
+    <li>(Optional) mid-term exam, written, multiple choice. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student.
+    </li>
+    <li>(Optional) self-study booklet, hand-written. (Turn in to TA)
+    </li>
+    <li>(Optional) advanced lab assignments. (Turn in to SAs)
+    </li>
+    <li>(Optional) bonus lab assignments. (Turn in to SAs)
+    </li>
+    </ul>
+
+  team:
+  - id: aiosup
+    role: Course Architect
+  - id: auta
+    role: Co-Teacher
+  - id: gandreadis
+    role: Lectures, Lab, Digital Material
+  - id: lfdversluis
+    role: Demo Day, Competitions
+  - id: amusaafir
+    role: Course Analytics, Competitions
+  exampleMaterial:
+  - url: "/Courses/2017/ComputerOrganization-SysArchi_0_CourseOverview_2017-2018.pdf"
+    title: Lecture 0 - Course Overview
+  - url: "/Courses/2017/ComputerOrganization-SysArchi_1_History_2017-2018.pdf"
+    title: Lecture 1 - A Little History of Computers
+
+- id: distr-sys-vu
+  title: Distributed Systems, MSc, VU (2017-ongoing)
+  description: >
+    <p>This course focuses on distributed computing systems. In general, debugging and tuning existing systems, and designing, implementing, and analyzing new distributed computing systems remains vital and challenging for both industry and academia.
+    </p>
+    <p>Starting with the mid-1990s, computing is undergoing a revolution, in which collections of independent computers appear to users as a single, albeit distributed, computing system. Motivated by the advent of the Internet, by the increase in the computation capacity of consumer computers, by the commoditization of server-grade machines, by energy constraints, etc., the distributed computing paradigm has permeated all fields using computers. Current distributed computing applications range from social networks to banking, from peer-to-peer file-sharing to high-performance computing used in research, from massively multiplayer online games to business-critical workloads, etc. Important advances have helped to fuse heterogeneous resources into truly global distributed systems, for example in scientific computing, where distributed computation is using Big Data and distributed sensors to produce meaningful progress for the humankind. We will focus in this course on a number of these modern examples of distributed computing systems.
+    </p>
+    <p>Although so many distributed systems already exist, the list of conceptual and technical challenges they pose is long. Depending on requirements, even trivial communication between nodes of the distributed system can be challenging. The failure of a single node, or sometimes even a performance hiccup, can bring an entire system down; with it, other nodes or entire other systems may also crash, experiencing correlated and catastrophic failures. Data consistency and coordinating nodes remain important challenges made worse by the large-scale of real-world deployments. Poor resource management and naive scheduling can lead to orders-of-magnitude higher operational costs and consumption of energy that we simply cannot spare. It is not uncommon for a modern distributed system to quickly rise and then fall in popularity, as exemplified by the 2016 example of Pokemon Go. We will present in this course real-world situations where modern distributed systems have behaved poorly.
+    </p>
+    <p>Addressing these challenges requires unique approaches and concepts. Separating concerns and breaking down problems into smaller cases often lead to limited success, because many properties of distributed systems can only be achieved end-to-end. Can anyone imagine a perfectly reliable production pipeline, if even one of its key stages can suffer failures? Building capability by adding resources is often offset by the distributed nature of the system. Can anyone ignore the physical limitations of communication around the globe? In this course, we will focus on the unique approaches and principles of distributed systems, from specific architectures and communication protocols, to specific concepts in resource management and scheduling, data consistency, fault-tolerance, and performance.
+    </p>
+
+  syllabus: >
+    <h5>Study Goals</h5>
+    <p>Upon completing this course, you will be able to:</p>
+    <ol>
+    <li>Explain the basic concepts, objectives, and functions of distributed computing systems, e.g., communication, resource management and scheduling, data consistency, fault-tolerance, performance.
+    </li>
+    <li>Compare the basic characteristics of distributed computing with those of other computing paradigms (i.e., centralized, parallel).
+    </li>
+    <li>Identify proficiently the different flavors of modern distributed systems (i.e., peer-to-peer systems, cluster computing, grid computing, cloud computing, datacenters, distributed HPC, SDN, Big Data systems, IoT systems).
+    </li>
+    <li>Analyze proficiently the trade-offs inherent in the design of modern distributed systems.
+    </li>
+    <li>Design your portfolio distributed-system, with many basic and some complex operations of modern distributed systems.
+    </li>
+    <li>Implement and deploy your portfolio distributed-system.
+    </li>
+    <li>Analyze your portfolio distributed-system.
+    </li>
+    </ol>
+
+    <h5>Education Method and Contact Hours</h5>
+    <ul>
+    <li>Total: 6ECs, comprised of Lectures, Design, Seminar, Self-Study, Practical work.
+    </li>
+    <li>Lectures: 2h/week.
+    </li>
+    <li>Design: 2h/week, systems and ecosystems focus.
+    </li>
+    <li>Seminar: 2h/week, systems and ecosystems focus.
+    </li>
+    <li>Self-study: scientific material, book, tech blogs.
+    </li>
+    <li>Practical work (Lab): large assignment, focusing on analysis, design, development, deployment, and experimental evaluation. The exercise concludes with a technical report.
+    </li>
+    </ul>
+
+    <h5>Gamification</h5>
+    <p>This course uses gamification.
+    In our course design, the core of gamification is not that
+    you receive points for every step you make in learning the topics of the course, but that gamification
+    helps stimulate you to take the step without fear of failure, and that it accommodates many types of
+    student abilities and desires. Among other things, our approach to social gamification allows you to
+    choose your own path of advancement.
+    </p>
+
+    <h5>Textbook</h5>
+    <p>
+    The course uses as textbook the book:
+    </p>
+    <p>
+    Maarten van Steen and Andrew S. Tanenbaum, Distributed Systems, 3rd. Ed., online edition, 2017. (free for all) [Online] Available: https://www.distributed-systems.net/index.php/books/distributed-systems-3rd-edition-2017/
+    </p>
+
+    <h5>Additional Study Materials</h5>
+    <p>
+    Course and Lab guides are also provided via Blackboard. Introductions to the process of each activity, including assessment,
+    appear in the first session of each activity.
+    </p>
+
+    <h5>Assessment</h5>
+    <ul>
+    <li>(Mandatory) advanced lab assignments. (Turn in to TAs)
+    </li>
+    <li>(Mandatory) final exam, written, multiple choice and open-ended questions.
+    </li>
+    <li>(Optional) in-class design exercises, oral and written.
+    </li>
+    <li>(Optional) in-class seminar discussion, and written questions and commentary (sent to TAs).
+    </li>
+    <li>(Optional) in-class discussion, during lectures.
+    </li>
+    <li>(Optional) bonus and design-your-own lab assignments. (Turn in to SAs)
+    </li>
+    </ul>
+
+
+
+  team:
+  - id: aiosup
+    role: Course Architect
+  - id: auta
+    role: Co-Teacher
+  - id: lfdversluis
+    role: Teaching Assistant
+  - id: amusaafir
+    role: Course Analytics, Competitions
+  exampleMaterial:
+  - url: "/Courses/2017/DistribSys_0_CourseOverview_2017-2018.pdf"
+    title: Lecture 0 - Course Overview
+  - url: "/Courses/2017/DistribSys_1_Introduction_2017-2018.pdf"
+    title: Lecture 1 - A Brief Introduction to Distributed Systems
+
+
+- id: comp-sys-tud
+  title: Computer Organization, BSc, TUD (2011-2016)
+  description: >
+    <p>Computers are everywhere, in industry, academia, governance, and many other activities that impact our society.
+    But what are they? How do they work? How to analyze them and to improve their performance?
+    </p>
+    <p>Matching the requirements of the IEEE/ACM CS Curriculum (first draft, then newer versions through strawman
+    until the final version of 2013), topics for this course include:
+    the architecture, the structure, the operation and the interconnection of computer components into computer systems,
+    including modern architectures, data representation, assembler programming, virtual machines, the structure of
+    translators, compiling and loading, basic operating systems concepts (I/O, interrupt handling, process).
+    </p>
+  syllabus: >
+    <p>This course is a precursor of the VU course on Systems Architecture.</p>
+    <p>This course uses gamification.</p>
+
+  team:
+  - id: aiosup
+    role: Course Architect
+  - id: ovisser
+    role: Co-Teacher
+  - id: jdonkervliet
+    role: Lab, Digital Material
+  - id: thegeman
+    role: Lab, Competitions
+  - id: mcapota
+    role: Lab, Competitions
+
+
+- id: distr-sys-tud
+  title: Distributed Systems, MSc, TUD (on and off 2009-2014, then yearly 2014-2016)
+  description: >
+    <p>This course focuses on distributed computing systems. In general, debugging and tuning existing systems, and designing, implementing, and analyzing new distributed computing systems remains vital and challenging for both industry and academia.
+    </p>
+
+  syllabus: >
+    <p>This course is a precursor of the VU course on Distributed Systems. In comparison, the TUD course
+    features only a narrow Design session and a proto-Seminar.</p>
+    <p>This course uses gamification.</p>
+
+  team:
+  - id: aiosup
+    role: Course Architect
+  - id: ailyushkin
+    role: Teaching Assistant
+  - id: evaneyk
+    role: Teaching Assistant
+  - id: bghit
+    role: Teaching Assistant
+  - id: yguo
+    role: Teaching Assistant
+
+

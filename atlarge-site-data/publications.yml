@@ -1,0 +1,4147 @@
+---
+- id: DBLP:journals/pvldb/IosupHNHPMCCSAT16
+  authors:
+  - aiosup
+  - thegeman
+  - wlngai
+  - "!Stijn Heldens (U. of Twente)"
+  - "!Arnau Prat-Perez (UPC, Barcelona, Spain)"
+  - "!Thomas Manhardt (Oracle Labs, CA, USA)"
+  - "!Hassan Chafi (Oracle Labs, CA, USA)"
+  - "!Mihai Capota (Intel Labs, OR, USA)"
+  - "!Narayanan Sundaram (Intel Labs, OR, USA)"
+  - "!Michael J. Anderson (Intel Labs, OR, USA)"
+  - "!Ilie Gabriel Tanase (IBM TJ Watson, NY, USA)"
+  - "!Yinglong Xia (Huawei Research America, CA, USA)"
+  - "!Lifeng Nai (Georgia Tech, GA, USA)"
+  - "!Peter A. Boncz (CWI Amsterdam and VU Amsterdam)"
+  title: >
+    LDBC Graphalytics: A Benchmark for Large-Scale Graph Analysis on Parallel and
+    Distributed Platforms
+  publication: 'PVLDB 9(13): 1317-1328 (2016)'
+  type: journal
+  releaseYear: 2016
+  abstract: >
+    In this paper we introduce LDBC Graphalytics, a new industrial-grade benchmark
+    for graph analysis platforms. It consists of six deterministic algorithms, standard
+    datasets, synthetic dataset generators, and reference output, that enable the
+    objective comparison of graph analysis platforms. Its test harness produces deep
+    metrics that quantify multiple kinds of system scalability, such as horizontal/vertical
+    and weak/strong, and of robustness, such as failures and performance variability.
+    The benchmark comes with open-source software for generating data and monitoring
+    performance. We describe and analyze six implementations of the benchmark (three
+    from the community, three from the industry), providing insights into the strengths
+    and weaknesses of the platforms. Key to our contribution, vendors perform the
+    tuning and benchmarking of their platforms.
+  bibtex: |
+    @article{DBLP:journals/pvldb/IosupHNHPMCCSAT16,
+      author    = {Alexandru Iosup and
+                   Tim Hegeman and
+                   Wing Lung Ngai and
+                   Stijn Heldens and
+                   Arnau Prat{-}P{\'{e}}rez and
+                   Thomas Manhardt and
+                   Hassan Chafi and
+                   Mihai Capota and
+                   Narayanan Sundaram and
+                   Michael J. Anderson and
+                   Ilie Gabriel Tanase and
+                   Yinglong Xia and
+                   Lifeng Nai and
+                   Peter A. Boncz},
+      title     = {{LDBC} Graphalytics: {A} Benchmark for Large-Scale Graph Analysis
+                   on Parallel and Distributed Platforms},
+      journal   = {{PVLDB}},
+      volume    = {9},
+      number    = {13},
+      pages     = {1317--1328},
+      year      = {2016},
+      url       = {http://www.vldb.org/pvldb/vol9/p1317-iosup.pdf},
+      timestamp = {Fri, 09 Sep 2016 17:23:24 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/pvldb/IosupHNHPMCCSAT16},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2016-iosup-ldbc-graphalytics.pdf
+  tags:
+  - Graphalytics
+  - distributed graph processing
+  - graph-processing
+  - graph analytics
+  - benchmarking
+  - graph algorithms
+  - graph datasets
+  - big data workloads
+  - real-world experimentation
+
+- id: DBLP:conf/ipps/GuoBVIMW14
+  authors:
+  - yguo
+  - "!Marcin Biczak"
+  - analucia
+  - aiosup
+  - cmartella
+  - twillke
+  title: >
+    How Well Do Graph-Processing Platforms Perform? An Empirical Performance Evaluation and Analysis.
+  publication: 'IPDPS 2014: 395-404'
+  type: conference
+  releaseYear: 2014
+  abstract: >
+    #[a(href="https://doi.org/10.1109/IPDPS.2014.49") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ipps/GuoBVIMW14,
+      author    = {Yong Guo and
+                   Marcin Biczak and
+                   Ana Lucia Varbanescu and
+                   Alexandru Iosup and
+                   Claudio Martella and
+                   Theodore L. Willke},
+      title     = {How Well Do Graph-Processing Platforms Perform? An Empirical Performance
+                   Evaluation and Analysis},
+      booktitle = {2014 {IEEE} 28th International Parallel and Distributed Processing
+                   Symposium, Phoenix, AZ, USA, May 19-23, 2014},
+      pages     = {395--404},
+      year      = {2014},
+      crossref  = {DBLP:conf/ipps/2014},
+      url       = {https://doi.org/10.1109/IPDPS.2014.49},
+      doi       = {10.1109/IPDPS.2014.49},
+      timestamp = {Sun, 04 Jun 2017 10:05:34 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ipps/GuoBVIMW14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ipps/2014,
+      title     = {2014 {IEEE} 28th International Parallel and Distributed Processing
+                   Symposium, Phoenix, AZ, USA, May 19-23, 2014},
+      publisher = {{IEEE} Computer Society},
+      year      = {2014},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6875427},
+      isbn      = {978-1-4799-3799-8},
+      timestamp = {Thu, 23 Jul 2015 17:27:32 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ipps/2014},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-guo-graph-processing.pdf
+  tags:
+  - Graphalytics
+  - distributed graph processing
+  - graph-processing
+  - graph analytics
+  - benchmarking
+  - graph algorithms
+  - graph datasets
+  - big data workloads
+  - real-world experimentation
+
+- id: DBLP:conf/ccgrid/GuoVIE15
+  authors:
+  - yguo
+  - analucia
+  - aiosup
+  - depema
+  title: >
+    An Empirical Performance Evaluation of GPU-Enabled Graph-Processing Systems.
+  publication: 'CCGRID 2015: 423-432'
+  type: conference
+  releaseYear: 2015
+  abstract: >
+    #[a(href="http://doi.ieeecomputersociety.org/10.1109/CCGrid.2015.20") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/GuoVIE15,
+      author    = {Yong Guo and
+                   Ana Lucia Varbanescu and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {An Empirical Performance Evaluation of GPU-Enabled Graph-Processing
+                   Systems},
+      booktitle = {15th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2015, Shenzhen, China, May 4-7, 2015},
+      pages     = {423--432},
+      year      = {2015},
+      crossref  = {DBLP:conf/ccgrid/2015},
+      url       = {https://doi.org/10.1109/CCGrid.2015.20},
+      doi       = {10.1109/CCGrid.2015.20},
+      timestamp = {Wed, 24 May 2017 08:29:29 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/GuoVIE15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2015,
+      title     = {15th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2015, Shenzhen, China, May 4-7, 2015},
+      publisher = {{IEEE} Computer Society},
+      year      = {2015},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7152188},
+      isbn      = {978-1-4799-8006-2},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2015},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-guo-empirical.pdf
+  tags:
+  - Graphalytics
+  - graph-processing
+  - graph analytics
+  - GPU processing
+  - benchmarking
+  - graph algorithms
+  - graph datasets
+  - big data workloads
+  - real-world experimentation
+
+- id: DBLP:conf/grades/NgaiHHI17
+  authors:
+  - wlngai
+  - thegeman
+  - sheldens
+  - aiosup
+  title: >
+    Granula: Toward Fine-grained Performance Analysis of Large-scale Graph Processing Platforms.
+  publication: 'GRADES@SIGMOD/PODS 2017: 8:1-8:6'
+  type: workshop
+  releaseYear: 2017
+  abstract: >
+    Big Data processing has become an integral part of many applications that are vital to our industry, academic endeavors, and society at large. To cope with the data deluge, existing Big Data platforms require significant conceptual and engineering advances. In particular, Big Data platforms for large-scale graph processing require in-depth performance analysis to continue to support the broad applicability of linked data processing. However, in-depth performance analysis of such platforms remains challenging due to many factors, among which the inherent complexity of the platforms, the limited insight provided by coarse-grained "black-box" and inefficiency of fine-grained analysis, and the lack of reusability of results. In this work, we propose Granula, a performance analysis system for Big Data platforms that focuses on graph processing. Granula facilitates the complex, end-to-end processes of fine-grained performance modeling, monitoring, archiving, and visualization. It offers a comprehensive evaluation process that can be iteratively tuned to deliver more fine-grained performance information. We showcase with a prototype of Granula how it can provide meaningful insights into the operation of two large-scale graph processing platforms, Giraph and PowerGraph.
+  bibtex: |
+    @inproceedings{DBLP:conf/grades/NgaiHHI17,
+      author    = {Wing Lung Ngai and
+                   Tim Hegeman and
+                   Stijn Heldens and
+                   Alexandru Iosup},
+      title     = {Granula: Toward Fine-grained Performance Analysis of Large-scale Graph
+                   Processing Platforms},
+      booktitle = {Proceedings of the Fifth International Workshop on Graph Data-management
+                   Experiences {\&} Systems, GRADES@SIGMOD/PODS 2017, Chicago, IL,
+                   USA, May 14 - 19, 2017},
+      pages     = {8:1--8:6},
+      year      = {2017},
+      crossref  = {DBLP:conf/grades/2017},
+      url       = {http://doi.acm.org/10.1145/3078447.3078455},
+      doi       = {10.1145/3078447.3078455},
+      timestamp = {Tue, 18 Jul 2017 08:08:15 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grades/NgaiHHI17},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/grades/2017,
+      editor    = {Peter A. Boncz and
+                   Josep{-}Llu{\'{\i}}s Larriba{-}Pey},
+      title     = {Proceedings of the Fifth International Workshop on Graph Data-management
+                   Experiences {\&} Systems, GRADES@SIGMOD/PODS 2017, Chicago, IL,
+                   USA, May 14 - 19, 2017},
+      publisher = {{ACM}},
+      year      = {2017},
+      url       = {http://doi.acm.org/10.1145/3078447},
+      doi       = {10.1145/3078447},
+      isbn      = {978-1-4503-5038-9},
+      timestamp = {Tue, 18 Jul 2017 08:06:29 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grades/2017},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/granula-perf-eval-big-data-platforms17grades_cr.pdf
+  tags:
+  - Granula
+  - Graphalytics
+  - graph-processing
+  - graph analytics
+  - benchmarking
+  - graph algorithms
+  - graph datasets
+  - big data workloads
+  - real-world experimentation
+
+- id: DBLP:conf/ccgrid/GuoVEI16
+  authors:
+  - yguo
+  - "!Ana Lucia Varbanescu (U. of Amsterdam)"
+  - "!Dick Epema (TU Delft)"
+  - aiosup
+  title: >
+    Design and Experimental Evaluation of Distributed Heterogeneous Graph-Processing
+    Systems
+  publication: 'CCGrid 2016: 203-212'
+  note: 20% acceptance ratio
+  type: conference
+  releaseYear: 2016
+  abstract: >
+    Graph processing is increasingly used in a variety of domains, from engineering
+    to logistics and from scientific computing to online gaming. To process graphs
+    efficiently, GPU-enabled graph-processing systems such as TOTEM and Medusa exploit
+    the GPU or the combined CPU+GPU capabilities of a single machine. Unlike scalable
+    distributed CPU-based systems such as Pregel and GraphX, existing GPU-enabled
+    systems are restricted to the resources of a single machine, including the limited
+    amount of GPU memory, and thus cannot analyze the increasingly large-scale graphs
+    we see in practice. To address this problem, we design and implement three families
+    of distributed heterogeneous graph-processing systems that can use both the CPUs
+    and GPUs of multiple machines. We further focus on graph partitioning, for which
+    we compare existing graph-partitioning policies and a new policy specifically
+    targeted at heterogeneity. We implement all our distributed heterogeneous systems
+    based on the programming model of the single-machine TOTEM, to which we add (1)
+    a new communication layer for CPUs and GPUs across multiple machines to support
+    distributed graphs, and (2) a workload partitioning method that uses offline profiling
+    to distribute the work on the CPUs and the GPUs. We conduct a comprehensive real-world
+    performance evaluation for all three families. To ensure representative results,
+    we select 3 typical algorithms and 5 datasets with different characteristics.
+    Our results include algorithm run time, performance breakdown, scalability, graph
+    partitioning time, and comparison with other graph-processing systems. They demonstrate
+    the feasibility of distributed heterogeneous graph processing and show evidence
+    of the high performance that can be achieved by combining CPUs and GPUs in a distributed
+    environment.
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/GuoVEI16,
+      author    = {Yong Guo and
+                   Ana Lucia Varbanescu and
+                   Dick H. J. Epema and
+                   Alexandru Iosup},
+      title     = {Design and Experimental Evaluation of Distributed Heterogeneous Graph-Processing
+                   Systems},
+      booktitle = {{IEEE/ACM} 16th International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2016, Cartagena, Colombia, May 16-19, 2016},
+      pages     = {203--212},
+      year      = {2016},
+      url       = {http://dx.doi.org/10.1109/CCGrid.2016.53},
+      doi       = {10.1109/CCGrid.2016.53},
+      timestamp = {Tue, 26 Jul 2016 16:02:54 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/GuoVEI16},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2016-guo-design.pdf
+  tags:
+  - distributed heterogeneous graph-processing
+  - data partitioning
+  - graph processing
+  - distributed systems
+  - heterogeneous systems
+  - distributed processing
+  - heterogeneous processing
+  - high performance
+  - fault tolerance
+  - design
+  - system design
+  - datacenter computing
+  - performance analysis
+  - characterization of system operation
+  - real-world experimentation
+
+
+- id: DBLP:journals/computer/BeekDHHI15
+  authors:
+  - vvanbeek
+  - jdonkervliet
+  - thegeman
+  - "!Stefan Hugtenburg (TU Delft)"
+  - aiosup
+  title: >
+    Mnemos: Self-Expressive Management of Business-Critical Workloads in Virtualized
+    Datacenters
+  publication: 'IEEE Computer 48(7): 46-54 (2015)'
+  type: journal
+  releaseYear: 2015
+  abstract: >
+    Virtualized datacenters are central to the digital economy, but require
+    new self-aware and self-expressive techniques to address increasing scales, changing
+    architectures, and dynamic workloads. We propose Mnemos, a resource management
+    and scheduling architecture that uses resources efficiently and reduces the risk
+    of low performance. For this, Mnemos employs portfolio scheduling and topology-aware
+    virtual-resource management, gathers and uses state information, self-adapts to
+    significant workload changes, and is able to analyze risks. We validate Mnemos
+    using real-world traces of business-critical workloads.
+  bibtex: |
+    @article{DBLP:journals/computer/BeekDHHI15,
+      author    = {Vincent van Beek and
+                   Jesse Donkervliet and
+                   Tim Hegeman and
+                   Stefan Hugtenburg and
+                   Alexandru Iosup},
+      title     = {Self-Expressive Management of Business-Critical Workloads in Virtualized
+                   Datacenters},
+      journal   = {{IEEE} Computer},
+      volume    = {48},
+      number    = {7},
+      pages     = {46--54},
+      year      = {2015},
+      url       = {http://dx.doi.org/10.1109/MC.2015.206},
+      doi       = {10.1109/MC.2015.206},
+      timestamp = {Wed, 16 Dec 2015 10:09:25 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/computer/BeekDHHI15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-vbeek-mnemos.pdf
+  tags:
+  - Mnemos
+  - datacenter scheduling
+  - portfolio scheduling
+  - topology-aware scheduling
+  - cloud scheduling
+  - business-critical workloads
+  - experimentation
+
+- id: DBLP:journals/tkdd/JiaSBIKE15
+  authors:
+  - aljia
+  - sshen
+  - "!Ruud van de Bovenkamp (TU Delft)"
+  - aiosup
+  - "!Fernando A. Kuipers (TU Delft)"
+  - "!Dick H. J. Epema (TU Delft)"
+  title: >
+    Socializing by Gaming: Revealing Social Relationships in Multiplayer Online Games
+  publication: 'TKDD 10(2): 11:1-11:29 (2015)'
+  type: journal
+  releaseYear: 2015
+  abstract: >
+    Multiplayer Online Games (MOGs) like Defense of the Ancients and StarCraft
+    II have attracted hundreds of millions of users who communicate, interact, and
+    socialize with each other through gaming. In MOGs, rich social relationships emerge
+    and can be used to improve gaming services such as match recommendation and game
+    population retention, which are important for the user experience and the commercial
+    value of the companies who run these MOGs. In this work, we focus on understanding
+    social relationships in MOGs. We propose a graph model that is able to capture
+    social relationships of a variety of types and strengths. We apply our model to
+    real-world data collected from three MOGs that contain in total over 10 years
+    of behavioral history for millions of players and matches. We compare social relationships
+    in MOGs across different game genres and with regular online social networks like
+    Facebook. Taking match recommendation as an example application of our model,
+    we propose SAMRA, a Socially Aware Match Recommendation Algorithm that takes social
+    relationships into account. We show that our model not only improves the precision
+    of traditional link prediction approaches, but also potentially helps players
+    enjoy games to a higher extent.
+  bibtex: |
+    @article{DBLP:journals/tkdd/JiaSBIKE15,
+      author    = {Adele Lu Jia and
+                   Siqi Shen and
+                   Ruud van de Bovenkamp and
+                   Alexandru Iosup and
+                   Fernando A. Kuipers and
+                   Dick H. J. Epema},
+      title     = {Socializing by Gaming: Revealing Social Relationships in Multiplayer
+                   Online Games},
+      journal   = {{TKDD}},
+      volume    = {10},
+      number    = {2},
+      pages     = {11:1--11:29},
+      year      = {2015},
+      url       = {http://doi.acm.org/10.1145/2736698},
+      doi       = {10.1145/2736698},
+      timestamp = {Tue, 03 Jan 2017 11:31:17 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tkdd/JiaSBIKE15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-jia-socializing.pdf
+  tags:
+  - Multiplayer Online Games
+  - social relationship
+  - user interaction
+  - graph model
+  - social model
+  - community detection
+  - interaction graphs
+  - user model
+  - characterization of system operation
+  - system analysis
+
+- id: DBLP:conf/ccgrid/GhitCHHEI14
+  authors:
+  - bghit
+  - mcapota
+  - thegeman
+  - "!Jan Hidders (TU Delft)"
+  - "!Dick H. J. Epema (TU Delft)"
+  - aiosup
+  title: >
+    V for Vicissitude: The Challenge of Scaling Complex Big Data Workflows
+  publication: 'CCGRID 2014: 927-932'
+  note: Winner of the IEEE TCSC Scale Challenge 2014
+  type: conference
+  releaseYear: 2015
+  abstract: >
+    In this paper we present the scaling of BTWorld, our MapReduce-based approach
+    to observing and analyzing the global BitTorrent network which we have been monitoring
+    for the past 4 years. BTWorld currently provides a comprehensive and complex set
+    of queries implemented in Pig Latin, with data dependencies between them, which
+    translate to several MapReduce jobs that have a heavy-tailed distribution with
+    respect to both execution time and input size characteristics. Processing BitTorrent
+    data in excess of 1 TB with our BTWorld workflow required an in-depth analysis
+    of the entire software stack and the design of a complete optimization cycle.
+    We analyze our system from both theoretical and experimental perspectives and
+    we show how we attained a 15 times larger scale of data processing than our previous
+    results.
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/GhitCHHEI14,
+      author    = {Bogdan Ghit and
+                   Mihai Capota and
+                   Tim Hegeman and
+                   Jan Hidders and
+                   Dick H. J. Epema and
+                   Alexandru Iosup},
+      title     = {V for Vicissitude: The Challenge of Scaling Complex Big Data Workflows},
+      booktitle = {14th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2014, Chicago, IL, USA, May 26-29, 2014},
+      pages     = {927--932},
+      year      = {2014},
+      url       = {http://dx.doi.org/10.1109/CCGrid.2014.97},
+      doi       = {10.1109/CCGrid.2014.97},
+      timestamp = {Wed, 20 Jan 2016 09:35:28 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/GhitCHHEI14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-ghit-v.pdf
+  tags:
+  - Vicissitude
+  - Big Data
+  - scientific workflow
+  - MapReduce
+  - Hadoop
+  - empirical evaluation
+  - experimental research
+
+- id: DBLP:journals/tpds/IosupOYPFE11
+  authors:
+  - aiosup
+  - "!Simon Ostermann (U. Innsbruck)"
+  - nyigitbasi
+  - "!Radu Prodan (U. Innsbruck)"
+  - "!Thomas Fahringer (U. Innsbruck)"
+  - "!Dick H. J. Epema (TU Delft)"
+  title: >
+    Performance Analysis of Cloud Computing Services for Many-Tasks Scientific Computing
+  publication: 'IEEE Trans. Parallel Distrib. Syst. 22(6): 931-945 (2011)'
+  note: >
+    Impact Award at SC/MTAGS 2012, has been assessed as the highest-cited article
+    in TPDS (2009-2014) by Google Scholar, and has attracted over 1,000 citations
+    since publication as lowly technical report.
+  type: journal
+  releaseYear: 2011
+  abstract: >
+    Cloud computing is an emerging commercial infrastructure paradigm that
+    promises to eliminate the need for maintaining expensive computing facilities
+    by companies and institutes alike. Through the use of virtualization and resource
+    time-sharing, clouds serve with a single set of physical resources a large user
+    base with different needs. Thus, clouds have the potential to provide to their
+    owners the benefits of an economy of scale and, at the same time, become an alternative
+    for scientists to clusters, grids, and parallel production environments. However,
+    the current commercial clouds have been built to support web and small database
+    workloads, which are very different from typical scientific computing workloads.
+    Moreover, the use of virtualization and resource time-sharing may introduce significant
+    performance penalties for the demanding scientific computing workloads. In this
+    work we analyze the performance of cloud computing services for scientific computing
+    workloads. We quantify the presence in real scientific computing workloads of
+    Many-Task Computing (MTC) users, that is, of users who employ loosely coupled
+    applications comprising many tasks to achieve their scientific goals. Then, we
+    perform an empirical evaluation of the performance of four commercial cloud computing
+    services including Amazon EC2, which is currently the largest commercial cloud.
+    Last, we compare through trace-based simulation the performance characteristics
+    and cost models of clouds and other scientific computing platforms, for general
+    and MTC-based scientific computing workloads. Our results indicate that the current
+    clouds need an order of magnitude in performance improvement to be useful to the
+    scientific community, and show which improvements should be considered first to
+    address this discrepancy between offer and demand.
+  bibtex: |
+    @article{DBLP:journals/tpds/IosupOYPFE11,
+      author    = {Alexandru Iosup and
+                   Simon Ostermann and
+                   Nezih Yigitbasi and
+                   Radu Prodan and
+                   Thomas Fahringer and
+                   Dick H. J. Epema},
+      title     = {Performance Analysis of Cloud Computing Services for Many-Tasks Scientific
+                   Computing},
+      journal   = {{IEEE} Trans. Parallel Distrib. Syst.},
+      volume    = {22},
+      number    = {6},
+      pages     = {931--945},
+      year      = {2011},
+      url       = {http://dx.doi.org/10.1109/TPDS.2011.66},
+      doi       = {10.1109/TPDS.2011.66},
+      timestamp = {Fri, 04 Mar 2016 19:56:59 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tpds/IosupOYPFE11},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2011-iosup-performance.pdf
+  tags:
+  - cloud computing
+  - scientific computing
+  - performance evaluation
+  - experimental research
+
+- id: DBLP:journals/concurrency/PouwelseGWBYIERSS08
+  authors:
+  - "!Johan A. Pouwelse"
+  - pgarbacki
+  - "!Jun Wang"
+  - "!Arno Bakker"
+  - "!Jie Yang"
+  - aiosup
+  - depema
+  - "!Marcel J. T. Reinders"
+  - mvsteen
+  - "!Henk J. Sips"
+  title: >
+    TRIBLER: a social-based peer-to-peer system.
+  publication: 'Concurrency and Computation: Practice and Experience 20(2): 127-138 (2008)'
+  type: journal
+  releaseYear: 2008
+  abstract: >
+    #[a(href="https://doi.org/10.1002/cpe.1189") Online document]
+  bibtex: |
+    @article{DBLP:journals/concurrency/PouwelseGWBYIERSS08,
+      author    = {Johan A. Pouwelse and
+                   Pawel Garbacki and
+                   Jun Wang and
+                   Arno Bakker and
+                   Jie Yang and
+                   Alexandru Iosup and
+                   Dick H. J. Epema and
+                   Marcel J. T. Reinders and
+                   Maarten van Steen and
+                   Henk J. Sips},
+      title     = {{TRIBLER:} a social-based peer-to-peer system},
+      journal   = {Concurrency and Computation: Practice and Experience},
+      volume    = {20},
+      number    = {2},
+      pages     = {127--138},
+      year      = {2008},
+      url       = {https://doi.org/10.1002/cpe.1189},
+      doi       = {10.1002/cpe.1189},
+      timestamp = {Mon, 05 Jun 2017 20:49:05 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/concurrency/PouwelseGWBYIERSS08},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1002/cpe.1189
+  tags:
+  - Tribler
+  - peer-to-peer file-sharing system
+  - social computing
+  - system design
+  - performance evaluation
+  - real-world experimentation
+
+- id: DBLP:conf/p2p/GarbackiIES06
+  authors:
+  - pgarbacki
+  - aiosup
+  - depema
+  - mvsteen
+  title: >
+    2Fast : Collaborative Downloads in P2P Networks.
+  publication: 'Peer-to-Peer Computing 2006: 23-30 (Best Paper Award)'
+  type: journal
+  releaseYear: 2006
+  abstract: >
+    #[a(href="https://doi.org/10.1109/P2P.2006.1") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/p2p/GarbackiIES06,
+      author    = {Pawel Garbacki and
+                   Alexandru Iosup and
+                   Dick H. J. Epema and
+                   Maarten van Steen},
+      title     = {2Fast : Collaborative Downloads in {P2P} Networks},
+      booktitle = {Sixth {IEEE} International Conference on Peer-to-Peer Computing {(P2P}
+                   2006), 2-4 October 2006, Cambridge, United Kingdom},
+      pages     = {23--30},
+      year      = {2006},
+      crossref  = {DBLP:conf/p2p/2006},
+      url       = {https://doi.org/10.1109/P2P.2006.1},
+      doi       = {10.1109/P2P.2006.1},
+      timestamp = {Mon, 05 Jun 2017 12:39:22 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/p2p/GarbackiIES06},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/p2p/2006,
+      editor    = {Alberto Montresor and
+                   Adam Wierzbicki and
+                   Nahid Shahmehri},
+      title     = {Sixth {IEEE} International Conference on Peer-to-Peer Computing {(P2P}
+                   2006), 2-4 October 2006, Cambridge, United Kingdom},
+      publisher = {{IEEE} Computer Society},
+      year      = {2006},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=11155},
+      isbn      = {0-7695-2679-9},
+      timestamp = {Thu, 19 Nov 2015 17:00:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/p2p/2006},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/P2P.2006.1
+  tags:
+  - 2fast
+  - Tribler
+  - collaborative downloads
+  - peer-to-peer file-sharing system
+  - social computing
+  - mechanism design
+  - system design
+  - performance evaluation
+  - real-world experimentation
+
+
+
+- id: DBLP:journals/fgcs/IosupLJADWE08
+  authors:
+  - aiosup
+  - "!Hui Li"
+  - "!Mathieu Jan"
+  - sanoep
+  - "!Catalin Dumitrescu"
+  - "!Lex Wolters"
+  - depema
+  title: >
+    The Grid Workloads Archive.
+  publication: 'Future Generation Comp. Syst. 24(7): 672-686 (2008)'
+  type: journal
+  releaseYear: 2008
+  abstract: >
+    #[a(href="https://doi.org/10.1016/j.future.2008.02.003") Online document]
+  bibtex: |
+    @article{DBLP:journals/fgcs/IosupLJADWE08,
+      author    = {Alexandru Iosup and
+                   Hui Li and
+                   Mathieu Jan and
+                   Shanny Anoep and
+                   Catalin Dumitrescu and
+                   Lex Wolters and
+                   Dick H. J. Epema},
+      title     = {The Grid Workloads Archive},
+      journal   = {Future Generation Comp. Syst.},
+      volume    = {24},
+      number    = {7},
+      pages     = {672--686},
+      year      = {2008},
+      url       = {https://doi.org/10.1016/j.future.2008.02.003},
+      doi       = {10.1016/j.future.2008.02.003},
+      timestamp = {Tue, 06 Jun 2017 22:28:06 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/fgcs/IosupLJADWE08},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1016/j.future.2008.02.003
+  tags:
+  - workload characterization
+  - free open-access data
+  - data archive
+  - large-scale distributed computing
+  - reproducibility
+
+- id: DBLP:conf/ccgrid/IosupYE11
+  authors:
+  - aiosup
+  - nyigitbasi
+  - depema
+  title: >
+    On the Performance Variability of Production Cloud Services.
+  publication: 'CCGRID 2011: 104-113'
+  type: conference
+  releaseYear: 2011
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGrid.2011.22") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/IosupYE11,
+      author    = {Alexandru Iosup and
+                   Nezih Yigitbasi and
+                   Dick H. J. Epema},
+      title     = {On the Performance Variability of Production Cloud Services},
+      booktitle = {11th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2011, Newport Beach, CA, USA, May 23-26, 2011},
+      pages     = {104--113},
+      year      = {2011},
+      crossref  = {DBLP:conf/ccgrid/2011},
+      url       = {https://doi.org/10.1109/CCGrid.2011.22},
+      doi       = {10.1109/CCGrid.2011.22},
+      timestamp = {Thu, 01 Jun 2017 18:58:36 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/IosupYE11},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2011,
+      title     = {11th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2011, Newport Beach, CA, USA, May 23-26, 2011},
+      publisher = {{IEEE} Computer Society},
+      year      = {2011},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5946178},
+      isbn      = {978-0-7695-4395-6},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2011},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2011-iosup-performance.pdf
+  tags:
+  - performance variability
+  - laws of operation
+  - characterization of system operation
+  - system analysis
+  - cloud computing
+  - large-scale distributed computing
+
+- id: DBLP:journals/tomccap/HendrikxMVI13
+  authors:
+  - "!Mark Hendrikx"
+  - "!Sebastiaan Meijer"
+  - "!Joeri Van Der Velden"
+  - aiosup
+  title: >
+    Procedural content generation for games: A survey.
+  publication: 'TOMCCAP 9(1): 1:1-1:22 (2013)'
+  type: journal
+  releaseYear: 2013
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2422956.2422957") Online document]
+  bibtex: |
+    @article{DBLP:journals/tomccap/HendrikxMVI13,
+      author    = {Mark Hendrikx and
+                   Sebastiaan Meijer and
+                   Joeri Van Der Velden and
+                   Alexandru Iosup},
+      title     = {Procedural content generation for games: {A} survey},
+      journal   = {{TOMCCAP}},
+      volume    = {9},
+      number    = {1},
+      pages     = {1:1--1:22},
+      year      = {2013},
+      url       = {http://doi.acm.org/10.1145/2422956.2422957},
+      doi       = {10.1145/2422956.2422957},
+      timestamp = {Fri, 09 Jun 2017 11:03:11 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tomccap/HendrikxMVI13},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2013-hendrikx-procedural.pdf
+  tags:
+  - procedural game content generation
+  - procedural content generation
+  - computer games
+  - survey
+
+- id: DBLP:conf/grid/IosupDELW06
+  authors:
+  - aiosup
+  - "!Catalin Dumitrescu"
+  - depema
+  - "!Hui Li"
+  - "!Lex Wolters"
+  title: >
+    How are Real Grids Used? The Analysis of Four Grid Traces and Its Implications.
+  publication: 'GRID 2006: 262-269'
+  type: conference
+  releaseYear: 2006
+  abstract: >
+    #[a(href="https://doi.org/10.1109/ICGRID.2006.311024") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/grid/IosupDELW06,
+      author    = {Alexandru Iosup and
+                   Catalin Dumitrescu and
+                   Dick H. J. Epema and
+                   Hui Li and
+                   Lex Wolters},
+      title     = {How are Real Grids Used? The Analysis of Four Grid Traces and Its
+                   Implications},
+      booktitle = {7th {IEEE/ACM} International Conference on Grid Computing {(GRID}
+                   2006), September 28-29, 2006, Barcelona, Spain, Proceedings},
+      pages     = {262--269},
+      year      = {2006},
+      crossref  = {DBLP:conf/grid/2006},
+      url       = {https://doi.org/10.1109/ICGRID.2006.311024},
+      doi       = {10.1109/ICGRID.2006.311024},
+      timestamp = {Fri, 02 Jun 2017 20:50:39 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/IosupDELW06},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/grid/2006,
+      title     = {7th {IEEE/ACM} International Conference on Grid Computing {(GRID}
+                   2006), September 28-29, 2006, Barcelona, Spain, Proceedings},
+      publisher = {{IEEE} Computer Society},
+      year      = {2006},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4100428},
+      isbn      = {1-4244-0344-8},
+      timestamp = {Tue, 24 Nov 2015 15:19:45 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/2006},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/ICGRID.2006.311024
+  tags:
+  - workload characterization
+  - characterization of system operation
+  - grid computing
+  - system analysis
+
+
+- id: DBLP:conf/grid/IosupJSE07
+  authors:
+  - aiosup
+  - "!Mathieu Jan"
+  - "!Omer Ozan Sonmez"
+  - depema
+  title: >
+    On the dynamic resource availability in grids.
+  publication: 'GRID 2007: 26-33'
+  type: conference
+  releaseYear: 2007
+  abstract: >
+    #[a(href="https://doi.org/10.1109/GRID.2007.4354112") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/grid/IosupJSE07,
+      author    = {Alexandru Iosup and
+                   Mathieu Jan and
+                   Omer Ozan Sonmez and
+                   Dick H. J. Epema},
+      title     = {On the dynamic resource availability in grids},
+      booktitle = {8th {IEEE/ACM} International Conference on Grid Computing {(GRID}
+                   2007), September 19-21, 2007, Austin, Texas, USA, Proceedings},
+      pages     = {26--33},
+      year      = {2007},
+      crossref  = {DBLP:conf/grid/2007},
+      url       = {https://doi.org/10.1109/GRID.2007.4354112},
+      doi       = {10.1109/GRID.2007.4354112},
+      timestamp = {Fri, 02 Jun 2017 20:50:40 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/IosupJSE07},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/grid/2007,
+      title     = {8th {IEEE/ACM} International Conference on Grid Computing {(GRID}
+                   2007), September 19-21, 2007, Austin, Texas, USA, Proceedings},
+      publisher = {{IEEE} Computer Society},
+      year      = {2007},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4354089},
+      isbn      = {1-4244-1560-8},
+      timestamp = {Tue, 24 Nov 2015 15:19:45 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/2007},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/GRID.2007.4354112
+  tags:
+  - failure analysis
+  - failure characterization
+  - failure modeling
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/europar/GalletYJKIE10
+  authors:
+  - "!Matthieu Gallet"
+  - nyigitbasi
+  - bjavadi
+  - dkondo
+  - aiosup
+  - depema
+  title: >
+    A Model for Space-Correlated Failures in Large-Scale Distributed Systems.
+  publication: 'Euro-Par 2010: 88-100'
+  type: conference
+  releaseYear: 2010
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-642-15277-1_10") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/europar/GalletYJKIE10,
+      author    = {Matthieu Gallet and
+                   Nezih Yigitbasi and
+                   Bahman Javadi and
+                   Derrick Kondo and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {A Model for Space-Correlated Failures in Large-Scale Distributed Systems},
+      booktitle = {Euro-Par 2010 - Parallel Processing, 16th International Euro-Par Conference,
+                   Ischia, Italy, August 31 - September 3, 2010, Proceedings, Part {I}},
+      pages     = {88--100},
+      year      = {2010},
+      crossref  = {DBLP:conf/europar/2010-1},
+      url       = {https://doi.org/10.1007/978-3-642-15277-1_10},
+      doi       = {10.1007/978-3-642-15277-1_10},
+      timestamp = {Fri, 02 Jun 2017 20:47:38 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/GalletYJKIE10},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/europar/2010-1,
+      editor    = {Pasqua D'Ambra and
+                   Mario Rosario Guarracino and
+                   Domenico Talia},
+      title     = {Euro-Par 2010 - Parallel Processing, 16th International Euro-Par Conference,
+                   Ischia, Italy, August 31 - September 3, 2010, Proceedings, Part {I}},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {6271},
+      publisher = {Springer},
+      year      = {2010},
+      url       = {https://doi.org/10.1007/978-3-642-15277-1},
+      doi       = {10.1007/978-3-642-15277-1},
+      isbn      = {978-3-642-15276-4},
+      timestamp = {Wed, 24 May 2017 08:27:47 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/2010-1},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1007/978-3-642-15277-1_10
+  tags:
+  - space-correlated failures
+  - correlated failures
+  - failure analysis
+  - failure characterization
+  - failure modeling
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/grid/YigitbasiGKIE10
+  authors:
+  - nyigitbasi
+  - "!Matthieu Gallet"
+  - dkondo
+  - aiosup
+  - depema
+  title: >
+    Analysis and modeling of time-correlated failures in large-scale distributed systems.
+  publication: 'GRID 2010: 65-72'
+  type: conference
+  releaseYear: 2010
+  abstract: >
+    #[a(href="https://doi.org/10.1109/GRID.2010.5697961") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/grid/YigitbasiGKIE10,
+      author    = {Nezih Yigitbasi and
+                   Matthieu Gallet and
+                   Derrick Kondo and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Analysis and modeling of time-correlated failures in large-scale distributed
+                   systems},
+      booktitle = {Proceedings of the 2010 11th {IEEE/ACM} International Conference on
+                   Grid Computing, Brussels, Belgium, October 25-29, 2010},
+      pages     = {65--72},
+      year      = {2010},
+      crossref  = {DBLP:conf/grid/2010},
+      url       = {https://doi.org/10.1109/GRID.2010.5697961},
+      doi       = {10.1109/GRID.2010.5697961},
+      timestamp = {Fri, 02 Jun 2017 20:50:40 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/YigitbasiGKIE10},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/grid/2010,
+      title     = {Proceedings of the 2010 11th {IEEE/ACM} International Conference on
+                   Grid Computing, Brussels, Belgium, October 25-29, 2010},
+      publisher = {{IEEE} Computer Society},
+      year      = {2010},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5685607},
+      isbn      = {978-1-4244-9348-7},
+      timestamp = {Tue, 24 Nov 2015 15:19:45 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/2010},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/GRID.2010.5697961
+  tags:
+  - space-correlated failures
+  - correlated failures
+  - failure analysis
+  - failure characterization
+  - failure modeling
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/ccgrid/KondoJIE10
+  authors:
+  - dkondo
+  - bjavadi
+  - aiosup
+  - depema
+  title: >
+    The Failure Trace Archive: Enabling Comparative Analysis of Failures in Diverse Distributed Systems.
+  publication: 'CCGRID 2010: 398-407 (Best Paper Award)'
+  type: conference
+  releaseYear: 2010
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGRID.2010.71") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/KondoJIE10,
+      author    = {Derrick Kondo and
+                   Bahman Javadi and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {The Failure Trace Archive: Enabling Comparative Analysis of Failures
+                   in Diverse Distributed Systems},
+      booktitle = {10th {IEEE/ACM} International Conference on Cluster, Cloud and Grid
+                   Computing, CCGrid 2010, 17-20 May 2010, Melbourne, Victoria, Australia},
+      pages     = {398--407},
+      year      = {2010},
+      crossref  = {DBLP:conf/ccgrid/2010},
+      url       = {https://doi.org/10.1109/CCGRID.2010.71},
+      doi       = {10.1109/CCGRID.2010.71},
+      timestamp = {Thu, 01 Jun 2017 18:58:36 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/KondoJIE10},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2010,
+      title     = {10th {IEEE/ACM} International Conference on Cluster, Cloud and Grid
+                   Computing, CCGrid 2010, 17-20 May 2010, Melbourne, Victoria, Australia},
+      publisher = {{IEEE} Computer Society},
+      year      = {2010},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5492934},
+      isbn      = {978-0-7695-4039-9},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2010},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2013-javadi-failure.pdf
+  tags:
+  - failure analysis
+  - failure characterization
+  - failure modeling
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:journals/jpdc/JavadiKIE13
+  authors:
+  - bjavadi
+  - dkondo
+  - aiosup
+  - depema
+  title: >
+    The Failure Trace Archive: Enabling the comparison of failure measurements and models of distributed systems.
+  publication: 'J. Parallel Distrib. Comput. 73(8): 1208-1223 (2013)'
+  type: journal
+  releaseYear: 2013
+  abstract: >
+    #[a(href="https://doi.org/10.1016/j.jpdc.2013.04.002") Online document]
+  bibtex: |
+    @article{DBLP:journals/jpdc/JavadiKIE13,
+      author    = {Bahman Javadi and
+                   Derrick Kondo and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {The Failure Trace Archive: Enabling the comparison of failure measurements
+                   and models of distributed systems},
+      journal   = {J. Parallel Distrib. Comput.},
+      volume    = {73},
+      number    = {8},
+      pages     = {1208--1223},
+      year      = {2013},
+      url       = {https://doi.org/10.1016/j.jpdc.2013.04.002},
+      doi       = {10.1016/j.jpdc.2013.04.002},
+      timestamp = {Tue, 06 Jun 2017 22:20:20 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/jpdc/JavadiKIE13},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1016/j.jpdc.2013.04.002
+  tags:
+  - failure analysis
+  - failure characterization
+  - failure modeling
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/hpdc/IosupSAE08
+  authors:
+  - aiosup
+  - "!Omer Ozan Sonmez"
+  - sanoep
+  - depema
+  title: >
+    The performance of bags-of-tasks in large-scale distributed systems.
+  publication: 'HPDC 2008: 97-108'
+  type: conference
+  releaseYear: 2008
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1383422.1383435") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/hpdc/IosupSAE08,
+      author    = {Alexandru Iosup and
+                   Omer Ozan Sonmez and
+                   Shanny Anoep and
+                   Dick H. J. Epema},
+      title     = {The performance of bags-of-tasks in large-scale distributed systems},
+      booktitle = {Proceedings of the 17th International Symposium on High-Performance
+                   Distributed Computing {(HPDC-17} 2008), 23-27 June 2008, Boston, MA,
+                   {USA}},
+      pages     = {97--108},
+      year      = {2008},
+      crossref  = {DBLP:conf/hpdc/2008},
+      url       = {http://doi.acm.org/10.1145/1383422.1383435},
+      doi       = {10.1145/1383422.1383435},
+      timestamp = {Fri, 02 Jun 2017 20:47:04 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/IosupSAE08},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/hpdc/2008,
+      editor    = {Manish Parashar and
+                   Karsten Schwan and
+                   Jon B. Weissman and
+                   Domenico Laforenza},
+      title     = {Proceedings of the 17th International Symposium on High-Performance
+                   Distributed Computing {(HPDC-17} 2008), 23-27 June 2008, Boston, MA,
+                   {USA}},
+      publisher = {{ACM}},
+      year      = {2008},
+      isbn      = {978-1-59593-997-5},
+      timestamp = {Wed, 02 Jul 2008 11:56:47 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/2008},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.acm.org/10.1145/1383422.1383435
+  tags:
+  - bag-of-tasks scheduling
+  - scheduling
+  - performance analysis
+  - bags-of-tasks
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+
+- id: DBLP:conf/hpdc/SonmezYAIE10
+  authors:
+  - "!Omer Ozan Sonmez"
+  - nyigitbasi
+  - "!Saeid Abrishami"
+  - aiosup
+  - depema
+  title: >
+    The performance of bags-of-tasks in large-scale distributed systems.
+  publication: 'HPDC 2010: 49-60'
+  type: conference
+  releaseYear: 2010
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1851476.1851483") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/hpdc/SonmezYAIE10,
+      author    = {Omer Ozan Sonmez and
+                   Nezih Yigitbasi and
+                   Saeid Abrishami and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Performance analysis of dynamic workflow scheduling in multicluster
+                   grids},
+      booktitle = {Proceedings of the 19th {ACM} International Symposium on High Performance
+                   Distributed Computing, {HPDC} 2010, Chicago, Illinois, USA, June 21-25,
+                   2010},
+      pages     = {49--60},
+      year      = {2010},
+      crossref  = {DBLP:conf/hpdc/2010},
+      url       = {http://doi.acm.org/10.1145/1851476.1851483},
+      doi       = {10.1145/1851476.1851483},
+      timestamp = {Fri, 02 Jun 2017 20:47:04 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/SonmezYAIE10},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/hpdc/2010,
+      editor    = {Salim Hariri and
+                   Kate Keahey},
+      title     = {Proceedings of the 19th {ACM} International Symposium on High Performance
+                   Distributed Computing, {HPDC} 2010, Chicago, Illinois, USA, June 21-25,
+                   2010},
+      publisher = {{ACM}},
+      year      = {2010},
+      isbn      = {978-1-60558-942-8},
+      timestamp = {Sun, 26 Sep 2010 11:47:21 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/2010},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.acm.org/10.1145/1851476.1851483
+  tags:
+  - workflow scheduling
+  - scheduling
+  - performance analysis
+  - workflows
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+
+- id: DBLP:conf/hpdc/WojciechowskiCPI10
+  authors:
+  - "!Maciej Wojciechowski"
+  - mcapota
+  - "!Johan A. Pouwelse"
+  - aiosup
+  title: >
+    BTWorld: towards observing the global BitTorrent file-sharing network.
+  publication: 'HPDC 2010: 581-588'
+  type: workshop
+  releaseYear: 2010
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1851476.1851562") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/hpdc/WojciechowskiCPI10,
+      author    = {Maciej Wojciechowski and
+                   Mihai Capota and
+                   Johan A. Pouwelse and
+                   Alexandru Iosup},
+      title     = {BTWorld: towards observing the global BitTorrent file-sharing network},
+      booktitle = {Proceedings of the 19th {ACM} International Symposium on High Performance
+                   Distributed Computing, {HPDC} 2010, Chicago, Illinois, USA, June 21-25,
+                   2010},
+      pages     = {581--588},
+      year      = {2010},
+      crossref  = {DBLP:conf/hpdc/2010},
+      url       = {http://doi.acm.org/10.1145/1851476.1851562},
+      doi       = {10.1145/1851476.1851562},
+      timestamp = {Fri, 02 Jun 2017 20:47:04 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/WojciechowskiCPI10},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/hpdc/2010,
+      editor    = {Salim Hariri and
+                   Kate Keahey},
+      title     = {Proceedings of the 19th {ACM} International Symposium on High Performance
+                   Distributed Computing, {HPDC} 2010, Chicago, Illinois, USA, June 21-25,
+                   2010},
+      publisher = {{ACM}},
+      year      = {2010},
+      isbn      = {978-1-60558-942-8},
+      timestamp = {Sun, 26 Sep 2010 11:47:21 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/2010},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.acm.org/10.1145/1851476.1851562
+  tags:
+  - BTWorld
+  - system design
+  - BitTorrent
+  - performance analysis
+  - system observation
+  - longitudinal study
+  - characterization of system operation
+  - peer-to-peer systems
+  - global-scale systems
+  - system analysis
+  - real-world measurement
+
+- id: DBLP:conf/europar/ZhangIPES10
+  authors:
+  - "!Boxun Zhang"
+  - aiosup
+  - "!Johan A. Pouwelse"
+  - depema
+  - "!Henk J. Sips"
+  title: >
+    Sampling Bias in BitTorrent Measurements.
+  publication: 'Euro-Par 2010: 484-496'
+  type: conference
+  releaseYear: 2010
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-642-15277-1_46") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/europar/ZhangIPES10,
+      author    = {Boxun Zhang and
+                   Alexandru Iosup and
+                   Johan A. Pouwelse and
+                   Dick H. J. Epema and
+                   Henk J. Sips},
+      title     = {Sampling Bias in BitTorrent Measurements},
+      booktitle = {Euro-Par 2010 - Parallel Processing, 16th International Euro-Par Conference,
+                   Ischia, Italy, August 31 - September 3, 2010, Proceedings, Part {I}},
+      pages     = {484--496},
+      year      = {2010},
+      crossref  = {DBLP:conf/europar/2010-1},
+      url       = {https://doi.org/10.1007/978-3-642-15277-1_46},
+      doi       = {10.1007/978-3-642-15277-1_46},
+      timestamp = {Fri, 02 Jun 2017 20:47:35 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/ZhangIPES10},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/europar/2010-1,
+      editor    = {Pasqua D'Ambra and
+                   Mario Rosario Guarracino and
+                   Domenico Talia},
+      title     = {Euro-Par 2010 - Parallel Processing, 16th International Euro-Par Conference,
+                   Ischia, Italy, August 31 - September 3, 2010, Proceedings, Part {I}},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {6271},
+      publisher = {Springer},
+      year      = {2010},
+      url       = {https://doi.org/10.1007/978-3-642-15277-1},
+      doi       = {10.1007/978-3-642-15277-1},
+      isbn      = {978-3-642-15276-4},
+      timestamp = {Wed, 24 May 2017 08:27:47 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/2010-1},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1007/978-3-642-15277-1_46
+  tags:
+  - sampling bias
+  - reproducibility
+  - method design
+  - BitTorrent
+  - performance analysis
+  - system observation
+  - longitudinal study
+  - characterization of system operation
+  - peer-to-peer systems
+  - global-scale systems
+  - system analysis
+
+- id: DBLP:conf/p2p/ZhangIPE11
+  authors:
+  - "!Boxun Zhang"
+  - aiosup
+  - "!Johan A. Pouwelse"
+  - depema
+  title: >
+    Identifying, analyzing, and modeling flashcrowds in BitTorrent.
+  publication: 'Peer-to-Peer Computing 2011: 240-249'
+  type: conference
+  releaseYear: 2011
+  abstract: >
+    #[a(href="https://doi.org/10.1109/P2P.2011.6038742") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/p2p/ZhangIPE11,
+      author    = {Boxun Zhang and
+                   Alexandru Iosup and
+                   Johan A. Pouwelse and
+                   Dick H. J. Epema},
+      title     = {Identifying, analyzing, and modeling flashcrowds in BitTorrent},
+      booktitle = {2011 {IEEE} International Conference on Peer-to-Peer Computing, {P2P}
+                   2011, Kyoto, Japan, August 31 - September 2, 2011},
+      pages     = {240--249},
+      year      = {2011},
+      crossref  = {DBLP:conf/p2p/2011},
+      url       = {https://doi.org/10.1109/P2P.2011.6038742},
+      doi       = {10.1109/P2P.2011.6038742},
+      timestamp = {Mon, 05 Jun 2017 12:39:22 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/p2p/ZhangIPE11},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/p2p/2011,
+      editor    = {Tohru Asami and
+                   Teruo Higashino},
+      title     = {2011 {IEEE} International Conference on Peer-to-Peer Computing, {P2P}
+                   2011, Kyoto, Japan, August 31 - September 2, 2011},
+      publisher = {{IEEE}},
+      year      = {2011},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6030112},
+      isbn      = {978-1-4577-0150-4},
+      timestamp = {Fri, 09 Mar 2012 13:14:03 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/p2p/2011},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2011-zhang-identifying.pdf
+  tags:
+  - flashcrowds
+  - method design
+  - BitTorrent
+  - performance analysis
+  - system observation
+  - longitudinal study
+  - characterization of system operation
+  - peer-to-peer systems
+  - global-scale systems
+  - system analysis
+
+
+- id: DBLP:conf/ccgrid/IosupGPE06
+  authors:
+  - aiosup
+  - pgarbacki
+  - "!Johan A. Pouwelse"
+  - depema
+  title: >
+    Correlating Topology and Path Characteristics of Overlay Networks and the Internet.
+  publication: 'CCGRID 2006: 10'
+  type: workshop
+  releaseYear: 2006
+  abstract: >
+    #[a(href="http://doi.ieeecomputersociety.org/10.1109/CCGRID.2006.131") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/IosupGPE06,
+      author    = {Alexandru Iosup and
+                   Pawel Garbacki and
+                   Johan A. Pouwelse and
+                   Dick H. J. Epema},
+      title     = {Correlating Topology and Path Characteristics of Overlay Networks
+                   and the Internet},
+      booktitle = {Sixth {IEEE} International Symposium on Cluster Computing and the
+                   Grid (CCGrid 2006), 16-19 May 2006, Singapore},
+      pages     = {10},
+      year      = {2006},
+      crossref  = {DBLP:conf/ccgrid/2006},
+      url       = {http://doi.ieeecomputersociety.org/10.1109/CCGRID.2006.131},
+      doi       = {10.1109/CCGRID.2006.131},
+      timestamp = {Thu, 01 Jun 2017 18:58:35 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/IosupGPE06},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2006,
+      title     = {Sixth {IEEE} International Symposium on Cluster Computing and the
+                   Grid (CCGrid 2006), 16-19 May 2006, Singapore},
+      publisher = {{IEEE} Computer Society},
+      year      = {2006},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10856},
+      isbn      = {0-7695-2585-7},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2006},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.ieeecomputersociety.org/10.1109/CCGRID.2006.131
+  tags:
+  - BitTorrent
+  - performance analysis
+  - system observation
+  - longitudinal study
+  - characterization of system operation
+  - peer-to-peer systems
+  - global-scale systems
+  - system analysis
+  - real-world measurement
+
+
+- id: DBLP:conf/hpdc/SonmezYIE09
+  authors:
+  - "!Omer Ozan Sonmez"
+  - nyigitbasi
+  - aiosup
+  - depema
+  title: >
+    Trace-based evaluation of job runtime and queue wait time predictions in grids.
+  publication: 'HPDC 2009: 111-120'
+  type: conference
+  releaseYear: 2009
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1551609.1551632") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/hpdc/SonmezYIE09,
+      author    = {Omer Ozan Sonmez and
+                   Nezih Yigitbasi and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Trace-based evaluation of job runtime and queue wait time predictions
+                   in grids},
+      booktitle = {Proceedings of the 18th {ACM} International Symposium on High Performance
+                   Distributed Computing, {HPDC} 2009, Garching, Germany, June 11-13,
+                   2009},
+      pages     = {111--120},
+      year      = {2009},
+      crossref  = {DBLP:conf/hpdc/2009},
+      url       = {http://doi.acm.org/10.1145/1551609.1551632},
+      doi       = {10.1145/1551609.1551632},
+      timestamp = {Fri, 02 Jun 2017 20:47:04 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/SonmezYIE09},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/hpdc/2009,
+      editor    = {Dieter Kranzlm{\"{u}}ller and
+                   Arndt Bode and
+                   Heinz{-}Gerd Hegering and
+                   Henri Casanova and
+                   Michael Gerndt},
+      title     = {Proceedings of the 18th {ACM} International Symposium on High Performance
+                   Distributed Computing, {HPDC} 2009, Garching, Germany, June 11-13,
+                   2009},
+      publisher = {{ACM}},
+      year      = {2009},
+      isbn      = {978-1-60558-587-1},
+      timestamp = {Tue, 23 Jun 2009 22:05:52 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/hpdc/2009},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.acm.org/10.1145/1551609.1551632
+  tags:
+  - scheduling
+  - prediction
+  - performance analysis
+  - performance metrics
+  - response time
+  - queue wait time
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+
+- id: DBLP:conf/grid/StratanIE08
+  authors:
+  - "!Corina Stratan"
+  - aiosup
+  - depema
+  title: >
+    A performance study of grid workflow engines.
+  publication: 'GRID 2008: 25-32'
+  type: conference
+  releaseYear: 2008
+  abstract: >
+    #[a(href="https://doi.org/10.1109/GRID.2008.4662779") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/grid/StratanIE08,
+      author    = {Corina Stratan and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {A performance study of grid workflow engines},
+      booktitle = {9th {IEEE/ACM} International Conference on Grid Computing (Grid 2008),
+                   Tsukuba, Japan, September 29 - October 1, 2008},
+      pages     = {25--32},
+      year      = {2008},
+      crossref  = {DBLP:conf/grid/2008},
+      url       = {https://doi.org/10.1109/GRID.2008.4662779},
+      doi       = {10.1109/GRID.2008.4662779},
+      timestamp = {Fri, 02 Jun 2017 20:50:40 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/StratanIE08},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/grid/2008,
+      title     = {9th {IEEE/ACM} International Conference on Grid Computing (Grid 2008),
+                   Tsukuba, Japan, September 29 - October 1, 2008},
+      publisher = {{IEEE} Computer Society},
+      year      = {2008},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4655284},
+      isbn      = {978-1-4244-2578-5},
+      timestamp = {Tue, 24 Nov 2015 15:19:46 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/grid/2008},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/GRID.2008.4662779
+  tags:
+  - benchmarking
+  - workflow engines
+  - performance analysis
+  - workflow
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+  - real-world experimentation
+
+- id: DBLP:conf/ccgrid/YigitbasiIEO09
+  authors:
+  - nyigitbasi
+  - aiosup
+  - depema
+  - "!Simon Ostermann"
+  title: >
+    C-Meter: A Framework for Performance Analysis of Computing Clouds.
+  publication: 'CCGRID 2009: 472-477'
+  type: conference
+  releaseYear: 2009
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGRID.2009.40") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/YigitbasiIEO09,
+      author    = {Nezih Yigitbasi and
+                   Alexandru Iosup and
+                   Dick H. J. Epema and
+                   Simon Ostermann},
+      title     = {C-Meter: {A} Framework for Performance Analysis of Computing Clouds},
+      booktitle = {9th {IEEE/ACM} International Symposium on Cluster Computing and the
+                   Grid, CCGrid 2009, Shanghai, China, 18-21 May 2009},
+      pages     = {472--477},
+      year      = {2009},
+      crossref  = {DBLP:conf/ccgrid/2009},
+      url       = {https://doi.org/10.1109/CCGRID.2009.40},
+      doi       = {10.1109/CCGRID.2009.40},
+      timestamp = {Thu, 15 Jun 2017 21:39:36 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/YigitbasiIEO09},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2009,
+      editor    = {Franck Cappello and
+                   Cho{-}Li Wang and
+                   Rajkumar Buyya},
+      title     = {9th {IEEE/ACM} International Symposium on Cluster Computing and the
+                   Grid, CCGrid 2009, Shanghai, China, 18-21 May 2009},
+      publisher = {{IEEE} Computer Society},
+      year      = {2009},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5071832},
+      isbn      = {978-0-7695-3622-4},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2009},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/CCGRID.2009.40
+  tags:
+  - C-meter
+  - Grenchmark
+  - system design
+  - benchmarking
+  - performance analysis
+  - performance metrics
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+  - real-world experimentation
+
+- id: DBLP:conf/ccgrid/IosupE06
+  authors:
+  - aiosup
+  - depema
+  title: >
+    GRENCHMARK: A Framework for Analyzing, Testing, and Comparing Grids.
+  publication: 'CCGRID 2006: 313-320'
+  type: conference
+  releaseYear: 2006
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGRID.2006.49") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/IosupE06,
+      author    = {Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {{GRENCHMARK:} {A} Framework for Analyzing, Testing, and Comparing
+                   Grids},
+      booktitle = {Sixth {IEEE} International Symposium on Cluster Computing and the
+                   Grid (CCGrid 2006), 16-19 May 2006, Singapore},
+      pages     = {313--320},
+      year      = {2006},
+      crossref  = {DBLP:conf/ccgrid/2006},
+      url       = {https://doi.org/10.1109/CCGRID.2006.49},
+      doi       = {10.1109/CCGRID.2006.49},
+      timestamp = {Thu, 01 Jun 2017 18:58:36 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/IosupE06},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2006,
+      title     = {Sixth {IEEE} International Symposium on Cluster Computing and the
+                   Grid (CCGrid 2006), 16-19 May 2006, Singapore},
+      publisher = {{IEEE} Computer Society},
+      year      = {2006},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10856},
+      isbn      = {0-7695-2585-7},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2006},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/CCGRID.2006.49
+  tags:
+  - Grenchmark
+  - system design
+  - benchmarking
+  - performance analysis
+  - performance metrics
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+  - real-world experimentation
+
+- id: DBLP:conf/sc/IosupETFL07
+  authors:
+  - aiosup
+  - depema
+  - "!Todd Tannenbaum"
+  - "!Matthew Farrellee"
+  - mlivny
+  title: >
+    Inter-operating grids through delegated matchmaking.
+  publication: 'SC 2007: 13 (Nominated for Best Paper Award and Best Student Paper Award)'
+  type: conference
+  releaseYear: 2007
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1362622.1362640") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/sc/IosupETFL07,
+      author    = {Alexandru Iosup and
+                   Dick H. J. Epema and
+                   Todd Tannenbaum and
+                   Matthew Farrellee and
+                   Miron Livny},
+      title     = {Inter-operating grids through delegated matchmaking},
+      booktitle = {Proceedings of the {ACM/IEEE} Conference on High Performance Networking
+                   and Computing, {SC} 2007, November 10-16, 2007, Reno, Nevada, {USA}},
+      pages     = {13},
+      year      = {2007},
+      crossref  = {DBLP:conf/sc/2007},
+      url       = {http://doi.acm.org/10.1145/1362622.1362640},
+      doi       = {10.1145/1362622.1362640},
+      timestamp = {Mon, 05 Jun 2017 12:39:53 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sc/IosupETFL07},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/sc/2007,
+      editor    = {Becky Verastegui},
+      title     = {Proceedings of the {ACM/IEEE} Conference on High Performance Networking
+                   and Computing, {SC} 2007, November 10-16, 2007, Reno, Nevada, {USA}},
+      publisher = {{ACM} Press},
+      year      = {2007},
+      url       = {http://doi.acm.org/10.1145/1362622},
+      doi       = {10.1145/1362622},
+      isbn      = {978-1-59593-764-3},
+      timestamp = {Tue, 30 Jun 2015 16:34:00 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sc/2007},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.acm.org/10.1145/1362622.1362640
+  tags:
+  - Delegated Matchmaking
+  - mechanism design
+  - system design
+  - system architecture
+  - scheduling architecture
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+
+
+- id: DBLP:journals/sp/IosupTFEL08
+  authors:
+  - aiosup
+  - "!Todd Tannenbaum"
+  - "!Matthew Farrellee"
+  - depema
+  - mlivny
+  title: >
+    Inter-operating grids through Delegated MatchMaking.
+  publication: 'Scientific Programming 16(2-3): 233-253 (2008) (Special Issue with Nominated and Best Paper Awards at SC|07'
+  type: journal
+  releaseYear: 2008
+  abstract: >
+    #[a(href="https://doi.org/10.3233/SPR-2008-0246") Online document]
+  bibtex: |
+    @article{DBLP:journals/sp/IosupTFEL08,
+      author    = {Alexandru Iosup and
+                   Todd Tannenbaum and
+                   Matthew Farrellee and
+                   Dick H. J. Epema and
+                   Miron Livny},
+      title     = {Inter-operating grids through Delegated MatchMaking},
+      journal   = {Scientific Programming},
+      volume    = {16},
+      number    = {2-3},
+      pages     = {233--253},
+      year      = {2008},
+      url       = {https://doi.org/10.3233/SPR-2008-0246},
+      doi       = {10.3233/SPR-2008-0246},
+      timestamp = {Thu, 08 Jun 2017 09:05:39 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/sp/IosupTFEL08},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.3233/SPR-2008-0246
+  tags:
+  - Delegated Matchmaking
+  - mechanism design
+  - system design
+  - system architecture
+  - scheduling architecture
+  - characterization of system operation
+  - grid computing
+  - datacenter operation
+  - system analysis
+  - resource management
+
+- id: DBLP:journals/internet/IosupE11
+  authors:
+  - aiosup
+  - depema
+  title: >
+    Grid Computing Workloads.
+  publication: 'IEEE Internet Computing 15(2): 19-26 (2011)'
+  type: journal
+  releaseYear: 2011
+  abstract: >
+    #[a(href="https://doi.org/10.1109/MIC.2010.130") Online document]
+  bibtex: |
+    @article{DBLP:journals/internet/IosupE11,
+      author    = {Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Grid Computing Workloads},
+      journal   = {{IEEE} Internet Computing},
+      volume    = {15},
+      number    = {2},
+      pages     = {19--26},
+      year      = {2011},
+      url       = {https://doi.org/10.1109/MIC.2010.130},
+      doi       = {10.1109/MIC.2010.130},
+      timestamp = {Tue, 06 Jun 2017 22:26:55 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/internet/IosupE11},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2011-iosup-grid.pdf
+  tags:
+  - workload characterization
+  - longitudinal study
+  - workflows
+  - bags-of-tasks
+  - many tasks
+  - characterization of system operation
+  - grid computing
+  - system analysis
+
+- id: DBLP:conf/europar/IosupJSE07
+  authors:
+  - aiosup
+  - "!Mathieu Jan"
+  - "!Omer Ozan Sonmez"
+  - depema
+  title: >
+    The Characteristics and Performance of Groups of Jobs in Grids.
+  publication: 'Euro-Par 2007: 382-393'
+  type: conference
+  releaseYear: 2007
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-540-74466-5_42") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/europar/IosupJSE07,
+      author    = {Alexandru Iosup and
+                   Mathieu Jan and
+                   Omer Ozan Sonmez and
+                   Dick H. J. Epema},
+      title     = {The Characteristics and Performance of Groups of Jobs in Grids},
+      booktitle = {Euro-Par 2007, Parallel Processing, 13th International Euro-Par Conference,
+                   Rennes, France, August 28-31, 2007, Proceedings},
+      pages     = {382--393},
+      year      = {2007},
+      crossref  = {DBLP:conf/europar/2007},
+      url       = {https://doi.org/10.1007/978-3-540-74466-5_42},
+      doi       = {10.1007/978-3-540-74466-5_42},
+      timestamp = {Fri, 02 Jun 2017 20:47:38 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/IosupJSE07},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/europar/2007,
+      editor    = {Anne{-}Marie Kermarrec and
+                   Luc Boug{\'{e}} and
+                   Thierry Priol},
+      title     = {Euro-Par 2007, Parallel Processing, 13th International Euro-Par Conference,
+                   Rennes, France, August 28-31, 2007, Proceedings},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {4641},
+      publisher = {Springer},
+      year      = {2007},
+      url       = {https://doi.org/10.1007/978-3-540-74466-5},
+      doi       = {10.1007/978-3-540-74466-5},
+      isbn      = {978-3-540-74465-8},
+      timestamp = {Fri, 02 Jun 2017 13:01:06 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/2007},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1007/978-3-540-74466-5_42
+  tags:
+  - workload characterization
+  - longitudinal study
+  - workflows
+  - bags-of-tasks
+  - groups of jobs
+  - characterization of system operation
+  - grid computing
+  - system analysis
+
+- id: DBLP:conf/ccgrid/IosupE07
+  authors:
+  - aiosup
+  - depema
+  title: >
+    Build-and-Test Workloads for Grid Middleware: Problem, Analysis, and Applications.
+  publication: 'CCGRID 2007: 205-213'
+  type: conference
+  releaseYear: 2007
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGRID.2007.29") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/IosupE07,
+      author    = {Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Build-and-Test Workloads for Grid Middleware: Problem, Analysis, and
+                   Applications},
+      booktitle = {Seventh {IEEE} International Symposium on Cluster Computing and the
+                   Grid (CCGrid 2007), 14-17 May 2007, Rio de Janeiro, Brazil},
+      pages     = {205--213},
+      year      = {2007},
+      crossref  = {DBLP:conf/ccgrid/2007},
+      url       = {https://doi.org/10.1109/CCGRID.2007.29},
+      doi       = {10.1109/CCGRID.2007.29},
+      timestamp = {Thu, 01 Jun 2017 18:58:37 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/IosupE07},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2007,
+      title     = {Seventh {IEEE} International Symposium on Cluster Computing and the
+                   Grid (CCGrid 2007), 14-17 May 2007, Rio de Janeiro, Brazil},
+      publisher = {{IEEE} Computer Society},
+      year      = {2007},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4215348},
+      isbn      = {0-7695-2833-3},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2007},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1109/CCGRID.2007.29
+  tags:
+  - build-and-test
+  - workload characterization
+  - longitudinal study
+  - test workflows
+  - characterization of system operation
+  - grid computing
+  - system analysis
+
+- id: DBLP:journals/tpds/NaeIP11
+  authors:
+  - "!Vlad Nae"
+  - aiosup
+  - rprodan
+  title: >
+    Dynamic Resource Provisioning in Massively Multiplayer Online Games.
+  publication: 'IEEE Trans. Parallel Distrib. Syst. 22(3): 380-395 (2011)'
+  type: journal
+  releaseYear: 2011
+  abstract: >
+    #[a(href="https://doi.org/10.1109/TPDS.2010.82") Online document]
+  bibtex: |
+    @article{DBLP:journals/tpds/NaeIP11,
+      author    = {Vlad Nae and
+                   Alexandru Iosup and
+                   Radu Prodan},
+      title     = {Dynamic Resource Provisioning in Massively Multiplayer Online Games},
+      journal   = {{IEEE} Trans. Parallel Distrib. Syst.},
+      volume    = {22},
+      number    = {3},
+      pages     = {380--395},
+      year      = {2011},
+      url       = {https://doi.org/10.1109/TPDS.2010.82},
+      doi       = {10.1109/TPDS.2010.82},
+      timestamp = {Thu, 15 Jun 2017 21:24:37 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tpds/NaeIP11},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2011-nae-dynamic.pdf
+  tags:
+  - dynamic resource provisioning
+  - dynamic scheduling
+  - resource provisioning
+  - Multiplayer Online Games
+  - cloud computing
+  - characterization of system operation
+  - peformance analysis
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/eScience/IosupGE06
+  authors:
+  - aiosup
+  - pgarbacki
+  - depema
+  title: >
+    Provisioning and Scheduling Resources for World-Wide Data-Sharing Services.
+  publication: 'e-Science 2006: 84'
+  type: conference
+  releaseYear: 2006
+  abstract: >
+    #[a(href="http://doi.ieeecomputersociety.org/10.1109/E-SCIENCE.2006.112") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/eScience/IosupGE06,
+      author    = {Alexandru Iosup and
+                   Pawel Garbacki and
+                   Dick H. J. Epema},
+      title     = {Provisioning and Scheduling Resources for World-Wide Data-Sharing
+                   Services},
+      booktitle = {Second International Conference on e-Science and Grid Technologies
+                   (e-Science 2006), 4-6 December 2006, Amsterdam, The Netherlands},
+      pages     = {84},
+      year      = {2006},
+      crossref  = {DBLP:conf/eScience/2006},
+      url       = {http://doi.ieeecomputersociety.org/10.1109/E-SCIENCE.2006.112},
+      doi       = {10.1109/E-SCIENCE.2006.112},
+      timestamp = {Fri, 02 Jun 2017 20:47:31 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/eScience/IosupGE06},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/eScience/2006,
+      title     = {Second International Conference on e-Science and Grid Technologies
+                   (e-Science 2006), 4-6 December 2006, Amsterdam, The Netherlands},
+      publisher = {{IEEE} Computer Society},
+      year      = {2006},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4030972},
+      isbn      = {0-7695-2734-5},
+      timestamp = {Thu, 06 Nov 2014 17:05:37 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/eScience/2006},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.ieeecomputersociety.org/10.1109/E-SCIENCE.2006.112
+  tags:
+  - dynamic resource provisioning
+  - dynamic scheduling
+  - resource provisioning
+  - scientific computing
+  - e-Science
+  - grid computing
+  - characterization of system operation
+  - peformance analysis
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/wosp/NaePIF11
+  authors:
+  - "!Vlad Nae"
+  - aiosup
+  - rprodan
+  - tfahringer
+  title: >
+    A new business model for massively multiplayer online games.
+  publication: 'ICPE 2011: 271-282'
+  type: conference
+  releaseYear: 2011
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1958746.1958785") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/wosp/NaePIF11,
+      author    = {Vlad Nae and
+                   Radu Prodan and
+                   Alexandru Iosup and
+                   Thomas Fahringer},
+      title     = {A new business model for massively multiplayer online games},
+      booktitle = {ICPE'11 - Second Joint {WOSP/SIPEW} International Conference on Performance
+                   Engineering, Karlsruhe, Germany, March 14-16, 2011},
+      pages     = {271--282},
+      year      = {2011},
+      crossref  = {DBLP:conf/wosp/2011},
+      url       = {http://doi.acm.org/10.1145/1958746.1958785},
+      doi       = {10.1145/1958746.1958785},
+      timestamp = {Thu, 15 Jun 2017 21:42:58 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wosp/NaePIF11},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/wosp/2011,
+      editor    = {Samuel Kounev and
+                   Vittorio Cortellessa and
+                   Raffaela Mirandola and
+                   David J. Lilja},
+      title     = {ICPE'11 - Second Joint {WOSP/SIPEW} International Conference on Performance
+                   Engineering, Karlsruhe, Germany, March 14-16, 2011},
+      publisher = {{ACM}},
+      year      = {2011},
+      isbn      = {978-1-4503-0519-8},
+      timestamp = {Tue, 07 Jun 2011 09:20:46 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wosp/2011},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2011-nae-new.pdf
+  tags:
+  - dynamic resource provisioning
+  - business model
+  - dynamic scheduling
+  - resource provisioning
+  - cloud computing
+  - Multiplayer Online Games
+  - characterization of system operation
+  - peformance analysis
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/sc/NaeIPPEF08
+  authors:
+  - "!Vlad Nae"
+  - aiosup
+  - "!Stefan Podlipnig"
+  - rprodan
+  - depema
+  - tfahringer
+  title: >
+    Efficient management of data center resources for massively multiplayer online games.
+  publication: 'SC 2008: 10'
+  type: conference
+  releaseYear: 2008
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/1413370.1413381") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/sc/NaeIPPEF08,
+      author    = {Vlad Nae and
+                   Alexandru Iosup and
+                   Stefan Podlipnig and
+                   Radu Prodan and
+                   Dick H. J. Epema and
+                   Thomas Fahringer},
+      title     = {Efficient management of data center resources for massively multiplayer
+                   online games},
+      booktitle = {Proceedings of the {ACM/IEEE} Conference on High Performance Computing,
+                   {SC} 2008, November 15-21, 2008, Austin, Texas, {USA}},
+      pages     = {10},
+      year      = {2008},
+      crossref  = {DBLP:conf/sc/2008},
+      url       = {http://doi.acm.org/10.1145/1413370.1413381},
+      doi       = {10.1145/1413370.1413381},
+      timestamp = {Mon, 05 Jun 2017 12:39:52 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sc/NaeIPPEF08},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/sc/2008,
+      title     = {Proceedings of the {ACM/IEEE} Conference on High Performance Computing,
+                   {SC} 2008, November 15-21, 2008, Austin, Texas, {USA}},
+      publisher = {{IEEE/ACM}},
+      year      = {2008},
+      url       = {http://doi.acm.org/10.1145/1413370},
+      doi       = {10.1145/1413370},
+      isbn      = {978-1-4244-2835-9},
+      timestamp = {Tue, 30 Jun 2015 16:34:04 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sc/2008},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: http://doi.acm.org/10.1145/1413370.1413381
+  tags:
+  - dynamic resource provisioning
+  - business model
+  - dynamic scheduling
+  - resource provisioning
+  - cloud computing
+  - Multiplayer Online Games
+  - characterization of system operation
+  - peformance analysis
+  - datacenter operation
+  - system analysis
+
+- id: DBLP:conf/sigcse/IosupE14
+  authors:
+  - aiosup
+  - depema
+  title: >
+    An experience report on using gamification in technical higher education.
+  publication: 'SIGCSE 2014: 27-32'
+  type: conference
+  releaseYear: 2014
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2538862.2538899") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/sigcse/IosupE14,
+      author    = {Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {An experience report on using gamification in technical higher education},
+      booktitle = {The 45th {ACM} Technical Symposium on Computer Science Education,
+                   {SIGCSE} '14, Atlanta, GA, {USA} - March 05 - 08, 2014},
+      pages     = {27--32},
+      year      = {2014},
+      crossref  = {DBLP:conf/sigcse/2014},
+      url       = {http://doi.acm.org/10.1145/2538862.2538899},
+      doi       = {10.1145/2538862.2538899},
+      timestamp = {Mon, 05 Jun 2017 12:38:52 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sigcse/IosupE14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/sigcse/2014,
+      editor    = {J. D. Dougherty and
+                   Kris Nagel and
+                   Adrienne Decker and
+                   Kurt Eiselt},
+      title     = {The 45th {ACM} Technical Symposium on Computer Science Education,
+                   {SIGCSE} '14, Atlanta, GA, {USA} - March 05 - 08, 2014},
+      publisher = {{ACM}},
+      year      = {2014},
+      url       = {http://dl.acm.org/citation.cfm?id=2538862},
+      isbn      = {978-1-4503-2605-6},
+      timestamp = {Wed, 29 Mar 2017 16:45:22 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sigcse/2014},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-iosup-experience.pdf
+  tags:
+  - social gamification
+  - gamification
+  - higher education
+  - educational design
+  - characterization of course operation
+  - peformance analysis
+
+- id: DBLP:conf/ccgrid/VillegasASI12
+  authors:
+  - dvillegas
+  - aantoniou
+  - "!Seyed Masoud Sadjadi"
+  - aiosup
+  title: >
+    An Analysis of Provisioning and Allocation Policies for Infrastructure-as-a-Service Clouds.
+  publication: 'CCGRID 2012: 612-619'
+  type: conference
+  releaseYear: 2012
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGrid.2012.46") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/VillegasASI12,
+      author    = {David Villegas and
+                   Athanasios Antoniou and
+                   Seyed Masoud Sadjadi and
+                   Alexandru Iosup},
+      title     = {An Analysis of Provisioning and Allocation Policies for Infrastructure-as-a-Service
+                   Clouds},
+      booktitle = {12th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2012, Ottawa, Canada, May 13-16, 2012},
+      pages     = {612--619},
+      year      = {2012},
+      crossref  = {DBLP:conf/ccgrid/2012},
+      url       = {https://doi.org/10.1109/CCGrid.2012.46},
+      doi       = {10.1109/CCGrid.2012.46},
+      timestamp = {Thu, 01 Jun 2017 18:58:36 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/VillegasASI12},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2012,
+      title     = {12th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2012, Ottawa, Canada, May 13-16, 2012},
+      publisher = {{IEEE} Computer Society},
+      year      = {2012},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6217395},
+      isbn      = {978-1-4673-1395-7},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2012},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2012-villegas-analysis.pdf
+  tags:
+  - dynamic resource provisioning
+  - dynamic resource allocation
+  - dynamic scheduling
+  - resource provisioning
+  - Multiplayer Online Games
+  - cloud computing
+  - characterization of system operation
+  - peformance analysis
+  - datacenter operation
+  - system analysis
+  - real-world experimentation
+
+- id: DBLP:conf/tpctc/FolkertsASIMT12
+  authors:
+  - "!Enno Folkerts"
+  - "!Alexander Alexandrov"
+  - "!Kai Sachs"
+  - aiosup
+  - "!Volker Markl"
+  - "!Cafer Tosun"
+  title: >
+    Benchmarking in the Cloud: What It Should, Can, and Cannot Be.
+  publication: 'TPCTC 2012: 173-188'
+  type: conference
+  releaseYear: 2012
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-642-36727-4_12") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/tpctc/FolkertsASIMT12,
+      author    = {Enno Folkerts and
+                   Alexander Alexandrov and
+                   Kai Sachs and
+                   Alexandru Iosup and
+                   Volker Markl and
+                   Cafer Tosun},
+      title     = {Benchmarking in the Cloud: What It Should, Can, and Cannot Be},
+      booktitle = {Selected Topics in Performance Evaluation and Benchmarking - 4th {TPC}
+                   Technology Conference, {TPCTC} 2012, Istanbul, Turkey, August 27,
+                   2012, Revised Selected Papers},
+      pages     = {173--188},
+      year      = {2012},
+      crossref  = {DBLP:conf/tpctc/2012},
+      url       = {https://doi.org/10.1007/978-3-642-36727-4_12},
+      doi       = {10.1007/978-3-642-36727-4_12},
+      timestamp = {Mon, 05 Jun 2017 12:43:38 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/tpctc/FolkertsASIMT12},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/tpctc/2012,
+      editor    = {Raghunath Othayoth Nambiar and
+                   Meikel Poess},
+      title     = {Selected Topics in Performance Evaluation and Benchmarking - 4th {TPC}
+                   Technology Conference, {TPCTC} 2012, Istanbul, Turkey, August 27,
+                   2012, Revised Selected Papers},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {7755},
+      publisher = {Springer},
+      year      = {2013},
+      url       = {https://doi.org/10.1007/978-3-642-36727-4},
+      doi       = {10.1007/978-3-642-36727-4},
+      isbn      = {978-3-642-36726-7},
+      timestamp = {Tue, 23 May 2017 01:12:14 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/tpctc/2012},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2012-folkerts-benchmarking.pdf
+  tags:
+  - vision article
+  - benchmarking
+  - cloud computing
+
+- id: DBLP:conf/jsspp/IosupEFPSSY06
+  authors:
+  - aiosup
+  - depema
+  - "!Carsten Franke"
+  - "!Alexander Papaspyrou"
+  - "!Lars Schley"
+  - "!Baiyi Song"
+  - ryahyapour
+  title: >
+    On Grid Performance Evaluation Using Synthetic Workloads.
+  publication: 'JSSPP 2006: 232-255'
+  type: workshop
+  releaseYear: 2006
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-540-71035-6_12") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/jsspp/IosupEFPSSY06,
+      author    = {Alexandru Iosup and
+                   Dick H. J. Epema and
+                   Carsten Franke and
+                   Alexander Papaspyrou and
+                   Lars Schley and
+                   Baiyi Song and
+                   Ramin Yahyapour},
+      title     = {On Grid Performance Evaluation Using Synthetic Workloads},
+      booktitle = {Job Scheduling Strategies for Parallel Processing, 12th International
+                   Workshop, {JSSPP} 2006, Saint-Malo, France, June 26, 2006, Revised
+                   Selected Papers},
+      pages     = {232--255},
+      year      = {2006},
+      crossref  = {DBLP:conf/jsspp/2006},
+      url       = {https://doi.org/10.1007/978-3-540-71035-6_12},
+      doi       = {10.1007/978-3-540-71035-6_12},
+      timestamp = {Sun, 04 Jun 2017 10:05:05 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/jsspp/IosupEFPSSY06},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/jsspp/2006,
+      editor    = {Eitan Frachtenberg and
+                   Uwe Schwiegelshohn},
+      title     = {Job Scheduling Strategies for Parallel Processing, 12th International
+                   Workshop, {JSSPP} 2006, Saint-Malo, France, June 26, 2006, Revised
+                   Selected Papers},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {4376},
+      publisher = {Springer},
+      year      = {2007},
+      url       = {https://doi.org/10.1007/978-3-540-71035-6},
+      doi       = {10.1007/978-3-540-71035-6},
+      isbn      = {3-540-71034-5},
+      timestamp = {Fri, 02 Jun 2017 13:01:07 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/jsspp/2006},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://doi.org/10.1007/978-3-540-71035-6_12
+  tags:
+  - vision article
+  - scheduling
+  - performance evaluation
+  - benchmarking
+  - grid computing
+
+- id: DBLP:conf/wosp/GuoVIMW14
+  authors:
+  - yguo
+  - analucia
+  - aiosup
+  - cmartella
+  - twillke
+  title: >
+    Benchmarking graph-processing platforms: a vision.
+  publication: 'ICPE 2014: 289-292'
+  type: conference
+  releaseYear: 2014
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2568088.2576761") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/wosp/GuoVIMW14,
+      author    = {Yong Guo and
+                   Ana Lucia Varbanescu and
+                   Alexandru Iosup and
+                   Claudio Martella and
+                   Theodore L. Willke},
+      title     = {Benchmarking graph-processing platforms: a vision},
+      booktitle = {{ACM/SPEC} International Conference on Performance Engineering, ICPE'14,
+                   Dublin, Ireland, March 22-26, 2014},
+      pages     = {289--292},
+      year      = {2014},
+      crossref  = {DBLP:conf/wosp/2014},
+      url       = {http://doi.acm.org/10.1145/2568088.2576761},
+      doi       = {10.1145/2568088.2576761},
+      timestamp = {Mon, 05 Jun 2017 12:42:53 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wosp/GuoVIMW14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/wosp/2014,
+      editor    = {Klaus{-}Dieter Lange and
+                   John Murphy and
+                   Walter Binder and
+                   Jos{\'{e}} Merseguer},
+      title     = {{ACM/SPEC} International Conference on Performance Engineering, ICPE'14,
+                   Dublin, Ireland, March 22-26, 2014},
+      publisher = {{ACM}},
+      year      = {2014},
+      url       = {http://dl.acm.org/citation.cfm?id=2568088},
+      isbn      = {978-1-4503-2733-6},
+      timestamp = {Thu, 18 Feb 2016 17:39:33 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wosp/2014},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-guo-benchmarking.pdf
+  tags:
+  - vision article
+  - graph processing
+  - performance evaluation
+  - benchmarking
+  - big data
+  - datacenter technology
+
+- id: DBLP:books/sp/14/IosupPE14
+  authors:
+  - aiosup
+  - rprodan
+  - depema
+  title: >
+    IaaS Cloud Benchmarking: Approaches, Challenges, and Experience.
+  publication: 'Cloud Computing for Data-Intensive Applications 2014: 83-104 (book chapter)'
+  type: book-part
+  releaseYear: 2014
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-1-4939-1905-5_4") Online document]
+  bibtex: |
+    @incollection{DBLP:books/sp/14/IosupPE14,
+      author    = {Alexandru Iosup and
+                   Radu Prodan and
+                   Dick H. J. Epema},
+      title     = {IaaS Cloud Benchmarking: Approaches, Challenges, and Experience},
+      booktitle = {Cloud Computing for Data-Intensive Applications},
+      pages     = {83--104},
+      year      = {2014},
+      crossref  = {DBLP:books/sp/LQ2014},
+      url       = {https://doi.org/10.1007/978-1-4939-1905-5_4},
+      doi       = {10.1007/978-1-4939-1905-5_4},
+      timestamp = {Tue, 16 May 2017 14:01:45 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/books/sp/14/IosupPE14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @book{DBLP:books/sp/LQ2014,
+      editor    = {Xiaolin Li and
+                   Judy Qiu},
+      title     = {Cloud Computing for Data-Intensive Applications},
+      publisher = {Springer},
+      year      = {2014},
+      url       = {https://doi.org/10.1007/978-1-4939-1905-5},
+      doi       = {10.1007/978-1-4939-1905-5},
+      isbn      = {978-1-4939-1904-8},
+      timestamp = {Tue, 16 May 2017 14:01:45 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/books/sp/LQ2014},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-iosup-iaas.pdf
+  tags:
+  - vision article
+  - IaaS cloud computing
+  - benchmarking
+  - datacenter technology
+
+
+- id: DBLP:conf/netgames/GuoI12
+  authors:
+  - yguo
+  - aiosup
+  title: >
+    The Game Trace Archive.
+  publication: 'NetGames 2012: 1-6'
+  type: conference
+  releaseYear: 2012
+  abstract: >
+    #[a(href="https://doi.org/10.1109/NetGames.2012.6404027") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/netgames/GuoI12,
+      author    = {Yong Guo and
+                   Alexandru Iosup},
+      title     = {The Game Trace Archive},
+      booktitle = {11th Annual Workshop on Network and Systems Support for Games, NetGames
+                   2012, Venice, Italy, November 22-23, 2012},
+      pages     = {1--6},
+      year      = {2012},
+      crossref  = {DBLP:conf/netgames/2012},
+      url       = {https://doi.org/10.1109/NetGames.2012.6404027},
+      doi       = {10.1109/NetGames.2012.6404027},
+      timestamp = {Mon, 05 Jun 2017 12:40:41 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/netgames/GuoI12},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/netgames/2012,
+      title     = {11th Annual Workshop on Network and Systems Support for Games, NetGames
+                   2012, Venice, Italy, November 22-23, 2012},
+      publisher = {{IEEE}},
+      year      = {2012},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6391322},
+      isbn      = {978-1-4673-4576-7},
+      timestamp = {Wed, 16 Jan 2013 12:18:41 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/netgames/2012},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2012-guo-game.pdf
+  tags:
+  - workload characterization
+  - free open-access data
+  - data archive
+  - large-scale distributed computing
+  - reproducibility
+
+- id: DBLP:conf/europar/HeldensVNHI16
+  authors:
+  - sheldens
+  - analucia
+  - wlngai
+  - thegeman
+  - aiosup
+  title: >
+    Towards the Next Generation of Large-Scale Network Archives.
+  publication: 'Euro-Par Workshops 2016: 571-579'
+  type: workshop
+  releaseYear: 2016
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-319-58943-5_46") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/europar/HeldensVNHI16,
+      author    = {Stijn Heldens and
+                   Ana Lucia Varbanescu and
+                   Wing Lung Ngai and
+                   Tim Hegeman and
+                   Alexandru Iosup},
+      title     = {Towards the Next Generation of Large-Scale Network Archives},
+      booktitle = {Euro-Par 2016: Parallel Processing Workshops - Euro-Par 2016 International
+                   Workshops, Grenoble, France, August 24-26, 2016, Revised Selected
+                   Papers},
+      pages     = {571--579},
+      year      = {2016},
+      crossref  = {DBLP:conf/europar/2016w},
+      url       = {https://doi.org/10.1007/978-3-319-58943-5_46},
+      doi       = {10.1007/978-3-319-58943-5_46},
+      timestamp = {Mon, 29 May 2017 15:40:49 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/HeldensVNHI16},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/europar/2016w,
+      editor    = {Fr{\'{e}}d{\'{e}}ric Desprez and
+                   Pierre{-}Fran{\c{c}}ois Dutot and
+                   Christos Kaklamanis and
+                   Loris Marchal and
+                   Korbinian Molitorisz and
+                   Laura Ricci and
+                   Vittorio Scarano and
+                   Miguel A. Vega{-}Rodr{\'{\i}}guez and
+                   Ana Lucia Varbanescu and
+                   Sascha Hunold and
+                   Stephen L. Scott and
+                   Stefan Lankes and
+                   Josef Weidendorfer},
+      title     = {Euro-Par 2016: Parallel Processing Workshops - Euro-Par 2016 International
+                   Workshops, Grenoble, France, August 24-26, 2016, Revised Selected
+                   Papers},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {10104},
+      publisher = {Springer},
+      year      = {2017},
+      url       = {https://doi.org/10.1007/978-3-319-58943-5},
+      doi       = {10.1007/978-3-319-58943-5},
+      isbn      = {978-3-319-58942-8},
+      timestamp = {Mon, 29 May 2017 15:26:32 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/2016w},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2016-heldens-towards.pdf
+  tags:
+  - workload characterization
+  - free open-access data
+  - data archive
+  - large-scale distributed computing
+  - reproducibility
+
+- id: DBLP:ws/coregrid/OstermannPFIE08
+  authors:
+  - "!Simon Ostermann"
+  - rprodan
+  - tfahringer
+  - aiosup
+  - depema
+  title: >
+    On the characteristics of grid workflows.
+  publication: 'CoreGRID Symposium at Euro-Par 2008'
+  type: workshop
+  releaseYear: 2008
+  abstract: >
+    Abstract Grid computing promises to enable a reliable and easy-to-use computational
+    infrastructure for e-Science. To materialize this promise, Grids need to provide full
+    automation from the experiment design to the final result. Often, this automation relies on the
+    execution of workflows, that is, of jobs comprising many inter-related computing and data
+    transfer tasks. While several Grid workflow execution tools already exist, not much is known
+    about their workload. This lack of knowledge hampers the development of new workflow
+    #[a(href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7wwQ7twAAAAJ&cstart=20&pagesize=80&citation_for_view=7wwQ7twAAAAJ:M05iB0D1s5AC") Online document]
+  bibtex: |
+    @inproceedings{conf/europar/OstermannPFIE08,
+          author    = {Simon Ostermann and
+                       Radu Prodan and
+                       Thomas Fahringer and
+                       Alexandru Iosup and
+                       Dick H. J. Epema},
+          title     = {On the characteristics of grid workflows},
+          booktitle = {Euro-Par 2008: Parallel Processing Workshops - Euro-Par 2008 International
+                       Workshops, CoreGRID Symposium - From Grids to Service and Pervasive Computing, Revised Selected
+                       Papers},
+          pages     = {1:20},
+          year      = {2008}
+        }
+  pdf: http://coregrid.ercim.eu/mambo/images/stories/TechnicalReports/tr-0132.pdf
+  tags:
+  - workflow characterization
+  - workload characterization
+  - grid workflows
+  - engineering workflows
+  - large-scale distributed computing
+  - reproducibility
+
+
+- id: DBLP:conf/ipps/Ben-YehudaSSSI12
+  authors:
+  - "!Orna Agmon Ben-Yehuda"
+  - "!Assaf Schuster"
+  - "!Artyom Sharov"
+  - "!Mark Silberstein"
+  - aiosup
+  title: >
+    ExPERT: Pareto-Efficient Task Replication on Grids and a Cloud.
+  publication: 'IPDPS 2012: 167-178'
+  type: conference
+  releaseYear: 2012
+  abstract: >
+    #[a(href="https://doi.org/10.1109/IPDPS.2012.25") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ipps/Ben-YehudaSSSI12,
+      author    = {Orna {Agmon Ben-Yehuda} and
+                   Assaf Schuster and
+                   Artyom Sharov and
+                   Mark Silberstein and
+                   Alexandru Iosup},
+      title     = {ExPERT: Pareto-Efficient Task Replication on Grids and a Cloud},
+      booktitle = {26th {IEEE} International Parallel and Distributed Processing Symposium,
+                   {IPDPS} 2012, Shanghai, China, May 21-25, 2012},
+      pages     = {167--178},
+      year      = {2012},
+      crossref  = {DBLP:conf/ipps/2012},
+      url       = {https://doi.org/10.1109/IPDPS.2012.25},
+      doi       = {10.1109/IPDPS.2012.25},
+      timestamp = {Sun, 04 Jun 2017 10:05:30 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ipps/Ben-YehudaSSSI12},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ipps/2012,
+      title     = {26th {IEEE} International Parallel and Distributed Processing Symposium,
+                   {IPDPS} 2012, Shanghai, China, May 21-25, 2012},
+      publisher = {{IEEE} Computer Society},
+      year      = {2012},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6266782},
+      isbn      = {978-1-4673-0975-2},
+      timestamp = {Fri, 01 Aug 2014 14:26:10 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ipps/2012},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2012-yehuda-expert.pdf
+  tags:
+  - ExPERT
+  - bag-of-tasks scheduling
+  - bag-of-tasks
+  - dynamic scheduling
+  - Pareto-efficient scheduling
+  - grid computing
+  - mechanism design
+  - system design
+  - performance evaluation
+  - real-world experimentation
+
+- id: DBLP:conf/europar/ShenDIE13
+  authors:
+  - sshen
+  - kdeng
+  - aiosup
+  - depema
+  title: >
+    Scheduling Jobs in the Cloud Using On-Demand and Reserved Instances.
+  publication: 'Euro-Par 2013: 242-254'
+  type: conference
+  releaseYear: 2013
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-642-40047-6_27") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/europar/ShenDIE13,
+      author    = {Siqi Shen and
+                   Kefeng Deng and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Scheduling Jobs in the Cloud Using On-Demand and Reserved Instances},
+      booktitle = {Euro-Par 2013 Parallel Processing - 19th International Conference,
+                   Aachen, Germany, August 26-30, 2013. Proceedings},
+      pages     = {242--254},
+      year      = {2013},
+      crossref  = {DBLP:conf/europar/2013},
+      url       = {https://doi.org/10.1007/978-3-642-40047-6_27},
+      doi       = {10.1007/978-3-642-40047-6_27},
+      timestamp = {Fri, 02 Jun 2017 20:47:37 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/ShenDIE13},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/europar/2013,
+      editor    = {Felix Wolf and
+                   Bernd Mohr and
+                   Dieter an Mey},
+      title     = {Euro-Par 2013 Parallel Processing - 19th International Conference,
+                   Aachen, Germany, August 26-30, 2013. Proceedings},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {8097},
+      publisher = {Springer},
+      year      = {2013},
+      url       = {https://doi.org/10.1007/978-3-642-40047-6},
+      doi       = {10.1007/978-3-642-40047-6},
+      isbn      = {978-3-642-40046-9},
+      timestamp = {Wed, 24 May 2017 08:27:47 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/europar/2013},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2013-shen-scheduling.pdf
+  tags:
+  - cloud scheduling
+  - portfolio scheduling
+  - bag-of-tasks scheduling
+  - scientific computing
+  - Massive Online Games
+  - dynamic scheduling
+  - on-demand instances
+  - reserved instances
+  - cloud computing
+  - mechanism design
+  - system design
+  - performance evaluation
+
+- id: DBLP:conf/jsspp/DengVRI13
+  authors:
+  - kdeng
+  - "!Ruben Verboon"
+  - "!Kaijun Ren"
+  - aiosup
+  title: >
+    A Periodic Portfolio Scheduler for Scientific Computing in the Data Center.
+  publication: 'JSSPP 2013: 156-176'
+  type: workshop
+  releaseYear: 2013
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-662-43779-7_9") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/jsspp/DengVRI13,
+      author    = {Kefeng Deng and
+                   Ruben Verboon and
+                   Kaijun Ren and
+                   Alexandru Iosup},
+      title     = {A Periodic Portfolio Scheduler for Scientific Computing in the Data
+                   Center},
+      booktitle = {Job Scheduling Strategies for Parallel Processing - 17th International
+                   Workshop, {JSSPP} 2013, Boston, MA, USA, May 24, 2013 Revised Selected
+                   Papers},
+      pages     = {156--176},
+      year      = {2013},
+      crossref  = {DBLP:conf/jsspp/2013},
+      url       = {https://doi.org/10.1007/978-3-662-43779-7_9},
+      doi       = {10.1007/978-3-662-43779-7_9},
+      timestamp = {Sun, 04 Jun 2017 10:05:05 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/jsspp/DengVRI13},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/jsspp/2013,
+      editor    = {Narayan Desai and
+                   Walfredo Cirne},
+      title     = {Job Scheduling Strategies for Parallel Processing - 17th International
+                   Workshop, {JSSPP} 2013, Boston, MA, USA, May 24, 2013 Revised Selected
+                   Papers},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {8429},
+      publisher = {Springer},
+      year      = {2014},
+      url       = {https://doi.org/10.1007/978-3-662-43779-7},
+      doi       = {10.1007/978-3-662-43779-7},
+      isbn      = {978-3-662-43778-0},
+      timestamp = {Thu, 25 May 2017 00:40:55 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/jsspp/2013},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2013-deng-periodic.pdf
+  tags:
+  - cloud scheduling
+  - portfolio scheduling
+  - bag-of-tasks scheduling
+  - scientific computing
+  - dynamic scheduling
+  - cloud computing
+  - mechanism design
+  - system design
+  - performance evaluation
+
+- id: DBLP:conf/sc/DengSRI13
+  authors:
+  - kdeng
+  - "!Junqiang Song"
+  - "!Kaijun Ren"
+  - aiosup
+  title: >
+    Exploring portfolio scheduling for long-term execution of scientific workloads in IaaS clouds.
+  publication: 'SC 2013: 55:1-55:12'
+  type: conference
+  releaseYear: 2013
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2503210.2503244") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/sc/DengSRI13,
+      author    = {Kefeng Deng and
+                   Junqiang Song and
+                   Kaijun Ren and
+                   Alexandru Iosup},
+      title     = {Exploring portfolio scheduling for long-term execution of scientific
+                   workloads in IaaS clouds},
+      booktitle = {International Conference for High Performance Computing, Networking,
+                   Storage and Analysis, SC'13, Denver, CO, {USA} - November 17 - 21,
+                   2013},
+      pages     = {55:1--55:12},
+      year      = {2013},
+      crossref  = {DBLP:conf/sc/2013},
+      url       = {http://doi.acm.org/10.1145/2503210.2503244},
+      doi       = {10.1145/2503210.2503244},
+      timestamp = {Mon, 05 Jun 2017 12:39:52 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sc/DengSRI13},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/sc/2013,
+      editor    = {William Gropp and
+                   Satoshi Matsuoka},
+      title     = {International Conference for High Performance Computing, Networking,
+                   Storage and Analysis, SC'13, Denver, CO, {USA} - November 17 - 21,
+                   2013},
+      publisher = {{ACM}},
+      year      = {2013},
+      url       = {http://doi.acm.org/10.1145/2503210},
+      doi       = {10.1145/2503210},
+      isbn      = {978-1-4503-2378-9},
+      timestamp = {Wed, 29 Mar 2017 16:45:22 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sc/2013},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2013-deng-exploring.pdf
+  tags:
+  - cloud scheduling
+  - portfolio scheduling
+  - bag-of-tasks scheduling
+  - scientific computing
+  - dynamic scheduling
+  - genetic algorithm
+  - cloud computing
+  - mechanism design
+  - system design
+  - performance evaluation
+
+
+- id: DBLP:conf/ispdc/IosupABBENOTVV17
+  authors:
+  - aiosup
+  - gandreadis
+  - vvanbeek
+  - mbijman
+  - evaneyk
+  - mneacsu
+  - loverweel
+  - stalluri
+  - lfdversluis
+  - mebpvisser
+  title: >
+    The OpenDC Vision: Towards Collaborative Datacenter Simulation and Exploration for Everybody.
+  publication: 'ISPDC 2017 (invited paper)'
+  type: conference
+  releaseYear: 2017
+  abstract: >
+    In the new Digital Economy, massive computer systems, often grouped in datacenters, serve as factories ``producing''
+    cloud services with massive consumption. However, to afford cloud services globally, we must address new research
+    challenges in designing, operating, and using modern datacenters.
+    We must also address challenges in educating and training the next generation of datacenter engineers.
+    Addressing such challenges, in this work we present our vision on OpenDC: we envision the exploration of various
+    datacenter concepts and technologies, using existing and new scientific methods, enabling new
+    education practices and topics, and leading to the creation of new software and data artifacts.
+    We present the datacenter concepts and technologies we are currently planning to explore using OpenDC.
+    We identify the scientific methods we want to use,
+    and explain our vision of education practices.
+    We present the architecture and open-source program underlying the OpenDC software, and the format and open-access data we use for datacenter experiments.
+    We conclude with an open invitation for the community to join our effort.
+  bibtex: |
+    @inproceedings{conf/ispdc/IosupABBENOTVV17,
+      author    = {Alexandru Iosup and
+                   Georgios Andreadis and
+                   Vincent van Beek and
+                   Matthijs Bijman and
+                   Erwin {van Eyk} and
+                   Mihai Neacsu and
+                   Leon Overweel and
+                   Sacheendra Talluri and
+                   Laurens Versluis and
+                   Maaike Visser},
+      title     = {The OpenDC Vision: Towards Collaborative Datacenter Simulation and Exploration for Everybody},
+      booktitle = {16th International Symposium on Parallel and Distributed Computing,
+                   {ISPDC} 2017, Innsbruck, Austria, July 4-6, 2017},
+      pages     = {1--10},
+      year      = {2017}
+    }
+  pdf: https://atlarge-research.com/pdfs/opendc-vision17ispdc_cr.pdf
+  tags:
+  - OpenDC
+  - vision article
+  - datacenter simulator
+  - bag-of-tasks scheduling
+  - performance analysis
+  - simulation validation
+  - characterization of system operation
+  - grid computing
+  - cloud computing
+  - datacenter computing
+  - datacenter operation
+  - system analysis
+  - resource management
+
+- id: DBLP:conf/grid/GuoSVI12
+  authors:
+  - yguo
+  - sshen
+  - ovisser
+  - aiosup
+  title: >
+    An analysis of online match-based games.
+  publication: 'HAVE 2012: 134-139 (Workshops)'
+  type: workshop
+  releaseYear: 2012
+  abstract: >
+    #[a(href="https://doi.org/10.1109/HAVE.2012.6374452") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/have/GuoSVI12,
+      author    = {Yong Guo and
+                   Siqi Shen and
+                   Otto Visser and
+                   Alexandru Iosup},
+      title     = {An analysis of online match-based games},
+      booktitle = {Proceedings of the 2012 {IEEE} International Workshop on Haptic Audio
+                   Visual Environments and Games, {HAVE} 2012, Munich, Germany, October
+                   8-9, 2012},
+      pages     = {134--139},
+      year      = {2012},
+      crossref  = {DBLP:conf/have/2012},
+      url       = {https://doi.org/10.1109/HAVE.2012.6374452},
+      doi       = {10.1109/HAVE.2012.6374452},
+      timestamp = {Fri, 02 Jun 2017 20:49:54 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/have/GuoSVI12},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/have/2012,
+      title     = {Proceedings of the 2012 {IEEE} International Workshop on Haptic Audio
+                   Visual Environments and Games, {HAVE} 2012, Munich, Germany, October
+                   8-9, 2012},
+      publisher = {{IEEE}},
+      year      = {2012},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6361517},
+      isbn      = {978-1-4673-1568-5},
+      timestamp = {Mon, 18 Apr 2016 09:15:28 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/have/2012},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2012-guo-analysis.pdf
+  tags:
+  - user study
+  - Multiplayer Online Games
+  - workload characterization
+  - characterization of system operation
+  - system analysis
+
+- id: DBLP:journals/tomccap/JiaSEI16
+  authors:
+  - aljia
+  - sshen
+  - depema
+  - aiosup
+  title: >
+    When Game Becomes Life: The Creators and Spectators of Online Game Replays and Live Streaming.
+  publication: 'TOMCCAP 12(4): 47:1-47:24 (2016)'
+  type: journal
+  releaseYear: 2016
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2957750") Online document]
+  bibtex: |
+    @article{DBLP:journals/tomccap/JiaSEI16,
+      author    = {Adele Lu Jia and
+                   Siqi Shen and
+                   Dick H. J. Epema and
+                   Alexandru Iosup},
+      title     = {When Game Becomes Life: The Creators and Spectators of Online Game
+                   Replays and Live Streaming},
+      journal   = {{TOMCCAP}},
+      volume    = {12},
+      number    = {4},
+      pages     = {47:1--47:24},
+      year      = {2016},
+      url       = {http://doi.acm.org/10.1145/2957750},
+      doi       = {10.1145/2957750},
+      timestamp = {Tue, 03 Jan 2017 13:13:55 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tomccap/JiaSEI16},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2016-jia-game.pdf
+  tags:
+  - user study
+  - content creation
+  - content consumption
+  - Multiplayer Online Games
+  - workload characterization
+  - characterization of system operation
+  - system analysis
+
+- id: DBLP:journals/internet/IosupBSJK14
+  authors:
+  - aiosup
+  - "!Ruud van de Bovenkamp"
+  - sshen
+  - aljia
+  - fkuipers
+  title: >
+    Analyzing Implicit Social Networks in Multiplayer Online Games.
+  publication: 'IEEE Internet Computing 18(3): 36-44 (2014)'
+  type: journal
+  releaseYear: 2014
+  abstract: >
+    #[a(href="https://doi.org/10.1109/MIC.2014.19") Online document]
+  bibtex: |
+    @article{DBLP:journals/internet/IosupBSJK14,
+      author    = {Alexandru Iosup and
+                   Ruud van de Bovenkamp and
+                   Siqi Shen and
+                   Adele Lu Jia and
+                   Fernando A. Kuipers},
+      title     = {Analyzing Implicit Social Networks in Multiplayer Online Games},
+      journal   = {{IEEE} Internet Computing},
+      volume    = {18},
+      number    = {3},
+      pages     = {36--44},
+      year      = {2014},
+      url       = {https://doi.org/10.1109/MIC.2014.19},
+      doi       = {10.1109/MIC.2014.19},
+      timestamp = {Tue, 06 Jun 2017 22:26:55 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/internet/IosupBSJK14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-iosup-analyzing.pdf
+  tags:
+  - social model
+  - community detection
+  - interaction graphs
+  - user model
+  - Multiplayer Online Games
+  - workload characterization
+  - characterization of system operation
+  - system analysis
+
+- id: DBLP:conf/netgames/MartensSIK15
+  authors:
+  - "!Marcus Maertens"
+  - sshen
+  - aiosup
+  - fkuipers
+  title: >
+    Toxicity detection in multiplayer online games.
+  publication: 'NETGAMES 2015: 1-6 (Best Paper Award)'
+  type: conference
+  releaseYear: 2015
+  abstract: >
+    #[a(href="https://doi.org/10.1109/NetGames.2015.7382991") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/netgames/MartensSIK15,
+      author    = {Marcus M{\"{a}}rtens and
+                   Siqi Shen and
+                   Alexandru Iosup and
+                   Fernando A. Kuipers},
+      title     = {Toxicity detection in multiplayer online games},
+      booktitle = {2015 International Workshop on Network and Systems Support for Games,
+                   NetGames 2015, Zagreb, Croatia, December 3-4, 2015},
+      pages     = {1--6},
+      year      = {2015},
+      crossref  = {DBLP:conf/netgames/2015},
+      url       = {https://doi.org/10.1109/NetGames.2015.7382991},
+      doi       = {10.1109/NetGames.2015.7382991},
+      timestamp = {Sun, 21 May 2017 00:18:48 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/netgames/MartensSIK15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/netgames/2015,
+      title     = {2015 International Workshop on Network and Systems Support for Games,
+                   NetGames 2015, Zagreb, Croatia, December 3-4, 2015},
+      publisher = {{IEEE}},
+      year      = {2015},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7377185},
+      isbn      = {978-1-5090-0068-5},
+      timestamp = {Fri, 15 Jan 2016 19:08:46 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/netgames/2015},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-maertens-toxicity.pdf
+  tags:
+  - toxicity detection
+  - social model
+  - toxicity
+  - Multiplayer Online Games
+  - workload characterization
+  - characterization of system operation
+  - system analysis
+
+- id: DBLP:journals/tomccap/ShenHIE15
+  authors:
+  - sshen
+  - "!Shun-Yun Hu"
+  - aiosup
+  - depema
+  title: >
+    Area of Simulation: Mechanism and Architecture for Multi-Avatar Virtual Environments.
+  publication: 'TOMCCAP 12(1): 8:1-8:24 (2015)'
+  type: journal
+  releaseYear: 2015
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2764463") Online document]
+  bibtex: |
+    @article{DBLP:journals/tomccap/ShenHIE15,
+      author    = {Siqi Shen and
+                   Shun{-}Yun Hu and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Area of Simulation: Mechanism and Architecture for Multi-Avatar Virtual
+                   Environments},
+      journal   = {{TOMCCAP}},
+      volume    = {12},
+      number    = {1},
+      pages     = {8:1--8:24},
+      year      = {2015},
+      url       = {http://doi.acm.org/10.1145/2764463},
+      doi       = {10.1145/2764463},
+      timestamp = {Tue, 03 Jan 2017 13:13:55 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tomccap/ShenHIE15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-shen-area.pdf
+  tags:
+  - Area-of-Simulation
+  - scalability
+  - mechanism design
+  - Multiplayer Online Games
+  - performance analysis
+  - characterization of system operation
+  - system design
+
+- id: DBLP:conf/ccgrid/ShenBI15
+  authors:
+  - sshen
+  - vvanbeek
+  - aiosup
+  title: >
+    Statistical Characterization of Business-Critical Workloads Hosted in Cloud Datacenters.
+  publication: 'CCGRID 2015: 465-474'
+  type: conference
+  releaseYear: 2015
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGrid.2015.60") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/ShenBI15,
+      author    = {Siqi Shen and
+                   Vincent van Beek and
+                   Alexandru Iosup},
+      title     = {Statistical Characterization of Business-Critical Workloads Hosted
+                   in Cloud Datacenters},
+      booktitle = {15th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2015, Shenzhen, China, May 4-7, 2015},
+      pages     = {465--474},
+      year      = {2015},
+      crossref  = {DBLP:conf/ccgrid/2015},
+      url       = {https://doi.org/10.1109/CCGrid.2015.60},
+      doi       = {10.1109/CCGrid.2015.60},
+      timestamp = {Wed, 24 May 2017 08:29:30 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/ShenBI15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2015,
+      title     = {15th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2015, Shenzhen, China, May 4-7, 2015},
+      publisher = {{IEEE} Computer Society},
+      year      = {2015},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7152188},
+      isbn      = {978-1-4799-8006-2},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2015},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-shen-statistical.pdf
+  tags:
+  - business-critical workloads
+  - cloud computing
+  - datacenter computing
+  - datacenter workload
+  - workload characterization
+  - characterization of system operation
+  - system analysis
+
+
+- id: DBLP:conf/ccgrid/ShenIICRE15
+  authors:
+  - sshen
+  - aiosup
+  - "!Assaf Israel (Technion, Israel)"
+  - "!Walfredo Cirne (Google Inc., Mountain View, CA, USA)"
+  - "!Danny Raz (Technion, Israel)"
+  - depema
+  title: >
+    An Availability-on-Demand Mechanism for Datacenters.
+  publication: 'CCGRID 2015: 495-504'
+  type: conference
+  releaseYear: 2015
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGrid.2015.58") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/ShenIICRE15,
+      author    = {Siqi Shen and
+                   Alexandru Iosup and
+                   Assaf Israel and
+                   Walfredo Cirne and
+                   Danny Raz and
+                   Dick H. J. Epema},
+      title     = {An Availability-on-Demand Mechanism for Datacenters},
+      booktitle = {15th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2015, Shenzhen, China, May 4-7, 2015},
+      pages     = {495--504},
+      year      = {2015},
+      crossref  = {DBLP:conf/ccgrid/2015},
+      url       = {https://doi.org/10.1109/CCGrid.2015.58},
+      doi       = {10.1109/CCGrid.2015.58},
+      timestamp = {Wed, 24 May 2017 08:29:30 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/ShenIICRE15},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/ccgrid/2015,
+      title     = {15th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2015, Shenzhen, China, May 4-7, 2015},
+      publisher = {{IEEE} Computer Society},
+      year      = {2015},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7152188},
+      isbn      = {978-1-4799-8006-2},
+      timestamp = {Tue, 19 Jan 2016 16:31:39 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/2015},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2015-shen-availability.pdf
+  tags:
+  - Availability-on-Demand
+  - fault tolerance
+  - high availability
+  - mechanism design
+  - datacenter computing
+  - performance analysis
+  - characterization of system operation
+  - system design
+
+- id: DBLP:conf/icmcs/IosupSGHDP14
+  authors:
+  - aiosup
+  - sshen
+  - yguo
+  - "!Stefan Hugtenburg"
+  - jdonkervliet
+  - rprodan
+  title: >
+    Massivizing online games using cloud computing: A vision.
+  publication: 'ICME Workshops 2014: 1-4'
+  type: conference
+  releaseYear: 2014
+  abstract: >
+    #[a(href="https://doi.org/10.1109/ICMEW.2014.6890684") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/icmcs/IosupSGHDP14,
+      author    = {Alexandru Iosup and
+                   Siqi Shen and
+                   Yong Guo and
+                   Stefan Hugtenburg and
+                   Jesse Donkervliet and
+                   Radu Prodan},
+      title     = {Massivizing online games using cloud computing: {A} vision},
+      booktitle = {2013 {IEEE} International Conference on Multimedia and Expo Workshops,
+                   Chengdu, China, July 14-18, 2014},
+      pages     = {1--4},
+      year      = {2014},
+      crossref  = {DBLP:conf/icmcs/2014w},
+      url       = {https://doi.org/10.1109/ICMEW.2014.6890684},
+      doi       = {10.1109/ICMEW.2014.6890684},
+      timestamp = {Thu, 15 Jun 2017 21:44:40 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/icmcs/IosupSGHDP14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/icmcs/2014w,
+      title     = {2013 {IEEE} International Conference on Multimedia and Expo Workshops,
+                   Chengdu, China, July 14-18, 2014},
+      publisher = {{IEEE} Computer Society},
+      year      = {2014},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6882610},
+      isbn      = {978-1-4799-4717-1},
+      timestamp = {Tue, 03 May 2016 13:51:37 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/icmcs/2014w},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-iosup-massivizing.pdf
+  tags:
+  - massivizing computer systems
+  - vision article
+  - Multiplayer Online Games
+  - system design
+  - cloud computing
+
+- id: DBLP:conf/ccgrid/ShenIE13
+  authors:
+  - sshen
+  - aiosup
+  - depema
+  title: >
+    Massivizing Multi-player Online Games on Clouds.
+  publication: 'CCGRID 2013: 152-155'
+  type: conference
+  releaseYear: 2013
+  abstract: >
+    #[a(href="https://doi.org/10.1109/CCGrid.2013.23") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/icmcs/IosupSGHDP14,
+      author    = {Alexandru Iosup and
+                   Siqi Shen and
+                   Yong Guo and
+                   Stefan Hugtenburg and
+                   Jesse Donkervliet and
+                   Radu Prodan},
+      title     = {Massivizing online games using cloud computing: {A} vision},
+      booktitle = {2013 {IEEE} International Conference on Multimedia and Expo Workshops,
+                   Chengdu, China, July 14-18, 2014},
+      pages     = {1--4},
+      year      = {2014},
+      crossref  = {DBLP:conf/icmcs/2014w},
+      url       = {https://doi.org/10.1109/ICMEW.2014.6890684},
+      doi       = {10.1109/ICMEW.2014.6890684},
+      timestamp = {Thu, 15 Jun 2017 21:44:40 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/icmcs/IosupSGHDP14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/icmcs/2014w,
+      title     = {2013 {IEEE} International Conference on Multimedia and Expo Workshops,
+                   Chengdu, China, July 14-18, 2014},
+      publisher = {{IEEE} Computer Society},
+      year      = {2014},
+      url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6882610},
+      isbn      = {978-1-4799-4717-1},
+      timestamp = {Tue, 03 May 2016 13:51:37 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/icmcs/2014w},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2013-shen-massivizing.pdf
+  tags:
+  - massivizing computer systems
+  - vision article
+  - Multiplayer Online Games
+  - system design
+  - cloud computing
+
+- id: DBLP:conf/mmsys/ShenI14
+  authors:
+  - sshen
+  - aiosup
+  title: >
+    Modeling Avatar Mobility of Networked Virtual Environments.
+  publication: 'MMVE@MMSys 2014: 2:1-2:6'
+  type: workshop
+  releaseYear: 2014
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2577387.2577396") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/mmsys/ShenI14,
+      author    = {Siqi Shen and
+                   Alexandru Iosup},
+      title     = {Modeling Avatar Mobility of Networked Virtual Environments},
+      booktitle = {Proceedings of International Workshop on Massively Multiuser Virtual
+                   Environments, {MMVE} 2014, Singapore, March 19-21, 2014},
+      pages     = {2:1--2:6},
+      year      = {2014},
+      crossref  = {DBLP:conf/mmsys/2014mmve},
+      url       = {http://doi.acm.org/10.1145/2577387.2577396},
+      doi       = {10.1145/2577387.2577396},
+      timestamp = {Sun, 04 Jun 2017 10:08:22 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/mmsys/ShenI14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/mmsys/2014mmve,
+      title     = {Proceedings of International Workshop on Massively Multiuser Virtual
+                   Environments, {MMVE} 2014, Singapore, March 19-21, 2014},
+      publisher = {{ACM}},
+      year      = {2014},
+      url       = {http://doi.acm.org/10.1145/2577387},
+      doi       = {10.1145/2577387},
+      isbn      = {978-1-4503-2708-4},
+      timestamp = {Wed, 27 May 2015 12:57:44 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/mmsys/2014mmve},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-shen-modeling.pdf
+  tags:
+  - avatar mobility
+  - Multiplayer Online Games
+  - gaming workload
+  - workload characterization
+  - characterization of system operation
+  - system analysis
+
+
+- id: DBLP:conf/nossdav/ShenBIE14
+  authors:
+  - sshen
+  - "!Niels Brouwers"
+  - aiosup
+  - depema
+  title: >
+    Characterization of Human Mobility in Networked Virtual Environments.
+  publication: 'NOSSDAV 2014: 13'
+  type: conference
+  releaseYear: 2014
+  abstract: >
+    #[a(href="http://doi.acm.org/10.1145/2578260.2578272") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/nossdav/ShenBIE14,
+      author    = {Siqi Shen and
+                   Niels Brouwers and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Characterization of Human Mobility in Networked Virtual Environments},
+      booktitle = {Proceedings of the 24th {ACM} Workshop on Network and Operating Systems
+                   Support for Digital Audio and Video, {NOSSDAV} 2014, Singapore, March
+                   19-20, 2014},
+      pages     = {13},
+      year      = {2014},
+      crossref  = {DBLP:conf/nossdav/2014},
+      url       = {http://doi.acm.org/10.1145/2578260.2578272},
+      doi       = {10.1145/2578260.2578272},
+      timestamp = {Mon, 05 Jun 2017 12:38:40 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/nossdav/ShenBIE14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/nossdav/2014,
+      editor    = {Kuan{-}Ta Chen and
+                   Songqing Chen},
+      title     = {Proceedings of the 24th {ACM} Workshop on Network and Operating Systems
+                   Support for Digital Audio and Video, {NOSSDAV} 2014, Singapore, March
+                   19-20, 2014},
+      publisher = {{ACM}},
+      year      = {2014},
+      url       = {http://dl.acm.org/citation.cfm?id=2597176},
+      isbn      = {978-1-4503-2706-0},
+      timestamp = {Thu, 27 Mar 2014 10:10:01 +0100},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/nossdav/2014},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-shen-characterization.pdf
+  tags:
+  - avatar mobility
+  - mobility model
+  - Multiplayer Online Games
+  - gaming workload
+  - workload modeling
+  - characterization of system operation
+  - system analysis
+
+- id: DBLP:journals/jpdc/GuoHCIE17
+  authors:
+  - yguo
+  - hchafi
+  - "!Sungpack Hong"
+  - aiosup
+  - depema
+  title: >
+    Modeling, analysis, and experimental comparison of streaming graph-partitioning policies.
+  publication: 'J. Parallel Distrib. Comput. 108: 106-121 (2017)'
+  type: journal
+  releaseYear: 2017
+  abstract: >
+    #[a(href="https://doi.org/10.1016/j.jpdc.2016.02.003") Online document]
+  bibtex: |
+    @article{DBLP:journals/jpdc/GuoHCIE17,
+      author    = {Yong Guo and
+                   Sungpack Hong and
+                   Hassan Chafi and
+                   Alexandru Iosup and
+                   Dick H. J. Epema},
+      title     = {Modeling, analysis, and experimental comparison of streaming graph-partitioning
+                   policies},
+      journal   = {J. Parallel Distrib. Comput.},
+      volume    = {108},
+      pages     = {106--121},
+      year      = {2017},
+      url       = {https://doi.org/10.1016/j.jpdc.2016.02.003},
+      doi       = {10.1016/j.jpdc.2016.02.003},
+      timestamp = {Tue, 13 Jun 2017 17:07:37 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/journals/jpdc/GuoHCIE17},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2017-guo-modeling.pdf
+  tags:
+  - streaming graph-processing
+  - graph processing
+  - stream processing
+  - high performance
+  - data partitioning
+  - mechanism design
+  - datacenter computing
+  - performance analysis
+  - characterization of system operation
+  - system design
+  - real-world experimentation
+
+- id: DBLP:conf/wbdb/IosupCHGNVV14
+  authors:
+  - aiosup
+  - mcapota
+  - thegeman
+  - yguo
+  - wlngai
+  - analucia
+  - "!Merijn Verstraaten"
+  title: >
+    Towards Benchmarking IaaS and PaaS Clouds for Graph Analytics.
+  publication: 'WBDB 2014: 109-131'
+  type: workshop
+  releaseYear: 2014
+  abstract: >
+    #[a(href="https://doi.org/10.1007/978-3-319-20233-4_11") Online document]
+  bibtex: |
+    @inproceedings{DBLP:conf/wbdb/IosupCHGNVV14,
+      author    = {Alexandru Iosup and
+                   Mihai Capota and
+                   Tim Hegeman and
+                   Yong Guo and
+                   Wing Lung Ngai and
+                   Ana Lucia Varbanescu and
+                   Merijn Verstraaten},
+      title     = {Towards Benchmarking IaaS and PaaS Clouds for Graph Analytics},
+      booktitle = {Big Data Benchmarking - 5th International Workshop, {WBDB} 2014, Potsdam,
+                   Germany, August 5-6, 2014, Revised Selected Papers},
+      pages     = {109--131},
+      year      = {2014},
+      crossref  = {DBLP:conf/wbdb/2014},
+      url       = {https://doi.org/10.1007/978-3-319-20233-4_11},
+      doi       = {10.1007/978-3-319-20233-4_11},
+      timestamp = {Mon, 05 Jun 2017 12:42:51 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wbdb/IosupCHGNVV14},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/wbdb/2014,
+      editor    = {Tilmann Rabl and
+                   Kai Sachs and
+                   Meikel Poess and
+                   Chaitanya K. Baru and
+                   Hans{-}Arno Jacobsen},
+      title     = {Big Data Benchmarking - 5th International Workshop, {WBDB} 2014, Potsdam,
+                   Germany, August 5-6, 2014, Revised Selected Papers},
+      series    = {Lecture Notes in Computer Science},
+      volume    = {8991},
+      publisher = {Springer},
+      year      = {2015},
+      url       = {https://doi.org/10.1007/978-3-319-20233-4},
+      doi       = {10.1007/978-3-319-20233-4},
+      isbn      = {978-3-319-20232-7},
+      timestamp = {Sun, 21 May 2017 00:20:57 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wbdb/2014},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2014-iosup-towards.pdf
+  tags:
+  - benchmarking
+  - vision article
+  - IaaS benchmarking
+  - PaaS benchmarking
+  - system design
+  - cloud computing
+
+- id: DBLP:conf/wosp/IlyushkinAHPGEI17
+  authors:
+  - ailyushkin
+  - "!Ahmed Ali-Eldin"
+  - "!Nikolas Herbst"
+  - "!Alessandro Vittorio Papadopoulos"
+  - bghit
+  - "!Dick H. J. Epema (TU Delft)"
+  - aiosup
+  title: >
+    An Experimental Performance Evaluation of Autoscaling Policies for Complex Workflows
+  publication: 'ICPE 2017: 75--86 (Nominated for Best Paper Award)'
+  type: conference
+  releaseYear: 2017
+  abstract: >
+    Simplifying the task of resource management and scheduling for customers, while still delivering complex
+    Quality-of-Service (QoS), is key to cloud computing. Many autoscaling policies have been proposed in the past
+    decade to decide on behalf of cloud customers when and how to provision resources to a cloud application utilizing
+    cloud elasticity features. However, in prior work, when a new policy is proposed, it is seldom compared to the
+    state-of-the-art, and is often compared only to static provisioning using a predefined QoS target. This
+    reduces the ability of cloud customers and of cloud operators to choose and deploy an autoscaling policy.
+    In our work, we conduct an experimental performance evaluation of autoscaling policies, using as application model
+    workflows, a commonly used formalism for automating resource management for applications with well-defined yet
+    complex structure. We present a detailed comparative study of general state-of-the-art autoscaling policies,
+    along with two new workflow-specific policies. To understand the performance differences between the 7 policies,
+    we conduct various forms of pairwise and group comparisons. We report both individual and aggregated metrics.
+    Our results highlight the trade-offs between the suggested policies, and thus enable a better understanding of
+    the current state-of-the-art.
+  bibtex: |
+    @inproceedings{DBLP:conf/wosp/IlyushkinAHPGEI17,
+      author    = {Alexey Ilyushkin and
+                   Ahmed Ali{-}Eldin and
+                   Nikolas Herbst and
+                   Alessandro Vittorio Papadopoulos and
+                   Bogdan Ghit and
+                   Dick H. J. Epema and
+                   Alexandru Iosup},
+      title     = {An Experimental Performance Evaluation of Autoscaling Policies for
+                   Complex Workflows},
+      booktitle = {Proceedings of the 8th {ACM/SPEC} on International Conference on Performance
+                   Engineering, {ICPE} 2017, L'Aquila, Italy, April 22-26, 2017},
+      pages     = {75--86},
+      year      = {2017},
+      crossref  = {DBLP:conf/wosp/2017},
+      url       = {http://doi.acm.org/10.1145/3030207.3030214},
+      doi       = {10.1145/3030207.3030214},
+      timestamp = {Sat, 22 Apr 2017 15:59:26 +0200},
+      biburl    = {http://dblp.org/rec/bib/conf/wosp/IlyushkinAHPGEI17},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+    @proceedings{DBLP:conf/wosp/2017,
+      editor    = {Walter Binder and
+                   Vittorio Cortellessa and
+                   Anne Koziolek and
+                   Evgenia Smirni and
+                   Meikel Poess},
+      title     = {Proceedings of the 8th {ACM/SPEC} on International Conference on Performance
+                   Engineering, {ICPE} 2017, L'Aquila, Italy, April 22-26, 2017},
+      publisher = {{ACM}},
+      year      = {2017},
+      url       = {http://doi.acm.org/10.1145/3030207},
+      doi       = {10.1145/3030207},
+      isbn      = {978-1-4503-4404-3},
+      timestamp = {Sat, 22 Apr 2017 15:59:26 +0200},
+      biburl    = {http://dblp.org/rec/bib/conf/wosp/2017},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: https://atlarge-research.com/pdfs/2017-ilyushkin-autoscaling.pdf
+  tags:
+  - auto-scaling
+  - performance study
+  - workflows
+  - scheduling
+  - benchmarking
+  - IaaS benchmarking
+  - cloud computing
+
+- id: uta-cluster-exploring-hpcbd-convergence-knl
+  authors:
+  - auta
+  - analucia
+  - amusaafir
+  - clemaire
+  - aiosup
+  title: >
+    Exploring HPC and Big Data Convergence: A Graph Processing Study on Intel Knights Landing
+  publication: 'Cluster 2018 : IEEE International Conference on Cluster Computing'
+  type: conference
+  releaseYear: 2018
+  abstract: >
+    The question “Can big data and HPC infrastructure converge?” has important implications for many operators and clients of modern computing. However, answering it is challenging. The hardware is currently different, and fast evolving: big data uses machines with modest numbers of fat cores per socket, large caches, and much memory, whereas HPC uses machines with larger numbers of (thinner) cores, non-trivial NUMA architectures, and fast interconnects. In this work, we investigate the convergence of big data and HPC infrastructure for one of the most challenging application domains, the highly irregular graph processing. We contrast through a systematic, experimental study of over 300,000 core-hours the performance of a modern multicore, Intel Knights Landing (KNL) and of traditional big data hardware, in processing representative graph workloads using state-of-the-art graph analytics platforms. The experimental results indicate KNL is convergence-ready, performance-wise, but only after extensive and expert-level tuning of software and hardware parameters.
+  bibtex: |
+  pdf: https://atlarge-research.com/pdfs/2018-cluster18-hpc-bigdata-convergence.pdf
+  tags:
+  - convergence
+  - HPC
+  - big data
+  - performance study
+  - benchmarking
+  - Intel Knights Landing
+
+- id: uta-cluster-elasticity-graph-analytics
+  authors:
+  - auta
+  - stau
+  - ailyushkin
+  - aiosup
+  title: >
+    Elasticity in Graph Analytics? A Benchmarking Framework for Elastic Graph Processing
+  publication: 'Cluster 2018 : IEEE International Conference on Cluster Computing'
+  type: conference
+  releaseYear: 2018
+  abstract: >
+    Graphs are a natural fit for modeling concepts used in solving diverse problems in science, commerce, engineering, and governance. Responding to the diversity of graph data and algorithms, many parallel and distributed graph-processing systems exist. However, until now these platforms use a static model of deployment: they only run on a pre-defined set of machines. This raises many conceptual and pragmatic issues, including misfit with the highly dynamic nature of graph processing, and could lead to resource waste and high operational costs. In contrast, in this work we explore the benefits and drawbacks of the dynamic model of deployment. Building a three-layer benchmarking framework for assessing elasticity in graph analytics, we conduct an in-depth elasticity study of distributed graph processing. Our framework is composed of state-of-the-art workloads, autoscalers, and metrics, derived from the LDBC Graphalytics benchmark and SPEC RG Cloud Group’s elasticity metrics. We uncover the benefits and cost of elasticity in graph processing: while elasticity allows for fine-grained resource management, and does not degrade application performance, we find that graph workloads are sensitive to data migration while leasing or releasing resources. Moreover, we identify non-trivial interactions between scaling policies and graph workloads, which add an extra level of complexity to resource management and scheduling for graph processing.  
+  bibtex: |
+  pdf: https://atlarge-research.com/pdfs/2018-cluster18-elasticity-graphs.pdf
+  tags:
+  - elasticity
+  - graph processing
+
+- id: journal/tompecs/IlyushkinAHPEI18
+  authors:
+  - ailyushkin
+  - "!Ahmed Ali-Eldin"
+  - "!Nikolas Herbst"
+  - "!Andre Bauer (U. Wuertzburg, Germany)"
+  - "!Alessandro Vittorio Papadopoulos (Maelardalen University, Sweden)"
+  - "!Dick H. J. Epema (TU Delft)"
+  - aiosup
+  title: >
+    An Experimental Performance Evaluation of Autoscalers for Complex Workflows
+  publication: "TOMPECS (Best Paper Nominations from ICPE'17, revised and extended versions). Accepted, in print."
+  type: journal
+  releaseYear: 2018
+  abstract: >
+    Elasticity is one of the main features of cloud computing allowing customers to scale their resources based on
+    the workload. Many autoscalers have been proposed in the past decade to decide on behalf of cloud customers
+    when and how to provision resources to a cloud application based on the workload utilizing cloud elasticity
+    features. However, in prior work, when a new policy is proposed, it is seldom compared to the state-of-the-art,
+    and is often compared only to static provisioning using a predefined QoS target. This reduces the ability of
+    cloud customers and of cloud operators to choose and deploy an autoscaling policy as there is seldom enough
+    analysis on the performance of the autoscalers in different operating conditions and with different applications.
+    In our work, we conduct an experimental performance evaluation of autoscaling policies, using as workflows, a
+    commonly used formalism for automating resource management for applications with well-defined yet complex
+    structures. We present a detailed comparative study of general state-of-the-art autoscaling policies, along with
+    two new workflow-specific policies. To understand the performance differences between the seven policies,
+    we conduct various experiments and compare their performance in both pairwise and group comparisons. We
+    report both individual and aggregated metrics. As many workflows have deadline requirements on the tasks, we
+    study the effect of autoscaling on workflow deadlines. Additionally, we look into the effect of autoscaling on
+    the accounted and hourly-based charged costs, and evaluate performance variability caused by the autoscaler
+    selection for each group of workflow sizes. Our results highlight the trade-offs between the suggested policies,
+    how they can impact meeting the deadlines, and how they perform in different operating conditions, thus
+    enabling a better understanding of the current state-of-the-art.
+  bibtex: |
+    @inproceedings{journal/tompecs/IlyushkinAHPEI18,
+      author    = {Alexey Ilyushkin and
+                   Ahmed Ali{-}Eldin and
+                   Nikolas Herbst and
+                   Alessandro Vittorio Papadopoulos and
+                   Dick H. J. Epema and
+                   Alexandru Iosup},
+      title     = {An Experimental Performance Evaluation of Autoscalers for
+                   Complex Workflows},
+      booktitle = {TOMPECS (Best Paper Nominations from ICPE'17, revised and extended versions)},
+      journal   = {{TOMPECS}},
+      NOvolume    = {1},
+      NOnumber    = {1},
+      NOpages     = {1:1--1:29},
+      year      = {2018}
+    }
+  pdf: https://atlarge-research.com/pdfs/performance-autoscaling17tompecs.pdf
+  tags:
+  - auto-scaling
+  - performance study
+  - workflows
+  - scheduling
+  - benchmarking
+  - IaaS benchmarking
+  - cloud computing
+
+- id: conf/middleware/EykIST17
+  authors:
+  - evaneyk
+  - aiosup
+  - "!Simon Seif (SAP SE, Germany)"
+  - "!Markus Thoemmes (IBM, Germany)"
+  title: >
+    The SPEC Cloud Group's Research Vision on FaaS and Serverless Architectures
+  publication: 'Second International Workshop on Serverless Computing (WoSC@Middleware 2017)'
+  type: workshop
+  releaseYear: 2017
+  abstract: >
+    Cloud computing enables an entire ecosystem of developing, composing,
+    and providing IT services. An emerging class of cloud-based
+    software architectures, serverless, focuses on providing software
+    architects the ability to execute arbitrary functions with small overhead
+    in server management, as Function-as-a-service (FaaS). However
+    useful, serverless and FaaS suffer from a community problem
+    that faces every emerging technology, which has indeed also hampered
+    cloud computing a decade ago: lack of clear terminology,
+    and scattered vision about the field. In this work, we address this
+    community problem. We clarify the term serverless, by reducing it
+    to cloud functions as programming units, and a model of executing
+    simple and complex (e.g., workflows of) functions with operations
+    managed primarily by the cloud provider. We propose a research
+    vision, where 4 key directions (perspectives) present 17 technical
+    opportunities and challenges.
+  bibtex: |
+    @inproceedings{conf/middleware/EykIST17,
+      author    = {Erwin van Eyk and
+                   Alexandru Iosup and
+                   Simon Seif and
+                   Markus Th\"{o}mmes},
+      title     = {The SPEC Cloud Group's Research Vision on FaaS and Serverless Architectures},
+      booktitle = {Proceedings of the 2nd Workshop on Second International Workshop on Serverless Computing
+                  (WoSC at Middleware 2017), Las Vegas, NV, USA, Dec 12, 2017},
+      pages     = {article 1},
+      year      = {2017}
+    }
+  pdf: https://atlarge-research.com/pdfs/spec-vision-serverless-faas17wosc_accepted.pdf
+  tags:
+  - serverless
+  - vision
+  - research challenges
+  - FaaS
+  - BaaS
+  - system design
+  - system operation
+  - system engineering
+  - performance engineering
+  - software engineering
+  - workflows
+  - scheduling
+  - benchmarking
+  - cloud computing
+
+
+- id: journals/corr/IosupUVAEHTBT18
+  authors:
+  - aiosup
+  - auta
+  - lfdversluis
+  - gandreadis
+  - evaneyk
+  - thegeman
+  - stalluri
+  - vvanbeek
+  - ltoader
+  title: >
+    Massivizing Computer Systems: a Vision to Understand, Design, and Engineer Computer Ecosystems through and beyond
+    Modern Distributed Systems
+  publication: 'International Conference on Distributed Computing Systems 2018'
+  type: journal
+  releaseYear: 2018
+  abstract: >
+    Our society is digital: industry, science, governance, and individuals depend,
+    often transparently, on the inter-operation of large numbers of distributed
+    computer systems. Although the society takes them almost for granted, these
+    computer ecosystems are not available for all, may not be affordable for long,
+    and raise numerous other research challenges. Inspired by these challenges and
+    by our experience with distributed computer systems, we envision
+    Massivizing Computer Systems, a domain of computer science focusing on
+    understanding, controlling, and evolving successfully such ecosystems.
+    Beyond establishing and growing a body of knowledge about computer
+    ecosystems and their constituent systems, the community in this domain
+    should also aim to educate many about design and engineering for this
+    domain, and all people about its principles. This is a call to the entire
+    community: there is much to discover and achieve.
+  bibtex: |
+    @article{journals/corr/IosupUVAEHTBT18,
+      author    = {Alexandru Iosup and
+                   Alexandru Uta and
+                   Laurens Versluis and
+                   Georgios Andreadis and
+                   Erwin van Eyk and
+                   Tim Hegeman and
+                   Sacheendra Talluri and
+                   Vincent van Beek and
+                   Lucian Toader},
+      title     = {Massivizing Computer Systems: a Vision to Understand, Design, and Engineer Computer Ecosystems through and beyond Modern Distributed Systems},
+      journal   = {CoRR},
+      volume    = {abs/1802.05465},
+      year      = {2018},
+      url       = {http://arxiv.org/abs/1802.05465},
+      archivePrefix = {arXiv},
+      eprint    = {1802.05465}
+    }
+  pdf: https://arxiv.org/pdf/1802.05465.pdf
+  tags:
+  - massivizing computer systems
+  - ecosystems
+
+
+- id: lfdversluis-ccgrid-comparing-autoscalers
+  authors:
+  - lfdversluis
+  - mneacsu
+  - aiosup
+  title: >
+    A Trace-Based Performance Study of Autoscaling Workloads of Workflows in Datacenters
+  publication: 'International Symposium on Cluster, Cloud and Grid Computing 2018'
+  type: conference
+  releaseYear: 2018
+  abstract: >
+    To improve customer experience, datacenter operators offer support for simplifying application and resource management. For example, running workloads of workflows on behalf of customers is desirable, but requires increasingly more sophisticated autoscaling policies, that is, policies that dynamically provision resources for the customer. Although selecting and tuning autoscaling policies is a challenging task for datacenter operators, so far relatively few studies investigate the performance of autoscaling for workloads of workflows. Complementing this previous knowledge, in this work we propose the first comprehensive performance study in the field. Using trace-based simulation, we compare state-of-the-art autoscaling policies across multiple application domains, workload arrival patterns (e.g., burstiness), and system utilization levels. We further investigate the interplay between autoscaling and regular allocation policies, and the operational cost of autoscaling. Our comprehensive quantitative study focuses on traditional performance metrics, time- and memory-related complexity metrics, and state-of-the-art elasticity metrics. Our main results give strong evidence about previously unreported operational behavior, for example, that autoscaling policies perform differently across application domains.
+  bibtex: |
+    @inproceedings{DBLP:conf/ccgrid/VersluisNI18,
+      author    = {Laurens Versluis and
+                   Mihai Neacşu and
+                   Alexandru Iosup},
+      title     = {A Trace-Based Performance Study of Autoscaling Workloads of Workflows in Datacenters},
+      booktitle = {18th {IEEE/ACM} International Symposium on Cluster, Cloud and Grid
+                   Computing, CCGrid 2018, Washington D.C., USA, May 1-4, 2018},
+      pages     = {1--10},
+      year      = {2018},
+      crossref  = {DBLP:conf/ccgrid/2018},
+      url       = {},
+      doi       = {},
+      timestamp = {Thu, 22 May 2018 15:36:29 +0200},
+      biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ccgrid/VersluisNI18},
+      bibsource = {dblp computer science bibliography, http://dblp.org}
+    }
+  pdf: "https://atlarge-research.com/pdfs/lfdversluis-ccgrid-comparing-autoscalers.pdf"
+  tags:
+  - massivizing computer systems
+  - autoscalers
+  - autoscaling
+  - comparison
+  - benchmark
+  - SPEC
+  - simulation
+  - simulating
+
+
+- id: evaneyk-spec-serverless
+  authors:
+  - evaneyk
+  - aiosup
+  - "!Cristina L. Abad (ESPOL, Ecuador)"
+  - "!Johannes Grohmann (U. Wuertzburg, Germany)"
+  - "!Simon Eismann (U. Wuertzburg, Germany)"
+  title: >
+    A SPEC RG Cloud Group's Vision on the Performance Challenges of FaaS Cloud Architectures
+  publication: 'ICPE 2018'
+  type: conference
+  releaseYear: 2018
+  abstract: >
+    As a key part of the serverless computing paradigm, Function-asa-Service (FaaS) platforms enable users to run arbitrary functions without being concerned about operational issues. However, there are several performance-related issues surrounding the state-of-the-art FaaS platforms that can deter widespread adoption of FaaS, including sizeable overheads, unreliable performance, and new forms of the cost-performance trade-off. In this work we, the SPEC RG Cloud Group, identify six performance-related challenges that arise specifically in this FaaS model, and present our roadmap to tackle these problems in the near future. This paper aims at motivating the community to solve these challenges together.
+  bibtex: |
+    @inproceedings{specrgcloud-serverless-performance-challenges,
+      author    = {Erwin van Eyk and
+                   Alexandru Iosup and
+                   Cristina L. Abad and
+                   Johannes Grohmann and
+                   Simon Eismann},
+      title     = {A SPEC RG Cloud Group's Vision on the Performance Challenges of FaaS Cloud Architectures},
+      booktitle = {Proceedings of the 8th {ACM/SPEC} on International Conference on Performance
+                   Engineering, {ICPE} 2018, Berlin, Germany, April 9 - 13, 2018},
+      year      = {2018},
+      url       = {https://doi.org/http://dx.doi.org/10.1145/3185768.3186308}
+      doi       = {10.1145/3185768.3186308},
+    }
+  pdf: "https://atlarge-research.com/pdfs/spec-rg-cloud-serverless-performance-challenges-icpe-2018.pdf"
+  tags:
+  - serverless
+  - SPEC
+
+- id: auta-comparing-big-data-workloads-hotcloudperf-2018
+  authors:
+  - auta
+  - "!Harry Obaseki (Vrije Univeristeit Amsterdam, The Netherlands)"
+  title: >
+    A Performance Study of Big Data Workloads in Cloud Datacenters with Network Variability
+  publication: 'HotCloudPerf 2018'
+  type: workshop
+  releaseYear: 2018
+  abstract: >
+    Public cloud computing platforms are a cost-effective solution for individuals and organizations to deploy various types of workloads, ranging from scientific applications, business-critical workloads, e-governance to big data applications. Co-locating all such different types of workloads in a single datacenter leads not only to performance degradation, but also to large degrees of performance variability, which is the result of virtualization, resource sharing and congestion. Many studies have already assessed and characterized the degree of resource variability in public clouds. However, we are missing a clear picture on how resource variability impacts big data workloads. In this work, we take a step towards characterizing the behavior of big data workloads under network bandwidth variability. Emulating real-world clouds’ bandwidth distribution, we characterize the performance achieved by running real-world big data applications. We find that most big data workloads are slowed down under network variability scenarios, even those that are not network-bound. Moreover, the maximum average slowdown for the cloud setup with highest variability is 1.48 for CPU-bound workloads, and 1.79 for network-bound workloads.
+  bibtex: |
+    @inproceedings{DBLP:conf/HotCloudPerf/UtaO18,
+      author    = {Alexandru Uta and
+                   Harry Obaseki},
+      title     = {A Performance Study of Big Data Workloads in Cloud Datacenters with Network Variability},
+      booktitle = {Proceedings of the First International Workshop on Hot Topics in Cloud Computing Performance, in conjuction with ICPE, Berlin, Germany, April 9, 2018},
+      year      = {2018},
+      url       = {https://dl.acm.org/citation.cfm?doid=3185768.3186299}
+      doi       = {10.1145/3185768.3186299},
+    }
+  pdf: "https://atlarge-research.com/pdfs/auta-comparing-big-data-workloads-hotcloudperf-2018.pdf"
+  tags:
+  - performance
+  - comparison
+  - SPEC
+  - big-data
+  - cloud
+  - datacenters
+  - network
+  - variability
+
+- id: lfdversluis-comparison-workflow-formalisms-hotcloudperf-2018
+  authors:
+  - lfdversluis
+  - evaneyk
+  - aiosup
+  title: >
+    An Analysis of Workflow Formalisms for Workflows with Complex Non-Functional Requirements
+  publication: 'HotCloudPerf 2018'
+  type: workshop
+  releaseYear: 2018
+  abstract: >
+    Cloud and datacenter operators offer progressively more sophisticated service level agreements to customers. The Quality-of-Service guarantees by these operators have started to entail non-functional requirements customers have regarding their applications. At the same time, expressing applications as workflows in datacenters is increasingly more common. Currently, non-functional requirements (NFRs) can only be defined on entire workflows and cannot be changed at runtime, possibly wasting valuable resources. To move towards modifiable NFRs at the task level, there is a need for a formalism capable of expressing this. Existing formalisms do not support this level of granularity or are restricted to a subset of NFRs. In this work, we investigate the current support for NFRs in existing formalisms. Using a library containing workflows with and without NFRs, we inspect the capability of existing formalisms to express these requirements. Additionally, we create and evaluate five metrics to qualitatively and quantitatively compare each formalism. Our main findings are that although current formalisms do not support arbitrary NFRs per-task, the Directed Acyclic Graphs (DAGs) formalism is the most suitable to extend.
+  bibtex: |
+    @inproceedings{DBLP:conf/HotCloudPerf/VersluisEI18,
+      author    = {Laurens Versluis and
+                   Erwin {van Eyk} and
+                   Alexandru Iosup},
+      title     = {An Analysis of Workflow Formalisms for Workflows with Complex Non-Functional Requirements},
+      booktitle = {Proceedings of the First International Workshop on Hot Topics in Cloud Computing Performance, in conjuction with ICPE, Berlin, Germany, April 9, 2018},
+      year      = {2018},
+      url       = {}
+      doi       = {},
+    }
+  pdf: "https://atlarge-research.com/pdfs/lfdversluis-comparison-workflow-formalisms-hotcloudperf-2018.pdf"
+  tags:
+  - formalism
+  - workflow
+  - SPEC
+  - comparison
+  - cloud
+  - non-functional 
+  - requirement
+  
+- id: evaneyk-from-paas-to-present-internet-computing-2018
+  authors:
+  - evaneyk
+  - ltoader
+  - stalluri
+  - lfdversluis
+  - auta
+  - aiosup
+  title: >
+    Serverless is More: From PaaS to Present Cloud Computing
+  publication: ' IEEE Internet Computing, Sep/Oct edition, 2018'
+  type: book-part
+  releaseYear: 2018
+  abstract: >
+    In the late-1950s, leasing time on an IBM 704 cost hundreds of dollars per minute. Today, cloud computing, that is, using IT as a service, on-demand and pay-per-use, is a widely used computing paradigm that offers large economies of scale. Born from a need to make platform as a service (PaaS) more accessible, fine-grained, and affordable, serverless computing has garnered interest from both industry and academia. This article aims to give an understanding of these early days of serverless computing: what it is, where it comes from, what is the current status of serverless technology, and what are its main obstacles and opportunities.
+  bibtex: |
+    @article{DBLP:journals/internet/EykTTVUI18,
+      author    = {Erwin van Eyk and
+                   Lucian Toader and
+                   Sacheendra Talluri and
+                   Laurens Versluis and
+                   Alexandru Uta and
+                   Alexandru Iosup},
+      title     = {Serverless is More: From PaaS to Present Cloud Computing},
+      journal   = {{IEEE} Internet Computing},
+      volume    = {22},
+      number    = {5},
+      year      = {2018},
+      note      = {Sep/Oct issue}
+    }
+  pdf: "https://atlarge-research.com/pdfs/serverless-history-now-future18ieeeic.pdf"
+  tags:
+  -  serverless
+  -  FaaS
+  -  cloud
+  -  datacenter
+
+- id: gandreadis-reference-architecture-scheduling-tech-report-sc-18
+  authors:
+  - gandreadis
+  - lfdversluis
+  - fmastenbroek
+  - aiosup
+  title: >
+    A Reference Architecture for Datacenter Scheduling: Extended Technical Report
+  publication: 'International Conference for High Performance Computing, Networking, Storage and Analysis 2018 (SC18)'
+  type: conference
+  releaseYear: 2018
+  abstract: >
+    Datacenters act as cloud-infrastructure to stakeholders across industry, government, and academia. To meet growing demand yet operate efficiently, datacenter operators employ increasingly more sophisticated scheduling systems, mechanisms, and policies. Although many scheduling techniques already exist, relatively little research has gone into the abstraction of the scheduling process itself, hampering design, tuning, and comparison of existing techniques. In this work, we propose a reference architecture for datacenter schedulers. The architecture follows five design principles: components with clearly distinct responsibilities, grouping of related components where possible, separation of mechanism from policy, scheduling as complex workflow, and hierarchical multi-scheduler structure. To demonstrate the validity of the reference architecture, we map to it state-of-the-art datacenter schedulers. We find scheduler-stages are commonly underspecified in peer-reviewed publications. Through trace-based simulation and real-world experiments, we show underspecification of scheduler-stages can lead to significant variations in performance.
+  bibtex: |
+    @inproceedings{DBLP:conf/SC/Andreadis18,
+      author    = {Georgios Andreadis and
+                   Laurens Versluis and
+                   Fabian Mastenbroek and
+                   Alexandru Iosup},
+      title     = {A Reference Architecture for Datacenter Scheduling: Extended Technical Report},
+      booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC18), Dallas, Texas, USA, November, 2018},
+      year      = {2018},
+      url       = {https://arxiv.org/abs/1808.04224}
+      doi       = {},
+    }
+  pdf: "https://arxiv.org/pdf/1808.04224"
+  tags:
+  - formalism
+  - reference architecture
+  - scheduling
+  - datacenter
+  - opendc
+  - cloud

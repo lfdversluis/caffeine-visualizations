@@ -1,0 +1,1271 @@
+---
+- id: 2018-convergence-hpc-big-data
+  speaker: auta
+  title: >
+    Exploring HPC and Big Data Convergence: A Graph Processing Study on Intel Knights Landing
+  year: 2018
+  venue: Cluster 2018 - IEEE International Conference on Cluster Computing, September 10 - 13, 2018, Belfast, UK.
+  abstract: |
+    <strong>ABSTRACT:</strong>
+    <br/>
+    The question “Can big data and HPC infrastructure converge?” has important implications for many operators and clients of modern computing. However, answering it is challenging. The hardware is currently different, and fast evolving: big data uses machines with modest numbers of fat cores per socket, large caches, and much memory, whereas HPC uses machines with larger numbers of (thinner) cores, non-trivial NUMA architectures, and fast interconnects. In this work, we investigate the convergence of big data and HPC infrastructure for one of the most challenging application domains, the highly irregular graph processing. We contrast through a systematic, experimental study of over 300,000 core-hours the performance of a modern multicore, Intel Knights Landing (KNL) and of traditional big data hardware, in processing representative graph workloads using state-of-the-art graph analytics platforms. The experimental results indicate KNL is convergence-ready, performance-wise, but only after extensive and expert-level tuning of software and hardware parameters.
+    <br/>
+    <br/>
+    <strong>KEYWORDS:</strong>
+    <br/>
+    High Performance Computing, Big Data, Benchmarking, Intel Knights Landing, Performance Study.
+  pdf: "/Presentations/2018/2018_CompSys_GPKNL_AUta.pdf"
+
+- id: 2018-massivizing-computer-systems-icdcs
+  speaker: aiosup
+  title: >
+    Massivizing Computer Systems: a Vision to Understand, Design, and Engineer Computer Ecosystems through and beyond Modern Distributed Systems
+  year: 2018
+  venue: 38th IEEE International Conference on Distributed Computing Systems (ICDCS 2018), July 2 – 5, 2018, Vienna, Austria.
+  abstract: |
+    <strong>ABSTRACT:</strong>
+    <br/>
+    Our society is digital: industry, science, governance, and individuals depend, often transparently, on the inter-operation of large numbers of distributed computer systems. Although the society takes them almost for granted, these computer ecosystems are not available for all, may not be affordable for long, and raise numerous other research challenges. Inspired by these challenges and by our experience with distributed computer systems, we envision Massivizing Computer Systems, a domain of computer science focusing on understanding, controlling, and evolving successfully such ecosystems. Beyond establishing and growing a body of knowledge about computer ecosystems and their constituent systems, the community in this domain should also aim to educate many about design and engineering for this domain, and all people about its principles. This is a call to the entire community: there is much to discover and achieve.
+    <br/>
+    <br/>
+    <strong>KEYWORDS:</strong>
+    <br/>
+    Massivizing Computer Systems, Distributed Systems, Cloud Computing, Edge Computing, Datacenters, Vision, Science, Design, Engineering
+    </br>
+    -- EasyChair keyphrases:  computer ecosystem (450), distributed system (322), computer system (240), massivizing computer system (206), computer science (180), non functional (173), non functional property (158), non functional requirement (158), software engineering (100), performance engineering (90), system biology (80), fundamental problem (80), large scale (80), big data (70), cloud computing (70), modern distributed system (63), big science (60), super flexibility (60), reference architecture (60), core principle (60), self awareness (60), application domain (60), grid computing (50), distributed computer system (47), large hadron collider (47), software defined everything (47), knowledge based society (47), real world experimentation (47), resource management (40), important software engineering question (40)
+    <br/>
+    -- Primary Subject Area of Submission  Cloud Computing & Data Centers
+    </br>
+    -- Secondary Subject Area of Submission  Distributed Operating Systems & Middleware
+    <br/>
+    <br/>
+    <strong>AUTHOR DETAILS:</strong>
+    <br/>
+    Alexandru Iosup a.iosup@vu.nl Netherlands Vrije Universiteit Amsterdam and TU Delft, the Netherlands {https://atlarge-research.com/aiosup/}
+    <br/>Alexandru Uta a.uta@vu.nl Netherlands Vrije Universiteit Amsterdam
+    <br/>Laurens Versluis l.f.d.versluis@vu.nl Netherlands Vrije Universiteit Amsterdam
+    <br/>Georgios Andreadis G.Andreadis@atlarge-research.com Netherlands Delft University of Technology {http://gandreadis.com}
+    <br/>Erwin van Eyk E.vanEyk@atlarge-research.com Netherlands Delft University of Technology
+    <br/>Tim Hegeman T.Hegeman@atlarge-research.com Netherlands Delft University of Technology
+    <br/>Sacheendra Talluri S.Talluri@atlarge-research.com Netherlands Delft University of Technology
+    <br/>Vincent van Beek vincent.vanbeek@solvinity.com Netherlands Solvinity {http://www.solvinity.com}
+    <br/>Lucian Toader
+
+  pdf: "/Presentations/2018/2018-07-02_A-Iosup_MassivizingComputerSystems_15-minutes_25+1-slides.pdf"
+  
+- id: 2018-massivizing-computer-systems
+  speaker: aiosup
+  title: >
+    Massivizing Computer Systems: a Vision to Understand, Design, and Engineer Computer Ecosystems through and beyond Modern Distributed Systems
+  year: 2018
+  venue: 13th Cloud Control Workshop, June 13-15, 2018,  Skåvsjöholm, Sweden
+  abstract: |
+    13th Cloud Control Workshop, June 13-15, 2018,  Skåvsjöholm, Sweden http://cloudresearch.org/workshops/13th/
+    <br/>
+    <strong>ABSTRACT:</strong>
+    <br/>
+    Our society is digital: industry, science, governance, and individuals depend, often transparently, on the interoperation of large numbers of distributed computer systems. Although the society takes them almost for granted, these computer eco-systems are not available for all, may not be affordable for long, and raise numerous other research challenges. Inspired by these challenges and by our experience with distributed computer systems, we envision Massivizing Computer Systems, a domain of computer science focusing on understanding, controlling, and evolving successfully such ecosystems. Beyond establishing and growing a body of knowledge about computer ecosystems and their constituent systems, the community in this domain should also aim to educate many about design and engineering for this domain, and all people about its principles. This is a call to the entire community: there is much to discover and achieve.
+    <br/>
+    <br/>
+    <strong>SHORT BIO (250 words):</strong>
+    <br/>
+    Alexandru Iosup is a computer scientist and professor. He is currently Tenured Full Professor and University Research Chair at the Vrije Universiteit Amsterdam, the Netherlands, where he leads the Massivizing Computer Systems group. He is also Associate Professor with the Distributed Systems group at TU Delft, the Netherlands, where he received his Ph.D. in 2009. His work has received numerous awards, including the Netherlands ICT-Researcher of the Year (2016), Netherlands Teacher of the Year (2015), and several SPEC SPECtacular community-awards (last in 2017). He is a member of the Young Academy of the Royal Academy of Arts and Sciences of the Netherlands. He is elected Chair of the SPEC Research Cloud Group. In his spare time, he contributes to training legal refugees in the Netherlands. His work is funded by a combination of personal grants (mid-career Vidi 2016 and early career Veni 2011), industry gifts and collaborations (e.g., Solvinity, Oracle, Intel), and EU and national projects. You can contact Alexandru by email [ A.Iosup@vu.nl ], visiting (check http://atlarge.science ), or via Twitter [ @AIosup ].
+
+  pdf: "/Presentations/2018/2018-06-14_A-Iosup_MassivizingComputerSystems_format-16-9_50-slides.pdf"
+  
+- id: 2018-massivizing-computer-systems-inaugural
+  speaker: aiosup
+  title: >
+    Massivizing Computer Systems: The Science of Distributed Ecosystems
+  venue: Vrije Universiteit Amsterdam
+  year: 2018
+  abstract: |
+    Inaugural Lecture as Full Tenured Professor at Vrije Universiteit Amsterdam, the Netherlands, June 12, 2018
+    <br/>
+    <strong>ABSTRACT:</strong>
+    <br/>
+    Our society is digital: industry, science, governance, and individuals depend, often transparently, on the interoperation of large numbers of distributed computer systems. Although the society takes them almost for granted, these computer eco-systems are not available for all, may not be affordable for long, and raise numerous other research challenges. Inspired by these challenges and by our experience with distributed computer systems, we envision Massivizing Computer Systems, a domain of computer science focusing on understanding, controlling, and evolving successfully such ecosystems. Beyond establishing and growing a body of knowledge about computer ecosystems and their constituent systems, the community in this domain should also aim to educate many about design and engineering for this domain, and all people about its principles. This is a call to the entire community: there is much to discover and achieve.
+    <br/>
+    <br/>
+    <strong>SHORT BIO (250 words):</strong>
+    <br/>
+    Alexandru Iosup is a computer scientist and professor. He is currently Tenured Full Professor and University Research Chair at the Vrije Universiteit Amsterdam, the Netherlands, where he leads the Massivizing Computer Systems group. He is also Associate Professor with the Distributed Systems group at TU Delft, the Netherlands, where he received his Ph.D. in 2009. His work has received numerous awards, including the Netherlands ICT-Researcher of the Year (2016), Netherlands Teacher of the Year (2015), and several SPEC SPECtacular community-awards (last in 2017). He is a member of the Young Academy of the Royal Academy of Arts and Sciences of the Netherlands. He is elected Chair of the SPEC Research Cloud Group. In his spare time, he contributes to training legal refugees in the Netherlands. His work is funded by a combination of personal grants (mid-career Vidi 2016 and early career Veni 2011), industry gifts and collaborations (e.g., Solvinity, Oracle, Intel), and EU and national projects. You can contact Alexandru by email [ A.Iosup@vu.nl ], visiting (check http://atlarge.science ), or via Twitter [ @AIosup ].
+
+  pdf: "/Presentations/2018/2018-06-12_A-Iosup_MassivizingComputerSystems_format-16-9.pdf"
+  
+- id: 2018-future-higher-education-edupar-iosup
+  speaker: aiosup
+  title: >
+    On the Future of Higher Education: Darwinian and non-Darwinian Advances in Curriculum, Didactics, Technology, and
+    Management
+  venue: 8th NSF/TCPP Workshop on Parallel and Distributed Computing Education (EduPar-18)
+  year: 2018
+  abstract: |
+    Keynote speaker for the 8th NSF/TCPP Workshop on Parallel and Distributed Computing Education (EduPar-18). The workshop will be held  In conjunction with 32nd IEEE International Parallel & Distributed Processing Symposium (IPDPS) in Vancouver, British Columbia, CANADA on Monday May 21, 2018.
+    <br/>
+    <strong>Topic:</strong> The future of education, as a combination of didactics, technology, and others (e.g., incentives for educators).
+    <br/>
+    <br/>
+    <strong>ABSTRACT:</strong>
+    <br/>
+    Higher education is at a crossroads in the 21st century. Around the world, the student body is massivizing and diversifying, the industry is requiring more complex skills especially in parallel and distributed systems (PDS), the educators feel overwhelmed and under-recognized, etc. The question "How to address the challenges of modern higher education, in particular, in PDS?" arises naturally, and is the focus of this talk. We posit that we must first focus on the typically implicit process of giving an answer, of which we distinguish two kinds: Darwinian processes based on incremental evolution, and non-Darwinian processes that focus on paradigmatic shifts. Starting from PDS needs, we contrast Darwinian and non-Darwinian answers in four dimensions, and give examples of non-Darwinian advances that we see as both desirable and foreseeable, in (1) curriculum; (2) didactics; (3) technology; and (4) management. We make predictions about higher education over the next decade, based on our personal experience and also on lessons drawn from recent studies in the Netherlands.
+    <br/>
+    <br/>
+    <strong>SHORT BIO (250 words):</strong>
+    <br/>
+    Alexandru Iosup is a computer scientist and professor. He is currently Tenured Full Professor and University Research Chair at the Vrije Universiteit Amsterdam, the Netherlands, where he leads the Massivizing Computer Systems group. He is also Associate Professor with the Distributed Systems group at TU Delft, the Netherlands, where he received his Ph.D. in 2009. His work has received numerous awards, including the Netherlands ICT-Researcher of the Year (2016), Netherlands Teacher of the Year (2015), and several SPEC SPECtacular community-awards (last in 2017). He is a member of the Young Academy of the Royal Academy of Arts and Sciences of the Netherlands. He is elected Chair of the SPEC Research Cloud Group. In his spare time, he contributes to training legal refugees in the Netherlands. His work is funded by a combination of personal grants (mid-career Vidi 2016 and early career Veni 2011), industry gifts and collaborations (e.g., Solvinity, Oracle, Intel), and EU and national projects. You can contact Alexandru by email [ A.Iosup@vu.nl ], visiting (check http://atlarge.science ), or via Twitter [ @AIosup ].
+    <br/>
+    <br/>
+    <strong>1-PAGE DESCRIPTION:</strong>
+    <br/>
+    Higher education in computer science, and especially in the diverse and complex fields of parallel and distributed systems, requires rethinking in the 21st century. In ICT alone, the human-resource gap in Europe exceeds 200,000 this year and will approach 1,000,000 by 2020; a similar gap seems to exist in the US. Massivizing and diversifying this type of education is raising important challenges, such as understanding and supporting the differences in skill, culture, and goals of a new generation of students, stretching the physical and managerial limits of traditional (brick-and-mortar) institutions, and simply the increasing complexity and interdisciplinarity of the domain---parallel and distributed systems (PDS) raise significant old and new challenges, e.g., PDS science and engineering, and related to emerging ecosystems [1], respectively.
+    <br/>
+    Giving an answer begins with understanding the process of answering. Plenty of advances in curriculum, didactics, technology, and management have been proposed over the past two decades, aiming to address the central question of this keynote. Which of these advances should we consider? Following terminology from Arthur [1, Kindle Loc. 1874-75], we distinguish two main extreme types of advances: (i) Darwinian, that is, new concepts and techniques arise from small, step-by-step variation, followed by fitness-based selection, (ii) non-Darwinian, that is, advances are the result of combining inter-disciplinary elements and of taking paradigmatic decisions; and their survival may be ensured by group and political decisions, instead of merely by their actual fitness.
+    <br/>
+    We contrast in this talk Darwinian and non-Darwinian advances in curriculum, didactics, technology, and management that could address the question. We also make predictions regarding these advances. We discuss examples of advances in curriculum, didactics, technology, and management, in turn: (1) For curriculum advances, we contrast content development done by small groups and individuals, with the multi-ennial updates in the ACM/IEEE Curriculum, and we propose increased focus on systems and design thinking; (2) For advances in didactics [2], we compare Darwinian advances such as flipped classrooms, Socratic discussions, and local hackathons, with gamification [3], honors-track programmes for young researchers, and bootcamps and global competitions, which we see as fitting to the complexity of the PDS topics; (3) For technology advances, we contrast digitization, informatization, and automation, with the education capabilities enabled by big data, cloud computing, and virtual laboratories, all examples of the modern PDS ecosystems [1]; (4) For management, we contrast processes inspired from the 1990s factory-management (e.g., efficiency measures, and other bureaucratic and accountability approaches) and committees comprised of industry-/academic-members, with giving positive incentives (and tools) to educators and involving all stakeholders in the discussion.
+    <br/>
+    In this talk, we propose that it is useful to understand the fundamental differences in the processes leading to Darwinian and non-Darwinian advances. Although it is too early to predict Which of these approaches will succeed, we believe it is likely that both Darwinian and non-Darwinian advances will emerge, with different impact and trade-offs.
+    <br/>
+    Notes on the evolution of this material: This talk uses and extends material from: (1) the analysis of content developed for young researchers in the honorstrack programme at TU Delft (2010–ongoing); (2) the “Gamification Works!” TED-like talk in the Teacher of the Year of the Netherlands competition, and the “Gamification Works! How I Learned to Stop Worrying and Love Teaching” talk given at the Netherlands all-university VSNU Education Festival (2016), and at various universities in the Netherlands and in the world (2013–2017); (3) the “Higher Education and Big Data: Vision, Ongoing Research, and Pragmatic Perspectives” talk given at the NWO/MinOCW meeting on Higher Education and Big Data; (4) the “The teacher is the Future: Iosup’s Hierarchy of Needs for Higher Education Teachers” talk given at MinOCW (2015), VSNU (2017), and at various universities in the Netherlands (2014–2017).
+    <br/>
+    <br/>
+    <strong>References</strong>
+    <br/>
+    [1] A. Iosup et al., “Massivizing computer systems: a vision to understand, design, and engineer computer ecosystems through and beyond modern distributed systems,” CoRR, vol. abs/1802.05465, 2018. [Online]. Available: http://arxiv.org/abs/1802.05465
+    <br/>
+    [2] W. B. Arthur, The Nature of Technology. Free Press, 2009, Kindle Edition.
+    <br/>
+    [3] A. Iosup and D. H. J. Epema, “An experience report on using gamification in technical higher education,” in SIGCSE, 2014, pp. 27–32.
+    Links to talks at points (2)-(4):
+    <br/>
+    (2) https://atlarge-research.com/Presentations/2017/2017-02-03_GamificationWorks17tue.pdf
+    <br/>
+    (3) https://atlarge-research.com/Presentations/2017/2017-10-25_A-Iosup_HigherEducation+BigData.pdf
+    <br/>
+    (4) https://atlarge-research.com/Presentations/2017/2017-08-24_ChallengesEduNL17VSNU.pdf
+    <br/>
+
+  pdf: "/Presentations/2018/2018-05-21_A-Iosup_FutureHigherEducation_EduPar-18_format-16-9.pdf"
+
+- id: 2018-massivizing-computer-systems-upb-vu-iosup
+  speaker: aiosup
+  title: >
+    Talk Visit UPB-VU, May 9, 2018
+  venue: Vrije Universiteit Amsterdam
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-05-08_A-Iosup_MassivizingComputerSystems_UPB-VU_format-16-9.pdf"
+
+
+- id: 2018-autoscaling-ccgrid-versluis
+  speaker: lfdversluis
+  title: >
+    A Trace-Based Performance Study of Autoscaling Workloads of Workflows in Datacenters
+  venue: CCGrid 2018, 1-4 May, Washington D.C.
+  year: 2018
+
+  pdf: "/Presentations/2018/2018-04-01_CCGrid_lfdversluis_autoscaling.pdf"
+  pptx: "/Presentations/2018/2018-04-01_CCGrid_lfdversluis_autoscaling.pptx"
+
+
+- id: 2017-massivizing-computer-systems-group
+  speaker: aiosup
+  title: >
+    Introduction to Massivizing Computer Systems, Our Research Group
+  venue: VU + TUD, the Netherlands
+  year: 2017
+  abstract: >
+    TL;DR: We are Massivizing Computer Systems.<br/>
+    We are Massivizing Computer Systems, that is, making computer systems scalable, reliable, performant, etc., yet forming efficient, engineered ecosystems available to everyone. Our work improves large-scale infrastructure, datacenters, cloud computing, big data, and numerous popular applications in the Digital Economy.<br/><br/>
+
+    Why? What? and How? Read further.<br/><br/>
+
+    Why Massivizing Computer Systems?<br/>
+    Our society depends today on computer systems. The Internet, banking, healthcare, energy management, ICT operations of SMEs and large organizations, media and web services, online games and social media, and even governance, are elements of a Digital Economy in which massive computer systems, such as modern datacenters, serve as factories producing services with massive consumption. Post-Moore computer systems, in which both hardware and software have experienced rapid change from (internal) amplification towards (external) diversification, proliferation, and commoditization, have already resulted in a diversity of radically new designs serving new ways to create and consume digital artifacts. It is this change that drives the need for a new research discipline at the core of modern computer science.<br/><br/>
+
+    What is the research when Massivizing Computer Systems?<br/>
+    Which fields of computer science do we address?<br/>
+    Overall, we uncover the laws of operation and create theories about the operation of large-scale computer systems and ecosystems, then using these to design, develop, deploy, evaluate, and benchmark useful distributed computing systems and ecosystems. We focus on:<br/><br/>
+
+    Core research in large-scale distributed computer systems, including design of system architectures and mechanisms, resource management and scheduling approaches and algorithms, design of mechanisms for resilience and reliability in computer systems, etc.<br/>
+    System performance engineering, including performance analysis, performance tuning, workload characterization and modeling, performance analysis, and benchmarking.<br/>
+    Observation and measurement of (large-scale) systems and ecosystems, in the lab and at large.<br/>
+    Comparison of multiple, repeated real-world and/or simulation experiments.<br/>
+    Understanding socio-legal impact on how large-scale systems operate and are designed. (e.g., Can we leverage the pro-social behavior of crowds, such as the formation of amateur and specialist communities, to better plan the capacity, provision resources dynamically, anticipate need for service?)<br/>
+    How are we Massivizing Computer Systems?<br/>
+    What kind of (computer) science is this? What are its core products and processes?<br/>
+    Overall, we are employing techniques that combine best-practices from the fields of large-scale distributed and parallel computing systems, performance engineering at scale, software engineering with remote teams and of large-scale software, complex systems, simulation studies, and real-world experimentation. We have spent over a decade perfecting these techniques, and we are still learning every day.<br/><br/>
+
+    We operate in Pasteur’s Quadrant, seeking fundamental knowledge, but inspired by real-world applications and aiming at societal impact through building real systems. Examples of direct fields of research include cloud computing and big data, for which our research takes fundamental approaches with many useful applications, for industry and society at large in e-Science, business-critical workloads, graph processing at large, and for end-consumers online gaming and large-scale higher education.<br/>
+    We focus on building and measuring real systems, and publish our results as free open-source software and free open-access data. When simulation brings advantages, for example for long-term or for large-scale experiments, we also use simulation, typically in tandem with real-world experiments. We use mathematical modeling and analysis too, when they can bring a plus, for example in situations of steady-state or when we are trying to find more fundamental properties for simplified settings.<br/>
+    We go the extra mile to check our code, data, experiments, and articles. We ask others to read our pre-prints, and engage with the community long before we publish. We publish our scientific articles in as much as possible in competitive, well-managed conferences and journals, and publish our software and data often. We ask new team members to re-use elements from their predecessors' research, while the predecessors are still in the team, and make sure discrepancies are addressed if and as soon as they appear. We are pioneering methods to store and share scientific knowledge in our field.<br/>
+    We invest much time in developing the scientific and engineering skills of our team members, because there can be no science or top-level engineering results without skills that already exceed what is currently taught in most academic institutions, even at Bachelor's and Master's level.<br/>
+    We are at the start of a big science process, where our computer science team already interacts with many other computer science teams with similar or different backgrounds, and aims to develop inter-disciplinary links especially around the application areas from point 2. We are already doing a part of the inter-disciplinary research within the SPEC and LDBC international organizations.<br/>
+    Are there specific research keywords related Massivizing Computer Systems?<br/>
+    Overall, we cover many of the keywords you know, and/or which are explicitly included in EU H2020 calls and other funding calls. Here is a non-exclusive list:<br/><br/>
+
+    Cloud computing: IaaS, PaaS, and FaaS cloud computing; datacenter, fog, and edge computing; federated datacenters and clusters; hybrid cloud; multi-cloud and multi-cluster; reserved, spot, and on-demand services; serverless operation; heterogeneous resources; resource management and scheduling; scheduling policies; provisioning; allocation; portfolio scheduling; dynamic schesduling; horizontal and vertical scaling; auto-scaling; auto-tiering; elastic cloud management; software-defined operation; the consistency-availability-partition-tolerance trade-off space; worfklow and dataflow; bags-of-tasks; tiered services; stream processing.<br/><br/>
+
+    Big Data: all aspects of cloud computing and performance engineering, plus convergence of HPC, cloud computing, and big data workloads; graph processing; MapReduce/Hadoop, dataflow/Spark; data processing; data partitioning and replication.<br/><br/>
+
+    Performance engineering: auto-tuning; performance optimization; workload characterization and modeling; performance metrics; performance; scalability; elasticity; availability; reliability; dependability; energy-proportionality and energy-efficiency; measurements; observation; longitudinal studies; monitoring; performance studies; benchmarking; the platform-algorithm-workload trade-off space; performance analysis; bottleneck identification; anomaly detection; performance-issue analysis; software and hardware performance counters.<br/><br/>
+
+    Large-scale test-labs and Living labs: demonstrators, system deployment and configuration, experimental evaluation; DevOps in practice; build-and-test workloads; background workload; methodology; reproducibility.<br/><br/>
+
+    Why this scope of research? Does Massivizing Computing Systems respond to a practical need?<br/>
+    Indeed, there are many general topics and specific research keywords. We see Massivizing Computing Systems as the natural evolution in scope of the former grid computing, and later cloud computing, communities. As part of those communities, we as the large-scale distributed computing community have not engaged sufficiently with the science and practice of software and performance engineering (and vice-versa). Everybody stood to lose. We do not want to repeat the same mistakes, and ours is a call to research for the combined communities.<br/><br/>
+
+    What is this @Large and how does it relate to Massivizing Computer Systems?<br/>
+    @Large is a short form of how we see systems operating in real situations: they simply (mis-)behave when put together, to the point where individual systems fail to preserve the properties and guarantees delivered under laboratory conditions, and entire ecosystems under-perform or become undependable.<br/><br/>
+
+    URL: <a href="https://atlarge-research.com/research.html">https://atlarge-research.com/research.html</a><br/>
+
+  pdf: "/Presentations/2017/2017_A-Iosup_MassivizingComputerSystems_out.pdf"
+
+
+- id: 2017-intro-cloud-computing-restart-october-iosup
+  speaker: aiosup
+  title: >
+    Introduction to Cloud Computing
+  venue: Workshop, Restart.network, CiC Rotterdam, the Netherlands
+  year: 2017
+  abstract: >
+    This workshop is aimed at introducting cloud computing to groups under-represented in the Dutch ICT landscape: legal refugees, single moms, etc. We discuss in this workshop (October 2017) the need for, technology, and use of cloud computing.
+
+  pdf: "/Presentations/2017/2017_IntroductionCloudComputing_format-16-9_vu-tud.pdf"
+
+- id: 2017-big-data-higher-education-nwo-iosup
+  speaker: aiosup
+  title: >
+    Higher Education and Big Data: Vision, Ongoing Research, and Pragmatic Perspectives
+  venue: Invited Talk at NWO/MinOCW meeting on Big Data in Higher Education
+  year: 2017
+  abstract: >
+    Higher education is at a crossroads in the 21st century. Around the world, the student body is massivizing and diversifying, the industry is requiring more complex skills, the educators feel overwhelmed and under-recognized. In the Netherlands, the 200th ministerial report on the Status of Education ("De Staan van Onderwijs") reveals a high-quality system, but also with an increasing gap to the international top-level, and having to respond to changes in demographics and societal challenges. To address problems of scale and complexity, various domains of human activity have adopted IT and more recently Big Data capabilities. The question "How can Big Data help alleviate the challenges of modern higher education?" arises naturally, and is the focus of this talk.<br/><br/>
+
+    To answer this question, we first warn that Big Data is not just "lots of data" or a universal panaceum. Instead, we identify a variety of opportunities and threats when using Big Data, considering technological, ethical, and legal perspectives. We propose our view of what Big Data is, from technology that automates, to transformative approach in how we understand and answer complex questions, to threat if left unchecked or in malicious hands.<br/><br/>
+
+    We then focus on the use of Big Data in education, and survey use-cases from pilot-projects in the Netherlands, and studies done in conjunction with Khan Academy, Coursera, and edX. Although some of these are still at ideation stage, we discuss, among other benefits, how: (1) learning analytics (educational data mining) could help with guiding students to achieve more even when the higher education is becoming more international and otherwise diverse, (2) automated feedback and dynamic recognition for achievement could help increase accountability and reduce discrimination for both students and educators, (3) student log-books and student portfolios could create new opportunities for teaching, (4) adaptive use of learning objects could guide a new generation of learning design and enable new didactics, and (5) data-driven workflows could optimize education processes and reduce the burden of bureaucracy. We also explain the gap between the state-of-the-art in Big Data technology and what support for innovation is needed to address the emerging technology challenges of higher education.<br/><br/>
+
+    Last, we make various predictions about the use of big data in higher education over the next decade, based on our personal experience and also on lessons drawn from recent studies in the Netherlands.
+
+  pdf: "/Presentations/2017/2017-10-25_A-Iosup_HigherEducation+BigData.pdf"
+
+
+- id: 2017-teaching-needs-vsnu-iosup
+  speaker: aiosup
+  title: >
+    The Teacher Is the Future
+  venue: Invited Talk at VSNU Symposium on the Future of Education
+  year: 2017
+  abstract: >
+    Technical universities, especially in Europe, are facing an
+    important challenge in attracting more diverse groups of students, and in keeping the students they attract motivated
+    and engaged in the curriculum. What should we do about the future of higher education?<br/><br/>
+
+    We define a hierarchy of needs for teachers in higher education. We identify needs from survival to parenting.<br/>
+    Among the survival needs, we discuss basics (e.g., defining course objectives, and designing and delivering course material),
+    and control needs (e.g., monitoring and understanding course trade-offs).<br/>
+    Among the growth needs, we discuss affection and belonging needs (e.g., sharing course material and didactics principles, and joining communities of teachers), status and esteem needs (e.g., mastery of traditional didactics and teaching techniques, and ranking that goes deeper than Teacher of the Year), and personal optimum (e.g., learning about the latest didactics and teaching techniques, and creating new techniques or innovative material).<br/>
+    Among the parenting needs, we introduce the concept of an education family (e.g., teaching a new generation of teachers), and directing a new education culture (e.g., seeing your innovations being used and abused outside your direct control, by a new generation of educators).
+
+  pdf: "/Presentations/2017/2017-08-24_ChallengesEduNL17VSNU.pdf"
+
+
+- id: 2017-opendc-compsys-overweel
+  speaker: loverweel
+  title: >
+    OpenDC: Collaborative Datacenter Simulation and Exploration for Everybody
+  venue: International Conference on Computing Systems (CompSys 2017), Vught, the Netherlands
+  year: 2017
+  abstract: >
+    Talk on the OpenDC project at CompSys 2017.
+
+  pdf: "/Presentations/2017/2017-06-21_OpenDC_CompSys-2017_(9-slide).pdf"
+
+
+- id: 2017-massivizing-distributed-systems-tsinghua-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Computer Systems = Making Modern Computer Systems Scalable, Reliable, High-Performance, Easy-to-Develop, Easy-to-Use, etc., Efficiently
+  venue: Invited Talk, Tsinghua-VU Faculty Symposium, Beijing, China
+  year: 2017
+  abstract: >
+    Computer systems are present in every aspect of our lives. From business, where online shopping is ICT-based, to education, increasingly online and digital, to science, increasingly using ICT as scientific instrument, to leisure, where online gaming is the most popular form of entertainment. An evolving networked world gives us access to increasingly more sophisticated computation and data services. With companies such as Google, Facebook, Amazon already present in our daily routines, is there anything still needed from ICT that the industry cannot already provide? The answer is an emphatic "Yes!" Although we can already develop computer systems, we have grasped the main laws of their operation, and we have developed theories about how computers work, at massive scales computer systems behave differently from what we expect. This lecture focuses on interesting new challenges in the operation of the computer systems, grouped under the umbrella-term of Massivizing Computer Systems. The challenges are many: modern computer systems under-perform or become unavailable, scale poorly or are less elastic than we wish, work as complex software stacks about which we cannot reason well, form complex systems of systems whose ecosystem-like behavior we are just beginning to grasp, etc. You will learn about our early approaches to understand the laws of modern computer systems, and about our early theories on the design, development, deployment, analysis, and benchmarking of computer systems that are massive in nature.
+
+  pdf: "/Presentations/2017/2017_A-Iosup_MassivizingComputerSystems17Tsinghua_perso_out.pdf"
+
+
+- id: 2017-intro-cloud-computing-restart-may-iosup
+  speaker: aiosup
+  title: >
+    Introduction to Cloud Computing
+  venue: Workshop, Restart.network, CiC Rotterdam, the Netherlands
+  year: 2017
+  abstract: >
+    This workshop is aimed at introducting cloud computing to groups under-represented in the Dutch ICT landscape: legal refugees, single moms, etc. We discuss in this workshop (May 2017, repeated in July 2017) the need for, technology, and use of cloud computing.
+
+  pdf: "/Presentations/2017/2017_IntroductionCloudComputing_format-16-9.pdf"
+
+
+- id: 2017-massivizing-distributed-systems-vu-few-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Computer Systems = Making Modern Computer Systems Scalable, Reliable, High-Performance, Easy-to-Develop, Easy-to-Use, etc., Efficiently
+  venue: Keynote, VU FEW Faculty Symposium, Amsterdam, the Netherlands
+  year: 2017
+  abstract: >
+    Computer systems are present in every aspect of our lives. From business, where online shopping is ICT-based, to education, increasingly online and digital, to science, increasingly using ICT as scientific instrument, to leisure, where online gaming is the most popular form of entertainment. An evolving networked world gives us access to increasingly more sophisticated computation and data services. With companies such as Google, Facebook, Amazon already present in our daily routines, is there anything still needed from ICT that the industry cannot already provide? The answer is an emphatic "Yes!" Although we can already develop computer systems, we have grasped the main laws of their operation, and we have developed theories about how computers work, at massive scales computer systems behave differently from what we expect. This lecture focuses on interesting new challenges in the operation of the computer systems, grouped under the umbrella-term of Massivizing Computer Systems. The challenges are many: modern computer systems under-perform or become unavailable, scale poorly or are less elastic than we wish, work as complex software stacks about which we cannot reason well, form complex systems of systems whose ecosystem-like behavior we are just beginning to grasp, etc. You will learn about our early approaches to understand the laws of modern computer systems, and about our early theories on the design, development, deployment, analysis, and benchmarking of computer systems that are massive in nature.
+
+  pdf: "/Presentations/2017/2017_A-Iosup_MassivizingComputerSystems17VU-FEW.pdf"
+
+- id: 2017-graphalytics-ldbc-tuc-ibm-iosup
+  speaker: aiosup
+  title: >
+    Graphalytics: a Big Data Benchmark for Graph-Processing Platforms
+  venue: Invited Talk, LDBC TUC meeting at SAP, Walldorf, Germany
+  year: 2017
+  abstract: >
+    We discuss in this talk our past and present experience with LDBC Graphalytics, an industrial-grade benchmark that enables the objective comparison of graph analysis platforms. It consists of six core algorithms, standard datasets, synthetic dataset generators, and reference output. The design of the benchmark takes into account that graph processing is impeded by three dimensions of diversity: platform, algorithms and datasets.
+
+    URL: http://graphalytics.org/site/dist/index.html?p=documentation
+
+  pdf: "/Presentations/2017/2017-02-09_Graphalytics17tuc-sap_format-16-9.pdf"
+
+- id: 2017-gamification-tue-iosup
+  speaker: aiosup
+  title: >
+    Gamification Works! Or: How I Learned to Stop Worrying and Love Teaching
+  venue: Invited Talk, VSNU Education Day, the Netherlands
+  year: 2016
+  abstract: >
+    In ICT alone, the human-resource gap in Europe exceeds 200,000 this year and will approach 1,000,000 by 2020. Thus, "Every student counts!" is the new Grand Challenge in education, horizon 2035. However, every student is also different, in starting skill, in personality, etc. We posit that gamification, which we define as using social gaming elements to successfully deliver curriculum-elements, will become a useful tool to help solving the Grand Challenge. In this workshop, you will learn how you can use gamification to improve university teaching and learning. The interactive session will start from Alexandru’s experience using gamification with his teaching team at TU Delft – for many years, for several BSc and MSc courses, with high passing rates and student satisfaction, and with high student participation and engagement. The discussion will focus on gamification mechanics and dynamics, and on activating students from talented to simply disinterested. Alexandru hopes to show that gamification is not just the BLT sandwich of higher education. There may also be brownies.
+
+  pdf: "/Presentations/2017/2017-02-03_GamificationWorks17tue.pdf"
+
+- id: 2016-massivizing-distributed-systems-award-lorentz-center-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Distributed Systems = Making Systems Scalable, Reliable, High-Performance, etc., Yet Efficient
+  venue: Invited Talk, Lorentz Center, the Netherlands
+  year: 2016
+  abstract: >
+    Computer systems are present in every aspect of our lives. From business, where online shopping is ICT-based, to education, increasingly online and digital, to science, increasingly using ICT as scientific instrument, to leisure, where online gaming is the most popular form of entertainment. This has all become possible only in the new networked world, where networking advances enable everyone to access very sophisticated computation. With companies such as Google, Facebook, Amazon already present in our daily routines, is there anything still needed from ICT that the industry cannot yet provide? The answer is an emphatic "Yes!" Although we can already develop computer systems, we have grasped the main laws of their operation, and we have developed theories about how computers work, at massive scales computer systems behave differently from what we expect. This lecture focuses on interesting new challenges in the operation of the computer systems, grouped under the umbrella-term of Massivizing Computer Systems. The challenges are many: modern computer systems under-perform, become unavailable, scale poorly, are less elastic than we wish, work as complex software stacks about which we cannot reason well, form complex systems of systems whose ecosystem-like behavior we are just beginning to grasp. You will learn about early approaches to understand the laws of modern computer systems, and about our early theories on the design, development, deployment, analysis, and benchmarking of computer systems that are massive in nature.<br/>
+
+    URL: <a href="http://www.lorentzcenter.nl/LCHighlights/abstracts.php?abstract=Iosup">http://www.lorentzcenter.nl/LCHighlights/abstracts.php?abstract=Iosup</a>
+
+  pdf: "/Presentations/2016/2016_A-Iosup_MassivizingComputerSystems16LorentzCenter_format-16-9.pdf"
+
+
+- id: 2016-gamification-vsnu-iosup
+  speaker: aiosup
+  title: >
+    Gamification Works! Or: How I Learned to Stop Worrying and Love Teaching
+  venue: Invited Talk, VSNU Education Day, the Netherlands
+  year: 2016
+  abstract: >
+    In ICT alone, the human-resource gap in Europe exceeds 200,000 this year and will approach 1,000,000 by 2020. Thus, "Every student counts!" is the new Grand Challenge in education, horizon 2035. However, every student is also different, in starting skill, in personality, etc. We posit that gamification, which we define as using social gaming elements to successfully deliver curriculum-elements, will become a useful tool to help solving the Grand Challenge. In this workshop, you will learn how you can use gamification to improve university teaching and learning. The interactive session will start from Alexandru’s experience using gamification with his teaching team at TU Delft – for many years, for several BSc and MSc courses, with high passing rates and student satisfaction, and with high student participation and engagement. The discussion will focus on gamification mechanics and dynamics, and on activating students from talented to simply disinterested. Alexandru hopes to show that gamification is not just the BLT sandwich of higher education. There may also be brownies.
+
+  pdf: "/Presentations/2016/2016-10-12_GamificationWorks16vsnu-edu-festival.pdf"
+
+- id: 2016-graphalytics-pelga-iosup
+  speaker: aiosup
+  title: >
+    Graphalytics: from Benchmarking to Performance Engineering
+  venue: Keynote, PELGA workshop at Euro-Par
+  year: 2016
+  abstract: >
+    Graphs model social networks, human knowledge, and other vital information for business,
+    governance, and academic practice.
+    Although both industry and academia are developing and tuning many graph-processing
+    algorithms and platforms, the performance of graph-processing platforms has never been
+    explored or compared in-depth. Moreover, graph processing exposes new bottlenecks in
+    traditional HPC systems (see differences in Top500 and Graph500 rankings).<br/><br/>
+
+    In this talk, we introduce the LDBC Graphalytics benchmark, which focuses on batch full-graph analytics.
+    Attendees will learn about methods and tools for performance evaluation and optimization for
+    graph processing platforms, and hear about our view that the performance forms a dependency triangle
+    Platform-Algorithm-Dataset. We will present real-world experiences with commonly used systems, in particular
+    with graph-processing platforms such as Giraph, Graphmat, OpenG, PGX.D, and PowerGraph.
+    Moving towards performance engineering, and in particular bottleneck analysis and performance diagnosis,
+    we further focus on Granula, a component of LDBC Graphalytics for in-depth performance analysis
+    for graph-processing systems with various data processing models.<br/><br/>
+
+    URL: <a href="https://graphalytics.org">https://graphalytics.org</a>
+
+  pdf: "/Presentations/2016/2016-08-22_A-Iosup_Graphalytics16PELGA_format-16-9.pdf"
+
+
+- id: 2016-massivizing-distributed-systems-award-netherlands-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Distributed Systems = Making Systems Scalable, Reliable,  High-Performance, etc., Yet Efficient
+  venue: Award Talk, Netherlands Yearly Prize for ICT Research (NWO/IPN/KHMW) Nederlandse Prijs for ICT-onderzoek), the Netherlands
+  year: 2016
+  abstract: >
+    Computer systems are present in every aspect of our lives. From business, where online shopping is ICT-based, to education, increasingly online and digital, to science, increasingly using ICT as scientific instrument, to leisure, where online gaming is the most popular form of entertainment. This has all become possible only in the new networked world, where networking advances enable everyone to access very sophisticated computation. With companies such as Google, Facebook, Amazon already present in our daily routines, is there anything still needed from ICT that the industry cannot yet provide? The answer is an emphatic "Yes!" Although we can already develop computer systems, we have grasped the main laws of their operation, and we have developed theories about how computers work, at massive scales computer systems behave differently from what we expect. This lecture focuses on interesting new challenges in the operation of the computer systems, grouped under the umbrella-term of Massivizing Computer Systems. The challenges are many: modern computer systems under-perform, become unavailable, scale poorly, are less elastic than we wish, work as complex software stacks about which we cannot reason well, form complex systems of systems whose ecosystem-like behavior we are just beginning to grasp. You will learn about early approaches to understand the laws of modern computer systems, and about our early theories on the design, development, deployment, analysis, and benchmarking of computer systems that are massive in nature.<br/><br/>
+
+    URL: <a href="https://www.nwo.nl/actueel/nieuws/2015/ew/alexandru-iosup-ontvangt-nederlandse-prijs-voor-ict-onderzoek-2016.html">https://www.nwo.nl/actueel/nieuws/2015/ew/alexandru-iosup-ontvangt-nederlandse-prijs-voor-ict-onderzoek-2016.html</a>
+
+  pdf: "/Presentations/2016/2016_A-Iosup_MassivizingDistributedSystems16ictopen_format-16-9__out.pdf"
+
+- id: 2016-gamification-ictopen-iosup
+  speaker: aiosup
+  title: >
+    On the Future of Higher Education: Gamification, The Pyramid of Needs, and ICT to the Rescue
+  venue: Invited Talk at ICT.OPEN
+  year: 2016
+  abstract: >
+    Technical universities, especially in Europe, are facing an
+    important challenge in attracting more diverse groups of students, and in keeping the students they attract motivated
+    and engaged in the curriculum. What should we do about the future of higher education?<br/><br/>
+
+    We first describe our experience with gamification, which we loosely define as a teaching
+    technique that uses social gaming elements to deliver higher
+    education. Over the past three years, we have applied gamification to undergraduate and graduate courses in a
+    leading technical university in the Netherlands and in Europe.
+    Ours is one of the first long-running attempts to show that
+    gamification can be used to teach technically challenging
+    courses. The two gamification-based courses, the first-year
+    B.Sc. course Computer Organization and an M.Sc.-level
+    course on the emerging technology of Cloud Computing,
+    have been cumulatively followed by over 450 students and
+    passed by over 75% of them, at the first attempt. We find
+    that gamification is correlated with an increase in the percentage of passing students, and in the participation in
+    voluntary activities and challenging assignments. Gamification
+    seems to also foster interaction in the classroom and trigger
+    students to pay more attention to the design of the course.
+    We also observe very positive student assessments and volunteered testimonials, and a Teacher of the Year award.<br/><br/>
+
+    We then define a hierarchy of needs for teachers in higher education. We identify needs from survival to parenting.<br/>
+    Among the survival needs, we discuss basics (e.g., defining course objectives, and designing and delivering course material),
+    and control needs (e.g., monitoring and understanding course trade-offs).<br/>
+    Among the growth needs, we discuss affection and belonging needs (e.g., sharing course material and didactics principles, and joining communities of teachers), status and esteem needs (e.g., mastery of traditional didactics and teaching techniques, and ranking that goes deeper than Teacher of the Year), and personal optimum (e.g., learning about the latest didactics and teaching techniques, and creating new techniques or innovative material).<br/>
+    Among the parenting needs, we introduce the concept of an education family (e.g., teaching a new generation of teachers), and directing a new education culture (e.g., seeing your innovations being used and abused outside your direct control, by a new generation of educators).<br/><br/>
+
+
+    Last, we posit that ICT should come to the rescue, and discuss several ways ICT could help teachers in higher education.<br/>
+    In particular, we propose the Personal Academic File, which enables data access and processing to help students, develops automated tools to inform and, if possible, to suggest course of action, and posits that data should only be used ethically and with consent (opt-in).
+
+  pdf: "/Presentations/2016/2016-03-23_A-Iosup_MasterclassEducation16ictopen.pdf"
+
+
+- id: 2016-graphalytics-ldbc-tuc-upc-iosup
+  speaker: aiosup
+  title: >
+    Graphalytics: a Big Data Benchmark for Graph-Processing Platforms
+  venue: Invited Talk, LDBC TUC meeting at UPC Barcelona, Spain
+  year: 2016
+  abstract: >
+    We discuss in this talk our past and present experience with LDBC Graphalytics, an industrial-grade benchmark that enables the objective comparison of graph analysis platforms. It consists of six core algorithms, standard datasets, synthetic dataset generators, and reference output. The design of the benchmark takes into account that graph processing is impeded by three dimensions of diversity: platform, algorithms and datasets.
+
+  pdf: "/Presentations/2015/2016-03-04_graphalyics16tuc-upc__out.pdf"
+
+
+- id: 2015-massivizing-graph-processing-nirict-iosup
+  speaker: aiosup
+  title: >
+    Massivizing (= Scalable, High Performance, Reliable, Efficient) Graph-Processing Systems
+  venue: Invited Talk, NIRICT, the Netherlands
+  year: 2015
+  abstract: >
+
+    Graphs model social networks, human knowledge, and other
+    vital information for business, governance, and academic
+    practice. In this talk, we discuss our research on
+    Massivizing Graph Pocessing: making Graph-Processing systems
+    Scalable, High Performance, Reliable, Efficient Graph-Processing Systems<br/><br/>
+
+    KEYWORDS:<br/>
+    Massivizing Graph Pocessing; Distributed Heterogeneous Graph Processing; Graph Processing Systems;  Scalable, High Performance, Reliable, Efficient Graph-Processing Systems; Benchmarking; System Design; Experimental Research
+
+  pdf: "/Presentations/2015/2015-12-02_A-Iosup_MassivizingGraphProcessing15NIRICT_format-16-9.pdf"
+
+- id: 2015-dc-tech-utaustin-iosup
+  speaker: aiosup
+  title: >
+    Global-Scale Applications Rely on Datacenters, Datacenters Rely on Scalable Computer Systems
+  venue: Invited Talk, University of Texas in Austin, TX, USA
+  year: 2015
+  abstract: >
+    Google, Facebook, Amazon are all major tech companies that rely on scalable computer systems to survive. To cope with increasing computation demands and with the data deluge, we have already started to build complex hardware and software systems of systems (ecosystems), which a global user community accesses as cloud services. These users demand high performance or high throughput, and may switch at any time among the hundreds of service providers and technologies. This lecture focuses on interesting new challenges in the operation of the datacentres that form the infrastructure of cloud services, in particular on supporting the dynamic workloads of demanding users, on ensuring various forms of scalability, and also on efficient and fair operation. You will learn here vital skills for the industry: if we succeed in addressing these challenges, we may not only enable the advent of big science and engineering, and the almost complete automation of many large-scale processes, but also reduce the ecological footprint of datacentres and the entire ICT industry. Among these topics, we will also talk about how we won the IEEE Scale Challenge 2014.
+
+  pdf: "/Presentations/2015/2015-11-20_A-Iosup_DatacenterTech15ut-austin_format-16-9.pdf"
+
+
+- id: 2015-graphalytics-sc-tutorial-iosup
+  speaker: aiosup
+  title: >
+    Benchmarking Platforms for Large-Scale Graph Processing and RDF Data Management: The LDBC Approach
+  venue: Tutorial at ICPE
+  year: 2015
+  abstract: >
+    Speakers: Alexandru Iosup, Ana Lucia Varbanescu, Mihai Capota, Tim Hegeman
+
+    Graphs model social networks, human knowledge, and other
+    vital information for business, governance, and academic
+    practice.
+    Although both industry and academia are developing and
+    tuning many graph-processing algorithms and platforms, the
+    performance of graph-processing platforms has never been
+    explored or compared in-depth. Moreover, graph processing
+    exposes new bottlenecks in traditional HPC systems (see differences
+    in Top500 and Graph500 rankings).
+    Complementing Graph500, the Linked Data Benchmark Council
+    (LDBC) consortium, which involves over 25 academic and
+    industry partners, focuses on the development of benchmarks
+    that will spur research and industry progress in large-scale
+    graph and RDF data management.
+    This tutorial introduces the SC audience to the latest LDBC
+    benchmarks. Attendees will learn about and experiment with
+    methods and tools for performance evaluation and optimization
+    for graph processing platforms, and become able to
+    explain the performance dependency Platform-Algorithm-Dataset.
+    The attendees will understand in-depth three workloads,
+    interactive social networking, semi-online business intelligence
+    based on analytical queries, and batch full-graph analytics. The
+    tutorial presents real-world experiences with commonly used
+    systems, from graph databases such as Virtuoso and Neo4j,
+    to parallel GPU-based systems such as Totem and Medusa, to
+    distributed graph-processing platforms such as Giraph and
+    GraphX. The tutorial also includes significant hands-on and
+    Q&A components.
+
+    URL: http://graphalytics.org/site/dist/index.html?p=documentation
+
+  pdf: "/Presentations/2015/2015-11-15_SC2015_tutorial.pdf"
+
+
+- id: 2015-dc-tech-ibm-iosup
+  speaker: aiosup
+  title: >
+    Global-Scale Applications Rely on Datacenters, Datacenters Rely on Scalable Computer Systems
+  venue: Invited Talk, IBM TJ Watson Research Center, NY, USA
+  year: 2015
+  abstract: >
+    Google, Facebook, Amazon are all major tech companies that rely on scalable computer systems to survive. To cope with increasing computation demands and with the data deluge, we have already started to build complex hardware and software systems of systems (ecosystems), which a global user community accesses as cloud services. These users demand high performance or high throughput, and may switch at any time among the hundreds of service providers and technologies. This lecture focuses on interesting new challenges in the operation of the datacentres that form the infrastructure of cloud services, in particular on supporting the dynamic workloads of demanding users, on ensuring various forms of scalability, and also on efficient and fair operation. You will learn here vital skills for the industry: if we succeed in addressing these challenges, we may not only enable the advent of big science and engineering, and the almost complete automation of many large-scale processes, but also reduce the ecological footprint of datacentres and the entire ICT industry. Among these topics, we will also talk about how we won the IEEE Scale Challenge 2014.
+
+  pdf: "/Presentations/2015/2015-11-11_A-Iosup_DatacenterTech15ibmtj_format-16-9.pdf"
+
+
+- id: 2015-graphalytics-ldbc-tuc-ibm-iosup
+  speaker: aiosup
+  title: >
+    Graphalytics: a Big Data Benchmark for Graph-Processing Platforms
+  venue: Invited Talk, LDBC TUC meeting at IBM TJ Watson Research Center, NY, USA
+  year: 2015
+  abstract: >
+    We discuss in this talk our past and present experience with LDBC Graphalytics, an industrial-grade benchmark that enables the objective comparison of graph analysis platforms. It consists of six core algorithms, standard datasets, synthetic dataset generators, and reference output. The design of the benchmark takes into account that graph processing is impeded by three dimensions of diversity: platform, algorithms and datasets.
+
+    URL: http://graphalytics.org/site/dist/index.html?p=documentation
+
+  pdf: "/Presentations/2015/2015-11-09_graphalyics15tuc-ibmtj.pdf"
+
+
+- id: 2015-gamification-education-day-tudelft-iosup
+  speaker: aiosup
+  title: >
+    Gamification Works!
+  venue: Keynote, TU Delft Yearly Education Day
+  year: 2015
+  abstract: >
+    We discuss in this talk our ideas and about experience with innovating gamification in higher education.
+    Gamification works! But what ideas, techniques, and results
+    are behind this? Let's play with learning graphs, mechanics, and dynamics of a gamified course. Can you get a high score?
+
+  pdf: "/Presentations/2015/2015-11-04_InteractiveSessionGamification15tud.pdf"
+
+- id: 2015-gamification-cel-iosup
+  speaker: aiosup
+  title: >
+    Gamification: an Interactive Session
+  venue: Interactive Session, CEL meeting on Education in Higher Education, the Netherlands
+  year: 2015
+  abstract: >
+    Does gamification help us to enhance
+    university teaching and learning?
+    Alexandru Iosup, will show you how he
+    uses gamification in his courses to improve
+    university teaching and learning. He will
+    report about his and others’ research of
+    the effects on students’ participation and
+    achievement.
+
+  pdf: "/Presentations/2015/2015-10-02_InteractiveSessionGamification15tud.pdf"
+
+
+- id: 2015-graphalytics-icpe-tutorial-iosup
+  speaker: aiosup
+  title: >
+    Platform Selection and Performance Engineering for Graph Processing on Parallel and Distributed Platforms
+  venue: Tutorial at ICPE
+  year: 2015
+  abstract: >
+    Speakers: Alexandru Iosup, Ana Lucia Varbanescu, Mihai Capota
+
+    Processing graphs, especially at large scale, is an increasingly useful
+    activity in a variety of business, engineering, and scientific domains. The knowledge economy is based on data, of which graphs represent an increasing part, in advanced marketing, in social networking, in hiring of professionals, etc. Science is also increasingly dependent on linked data, in life sciences, in health and bioinformatics services, in academic networks. As a consequence, graph analytics is fast becoming a significant consumer of computing resources, due to the ever larger graphs (up to hundreds of billions of edges) and to the increased complexity of analysis tasks. Enabling existing algorithms to fit modern architectures and scale with these new requirements is very difficult. Already, there are tens of graph-processing platforms, such as the distributed Giraph and GraphLab, the GPU-enabled Totem and Medusa, etc., each with a different design and functionality. Hadoop and other generic big data platforms are also important contenders in this field. For graph-processing to continue to evolve, users have to find it easy to select a graph-processing platform, and developers and system integrators have to find it easy to quantify the performance and other non-functional aspects of interest.<br/><br/>
+
+    In this tutorial, we will show how to evaluate and compare graph processing platforms using the GRAPHALYTICS benchmarking tools. GRAPHALYTICS can be used as a tool to enable graph analytics users to select a platform to work with (by comparing many different platforms across many classes of graph-processing algorithms and datasets). GRAPHALYTICS can also help application developers to gain understanding about the performance of their applications on a particular platform and to get clues about system bottlenecks (by showing the operation over time of the platforms). Among the metrics targeted by GRAPHALYTICS, we include Vertices and Edges Processed Per Second (V/EPPS), various scalability and traditional performance metrics, and an estimate of cost normalized by performance.<br/><br/>
+
+    URL: <a href="http://graphalytics.org/site/dist/index.html?p=documentation">http://graphalytics.org/site/dist/index.html?p=documentation</a>
+
+  pdf: "/Presentations/2015/2015-09-09_GraphProc_Tutorial_ICPE.pdf"
+
+- id: 2015-masterclass-global-systems-iosup
+  speaker: aiosup
+  title: >
+    Scalable High Performance Systems
+  venue: Technology Masterclass at the Royal Society for Engineers (KIVI), the Netherlands
+  year: 2015
+  abstract: >
+    To cope with increasing computation demands and with the data deluge, we have already started to build complex hardware and software ecosystems, exposed as cloud services to a vast user community (possibly tens of millions, world-wide). These users demand high performance or high throughput, and may switch at any time among the hundreds of service providers and technologies. Interesting new challenges emerge in the operation of the datacentres that form the infrastructure of cloud services, and in supporting the dynamic workloads of demanding users.<br/><br/>
+
+    We discuss here several steps towards addressing these challenges. If we succeed, we may not only enable the advent of big science and engineering, and the almost complete automation of many large-scale processes, but also reduce the ecological footprint of datacentres and the entire ICT industry.
+
+  pdf: "/Presentations/2015/2015-06-10_A-Iosup_MasterclassHighPerfSystems15KIVI_format-16-9.pdf"
+
+
+- id: 2015-masterclass-dc-iosup
+  speaker: aiosup
+  title: >
+    Global-Scale Applications Rely on Datacenters, Datacenters Rely on Scalable Computer Systems
+  venue: Technology Masterclass at Delft International Festival of Technology
+  year: 2015
+  abstract: >
+    Google, Facebook, Amazon are all major tech companies that rely on scalable computer systems to survive. To cope with increasing computation demands and with the data deluge, we have already started to build complex hardware and software systems of systems (ecosystems), which a global user community accesses as cloud services. These users demand high performance or high throughput, and may switch at any time among the hundreds of service providers and technologies. This masterclass focuses on interesting new challenges in the operation of the datacentres that form the infrastructure of cloud services, in particular supporting the dynamic workloads of demanding users, ensuring various forms of scalability, and also looking at efficiency and fairness. You will learn here vital skills for the industry: if we succeed in addressing these challenges, we may not only enable the advent of big science and engineering, and the almost complete automation of many large-scale processes, but also reduce the ecological footprint of datacentres and the entire ICT industry. We will combine theory and practice, and talk about how we won the prestigious IEEE Scale Challenge 2014.<br/><br/>
+
+    References:<br/>
+    Elastic Big Data and Computing<br/>
+    [1] B. Ghit, N. Yigitbasi (Intel Research Labs, Portland), A. Iosup, and D. Epema. Balanced Resource Allocations Across Multiple Dynamic MapReduce Clusters. SIGMETRICS 2014 (elastic analytics)<br/>
+    [2] L. Fei, B. Ghit, A. Iosup, D. H. J. Epema: KOALA-C: A task allocator for integrated multicluster and multicloud environments. CLUSTER 2014: 57-65<br/>
+    [3] K. Deng, J. Song, K. Ren, A. Iosup: Exploring portfolio scheduling for long-term execution of scientific workloads in IaaS clouds. SC 2013: 55<br/><br/>
+
+    Time-Based Analytics<br/>
+    [4] B. Ghit, M. Capota, T. Hegeman, J. Hidders, D. Epema, and A. Iosup. V for Vicissitude: The Challenge of Scaling Complex Big Data Workflows. Winners IEEE Scale Challenge 2014<br/><br/>
+
+    Graph Processing<br/>
+    [5] A. L. Varbanescu, M. Verstraaten, C. de Laat, A. Penders, A. Iosup, H. J. Sips: Can Portability Improve Performance?: An Empirical Study of Parallel Graph Analytics. ICPE 2015: 277-287<br/><br/>
+
+
+    URL: <a href="https://ifot-delft.com/en">https://ifot-delft.com/en</a>
+
+
+  pdf: "/Presentations/2015/2015-06-04_A-Iosup_MasterclassDatacenters15TUDelft_format-16-9.pdf"
+
+
+- id: 2015-graphalytics-ldbc-tuc-barcelona-iosup
+  speaker: aiosup
+  title: >
+    Graphalytics: a Big Data Benchmark for Graph-Processing Platforms
+  venue: Invited Talk, LDBC TUC meeting in Barcelona, Spain
+  year: 2015
+  abstract: >
+    We discuss in this talk our past and present experience with LDBC Graphalytics, an industrial-grade benchmark that enables the objective comparison of graph analysis platforms. It consists of six core algorithms, standard datasets, synthetic dataset generators, and reference output. The design of the benchmark takes into account that graph processing is impeded by three dimensions of diversity: platform, algorithms and datasets.<br/><br/>
+
+    URL: <a href="http://graphalytics.org/site/dist/index.html?p=documentation">http://graphalytics.org/site/dist/index.html?p=documentation</a>
+
+  pdf: "/Presentations/2015/2015-03-31_business-critical-workloads15spec_talk.pdf"
+
+- id: 2015-business-critical-spec-cloud-iosup
+  speaker: aiosup
+  title: >
+    Statistical Characterization of Business-Critical Workloads Hosted in Cloud Datacenters
+  venue: Invited Talk, SPEC RG Cloud Group
+  year: 2015
+  abstract: >
+    We discuss in this talk our past and present experience with the Graphalytics project. Graphalytics is an industrial-grade benchmark that enables the objective comparison of graph analysis platforms. It consists of six core algorithms, standard datasets, synthetic dataset generators, and reference output. The design of the benchmark takes into account that graph processing is impeded by three dimensions of diversity: platform, algorithms and datasets.<br/><br/>
+
+    URL: <a href="http://graphalytics.org/site/dist/index.html?p=documentation">http://graphalytics.org/site/dist/index.html?p=documentation</a>
+
+  pdf: "/Presentations/2015/2015-03-20_graphalyics15tuc-barcelona.pdf"
+
+
+- id: 2015-massivizing-online-gaming-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Online Gaming:  Distributed Computing Challenges and High Quality Time
+  venue: Invited Talk, group talks at EEMCS, the Netherlands
+  year: 2015
+  abstract: >
+    Hundreds of Massively Multiplayer Online Games (MMOGs) entertain over 250,000,000 online gamers in a maturing global market that generates over 30 billion Euros yearly. Massivizing, which means to scale efficiently, is the biggest challenge of MMOGs. Faced with the Quality-of-Service constraints imposed by gamers, the current industry approach is to build and operate large-scale, expensive infrastructures; the production of Destiny, released in 2014, cost over 500 billion. Resource-wise, this approach is un-scalable for unexpected player surges, and cost-wise it is risky and often even unsustainable. To participate in this market, Dutch gaming studios, which employ less than 2,500 developers combined but exceed in revenues any other branch of the Dutch entertainment industry, have to compensate their lack of funding power through technical innovation.<br/><br/>
+
+    To overcome the scalability barriers and massivize online games, we could create for small gaming studios a new fabric based on cloud computing resources and services. Using this fabric, game operators can lease resources from commercial clouds and add them to their infrastructure on-demand--when, where, and for how long needed; cloud operators can consolidate MMOG and other workloads to gain economies-of-scale and focus expertise. In this talk I discuss three main research challenges in massivizing online games through the use of cloud computing: scaling the gaming platform, generating player-customized content automatically, and performing big gaming-data analytics. Our results indicate that cloud-based approaches could lead to an order of magnitude more efficient use of resources, without significant performance degradation. When attracting many players, cloud offloading techniques and advanced scalability techniques such as ours could become crucial. By using clouds, game operators could generate player-customized content, at scale. Last, our view is that simply scaling games from a technical perspective is generally insufficient, as game designs commonly prevent larger in-game worlds from operating satisfactorily; by using social-gaming analytics, game operators could enrich gameplay experiences for numerous players.<br/><br/>
+
+    This body of work is based on recently published material [1-5], a digest of many publications from the past seven years, and several other upcoming publications [1-2].<br/><br/>
+
+
+    References:<br/>
+    [1] S. Shen, A. Iosup, D. H. J. Epema, and S.-Y. Hu (Academia Sinica, TW). Area of Simulation: Mechanism and Architecture for Multi-Avatar Virtual Environments, ACM Trans. Multimedia Comput. Comm. App. 2015. (in print)<br/>
+
+    [2] L. Jia, S. Shen, R van de Bovenkamp, A. Iosup, F.A. Kuipers, D.H.J. Epema. Socializing by Gaming: Revealing Social Relationships in Multiplayer Online Games, ACM Trans. Knowl. Disc. Data. 2015. (in print)<br/>
+
+    [3] A.-C. Olteanu, N. Tapus, A. Iosup: Extending the Capabilities of Mobile Devices for Online Social Applications through Cloud Offloading. CCGRID 2013: 160-163<br/>
+
+    [4] Alexandru Iosup: POGGI: generating puzzle instances for online games on grid infrastructures. Concurrency and Computation: Practice and Experience 23(2): 158-171 (2011) (Best Paper Award Euro-Par 2009)<br/>
+
+    [5] Vlad Nae, Alexandru Iosup, Radu Prodan: Dynamic Resource Provisioning in Massively Multiplayer Online Games. IEEE Trans. Parallel Distrib. Syst. 22(3): 380-395 (2011) (100+ citations, including conference article)
+
+
+  pdf: "/Presentations/2015/2015-05-20_aiosup_massivizing-online-games13tud-es_long.pdf"
+
+
+
+- id: 2015-gamification-minocw-iosup
+  speaker: aiosup
+  title: >
+    The Teacher of the Future
+  venue: Invited Talk, Ministry of Education, Culture, and Research (MinOCW), the Netherlands
+  year: 2015
+  abstract: >
+    We discuss in this talk our ideas about the future of education, teacher-side: first, we propose a hierarchy of needs for teachers in higher education; second, we present our experience with innovating gamification in higher education.
+
+  pdf: "/Presentations/2015/2015-04-23_GamificationWorks15MinOCW.pdf"
+
+
+- id: 2015-gamification-education-day-tudelft-eemcs-iosup
+  speaker: aiosup
+  title: >
+    The Lecturer of the Future
+  venue: Keynote, TU Delft EEMCS Yearly Education Day
+  year: 2015
+  abstract: >
+    We discuss in this talk our ideas about the future of education, educator-side: first, we propose a hierarchy of needs for teachers in higher education; second, we present our experience with innovating gamification in higher education.
+
+  pdf: "/Presentations/2015/2015-04-13_LecturerOfTheFuture15tud-eemcs-odag_aiosup.pdf"
+
+
+- id: 2015-gamification-abc-iosup
+  speaker: aiosup
+  title: >
+    Gamification Works!
+  venue: >
+    Invited Talk, Gamification World, special event for March: a one-day conference on Gamification!, Amsterdam, the Netherlands
+  year: 2015
+  abstract: >
+    In ICT alone, the human-resource gap in Europe exceeds 200,000 this year and will near 1,000,000 by 2020. "Every student counts!", this is the new Grand Challenge in education, horizon 2035. However, every student is also different, in starting skill, in personality, etc. We posit that gamification, which we defined as using social gaming elements to successfully deliver curriculum-elements, will help solving the Grand Challenge. We report on our experience using gamification in the classroom for difficult BSc and MSc courses, with high passing rates and student satisfaction, and high student activation.<br/><br/>
+
+    URL: <a href="http://www.meetup.com/The-Gamification-Meetup-Group/events/218926658/">http://www.meetup.com/The-Gamification-Meetup-Group/events/218926658/</a>
+
+
+  pdf: "/Presentations/2015/2015-03-28_gamification-works15amsterdam_aiosup.pdf"
+
+
+- id: 2015-dc-self-management-dagstuhl-iosup
+  speaker: aiosup
+  title: >
+    Self-* Datacenter Management for Business Critical Workloads
+  venue: >
+    Dagstuhl Seminar 15041: Model-driven Algorithms and Architectures for Self-Aware Computing Systems
+  year: 2015
+  abstract: >
+    Multi-cluster datacenters, and, further, multi-datacenter infrastructure, are supporting increasing amounts and types of computer applications. Among the workloads of these datacenters, business-critical workloads, that is, workloads that support business decision and intelligence, and that provide business and operational back-ends, are increasingly important (over 20% of the general IT load, according to an IDC study from 2010). Our goal is to build self-* resource managers for datacenters supporting business-critical workloads, to ensure efficient operation. We present in this talk new results in characterizing business-critical workloads running in multi-cluster multi-datacenters, and advances in scheduling such workloads using portfolio scheduling, scheduling by guessing (but not predicting) workload characteristics, and scheduling by enabling elasticity even for data-intensive workloads (for example, scheduling for elastic MapReduce frameworks).<br/><br/>
+
+    References:<br/>
+    1. Vincent van Beek, Siqi Shen, and Alexandru Iosup: Statistical Characterization of Business-Critical Workloads Hosted in Cloud Datacenters. CCGRID 2015 (in print, available upon request)<br/>
+    2. Bogdan Ghit, Nezih Yigitbasi, Alexandru Iosup, and Dick H. J. Epema: Balanced resource allocations across multiple dynamic MapReduce clusters. SIGMETRICS 2014: 329-341 ( Also available online: http://pds.twi.tudelft.nl/~iosup/dynamic-mapreduce14sigmetrics.pdf )<br/>
+    3. Lipu Fei, Bogdan Ghit, Alexandru Iosup, and Dick H. J. Epema: KOALA-C: A task allocator for integrated multicluster and multicloud environments. CLUSTER 2014: 57-65 ( Also available online: http://www.pds.ewi.tudelft.nl/~iosup/tags-cloud-scheduling14cluster.pdf )<br/>
+    4. Kefeng Deng, Junqiang Song, Kaijun Ren, and Alexandru Iosup: Exploring portfolio scheduling for long-term execution of scientific workloads in IaaS clouds. SC 2013: 55 ( Also available online: http://www.pds.ewi.tudelft.nl/~iosup/portfolio-scheduling13sc.pdf )<br/><br/>
+
+    URL: <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=15041">https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=15041</a>
+
+  pdf: "/Presentations/2015/2015-01-20_aiosup_SelfDCMgmt15dagstuhl.pdf"
+
+
+- id: 2014-gamification-wharton-iosup
+  speaker: aiosup
+  title: >
+    Gamification in Technical Higher Education: Playful Education for Generation X/Y/Z/…
+  venue: Invited talk, QS Conference on Higher Education at Wharton
+  year: 2014
+  abstract: >
+    Technical universities, especially in Europe, are facing an
+    important challenge in attracting more diverse groups of students, and in keeping the students they attract motivated
+    and engaged in the curriculum. We describe our experience with gamification, which we loosely define as a teaching
+    technique that uses social gaming elements to deliver higher
+    education. Over the past three years, we have applied gamification to undergraduate and graduate courses in a
+    leading technical university in the Netherlands and in Europe.
+    Ours is one of the first long-running attempts to show that
+    gamification can be used to teach technically challenging
+    courses. The two gamification-based courses, the first-year
+    B.Sc. course Computer Organization and an M.Sc.-level
+    course on the emerging technology of Cloud Computing,
+    have been cumulatively followed by over 450 students and
+    passed by over 75% of them, at the first attempt. We find
+    that gamification is correlated with an increase in the percentage of passing students, and in the participation in
+    voluntary activities and challenging assignments. Gamification
+    seems to also foster interaction in the classroom and trigger
+    students to pay more attention to the design of the course.
+    We also observe very positive student assessments and volunteered testimonials, and a Teacher of the Year award.
+
+  pdf: "/Presentations/2014/2014-12_gamification-higher-ed14wharton-qs.pdf"
+
+
+- id: 2014-benchmarking-graph-processing-cloud-control-iosup
+  speaker: aiosup
+  title: >
+    Clouds and Big Data: Between Efficient Datacentres and Demanding Users
+  venue: Invited Talk, Cloud Control workshop in Moelle, Sweden
+  year: 2014
+  abstract: >
+    We discuss in this talk our experience with cloud computing and big data systems, over the past couple of years.
+
+  pdf: "/Presentations/2014/2014-08-20_aiosup_Cloud-BigData14wbdb.pdf"
+
+- id: 2014-benchmarking-graph-processing-wbdb-iosup
+  speaker: aiosup
+  title: >
+    Benchmarking Big Data in the Data Center: A TU Delft Perspective
+  venue: Invited Talk, WBDB workshop in Potsdam, Germany
+  year: 2014
+  abstract: >
+    We discuss in this talk our experience with benchmarking big data processing systems, over the past couple of years.
+
+  pdf: "/Presentations/2014/2014-08-06_aiosup_BigDataBenchmarking14wbdb.pdf"
+
+- id: 2014-big-data-iso-iosup
+  speaker: aiosup
+  title: >
+    Big Data in the Cloud: Enabling the Fourth Paradigm by Matching SMEs with Datacenters
+  venue: Invited Talk, ISO BDSG meeting in Amsterdam, the Netherlands
+  year: 2014
+  abstract: >
+    We discuss in this talk our experience with big data systems, over the past couple of years.
+
+  pdf: "/Presentations/2014/2014-05-14_aiosup_BigDataCloud14ISO-BDSG-Ams.pdf"
+
+- id: 2014-benchmarking-graph-processing-iosup
+  speaker: aiosup
+  title: >
+    Benchmarking Graph-Processing Platforms: A Vision
+  venue: Invited Talk, LDBC meeting in Amsterdam, the Netherlands
+  year: 2014
+  abstract: >
+    We discuss in this talk our experience with benchmarking graph processing systems, over the past couple of years.
+
+  pdf: "/Presentations/2014/2014-04-03_GraphProcBenchmarking14LDBC.pdf"
+
+- id: 2014-gamification-sigcse-iosup
+  speaker: aiosup
+  title: >
+    Using Gamification in Technical Higher Education: An XP Report
+  venue: Article talk, ACM SIGCSE'14
+  year: 2014
+  abstract: >
+    Technical universities, especially in Europe, are facing an
+    important challenge in attracting more diverse groups of students, and in keeping the students they attract motivated
+    and engaged in the curriculum. We describe our experience with gamification, which we loosely define as a teaching
+    technique that uses social gaming elements to deliver higher
+    education. Over the past three years, we have applied gamification to undergraduate and graduate courses in a
+    leading technical university in the Netherlands and in Europe.
+    Ours is one of the first long-running attempts to show that
+    gamification can be used to teach technically challenging
+    courses. The two gamification-based courses, the first-year
+    B.Sc. course Computer Organization and an M.Sc.-level
+    course on the emerging technology of Cloud Computing,
+    have been cumulatively followed by over 450 students and
+    passed by over 75% of them, at the first attempt. We find
+    that gamification is correlated with an increase in the percentage of passing students, and in the participation in
+    voluntary activities and challenging assignments. Gamification
+    seems to also foster interaction in the classroom and trigger
+    students to pay more attention to the design of the course.
+    We also observe very positive student assessments and volunteered testimonials, and a Teacher of the Year award.
+
+  pdf: "/Presentations/2014/2014-03-06_gamification-higher-ed14sigcse.pdf"
+
+- id: 2013-bigdata-ibm-haifa-iosup
+  speaker: aiosup
+  title: >
+    A TU Delft Perspective on Big Data: Machine-Level Graph Processing, Time-Based Data Analytics, and Data Preservation in Large-Scale Distributed Systems
+  venue: Invited Lecture, IBM Research Labs, Haifa, Israel
+  year: 2013
+  abstract: >
+    Specialized version of the talk given at CS Dept., Technion, Israel.
+
+  pdf: "/Presentations/2013/2013-06-06_aiosup_BigData13technion.pdf"
+
+- id: 2013-cloud-scheduling-huji-iosup
+  speaker: aiosup
+  title: >
+    Scheduling in IaaS Cloud Computing Environments: Anything New?
+  venue: Invited Lecture, CS Dept., The Hebrew University in Jerusalem (HUJI), Israel
+  year: 2013
+  abstract: >
+    The popularity of IaaS cloud computing environments, based on data center infrastructure and allowing the user to select when, which, and for how long to lease (virtualized) resources, has led to new computing architectures, new workload structures, and growing customer-bases. As a consequence, new scheduling approaches may be needed to manage resources efficiently, to quickly and correctly recommend a scheduling configuration to the user, and even to automatically an appropriate scheduling strategy on behalf of the user.<br/><br/>
+
+    In this talk we present several recent approaches for scheduling in IaaS cloud computing environments.<br/><br/>
+
+    We present a comprehensive and empirical performance-cost analysis of provisioning and allocation policies in IaaS clouds, through experimentation in three clouds, including Amazon EC2. We show that policies that dynamically provision and/or allocate resources can achieve better performance and cost than policies that do not, but that the lack of adaptation to the specific pricing model and technical capabilities of the used cloud can significantly reduce cost-effectiveness.<br/><br/>
+
+    We present a comprehensive experimental investigation of the use of IaaS cloud infrastructure for scientific workloads. We perform an empirical evaluation of the performance of four commercial cloud computing services including Amazon EC2. We compare through trace-based simulation the performance characteristics and cost models of clouds and other scientific computing platforms when used for scientific computing workloads. Our results indicate that IaaS clouds may need an order of magnitude in performance improvement to be useful to the scientific community.<br/><br/>
+
+    We discuss an elastic approach to manage MapReduce workloads across pre-provisioned infrastructure and a set of machines that dynamically changes (think malleable jobs in traditional parallel environments). We empirically evaluate for this approach the performance of three provisioning policies for dynamically resizing MapReduce clusters, and show evidence that elastic MapReduce can not only offer multiple types of isolation---with respect to performance, to data management, to fault tolerance, and to versioning---but also good performance.<br/><br/>
+
+    We present the ExPERT scheduling framework for Bag-of-Tasks-based workloads: for a general, user-specified utility function that may consider both makespan and cost, and from a large search space it traverses, ExPERT systematically selects the Pareto-efficient scheduling strategies, that is, the strategies that deliver the best results.<br/><br/>
+
+    We explore the concept of portfolio scheduling--in this context, the dynamic
+    selection and use of a scheduling policy, depending on the current system and
+    workload conditions, from a portfolio of multiple policies--and show evidence that it can be used to efficiently schedule scientific workloads for the entire data center.<br/><br/>
+
+    This work is based on recently published material [1-5], a digest of many publications from the past seven years, and several upcoming publications.<br/><br/>
+
+
+    References:<br/>
+    [1] Ruben Verboon, Kefeng Deng, Alexandru Iosup: A Periodic Portfolio Scheduler for
+    Scientific Computing in the Data Center. JSSPP 2013.<br/>
+
+    [2] Bogdan Ghit, Nezih Yigitbasi, Dick Epema: Resource Management for Dynamic MapReduce Clusters in Multicluster Systems. MTAGS 2012. Best Paper Award.<br/>
+
+    [3] David Villegas, Athanasios Antoniou, Seyed Masoud Sadjadi, Alexandru Iosup: An Analysis of Provisioning and Allocation Policies for Infrastructure-as-a-Service Clouds. CCGRID 2012: 612-619<br/>
+
+    [4] Orna Agmon Ben-Yehuda, Assaf Schuster, Artyom Sharov, Mark Silberstein, Alexandru Iosup: ExPERT: Pareto-Efficient Task Replication on Grids and a Cloud. IPDPS 2012: 167-178<br/>
+
+    [5] Alexandru Iosup, Simon Ostermann, Nezih Yigitbasi, Radu Prodan, Thomas Fahringer, Dick H. J. Epema: Performance Analysis of Cloud Computing Services for Many-Tasks Scientific Computing. IEEE Trans. Parallel Distrib. Syst. 22(6): 931-945 (2011)
+
+  pdf: "/Presentations/2013/2013-06-05_cloud-sched13huji.pdf"
+
+
+- id: 2013-bigdata-technion-iosup
+  speaker: aiosup
+  title: >
+    A TU Delft Perspective on Big Data: Machine-Level Graph Processing, Time-Based Data Analytics, and Data Preservation in Large-Scale Distributed Systems
+  venue: Invited Lecture, CS Dept., Technion, Israel
+  year: 2013
+  abstract: >
+    Big Data--loosely defined as the processing and preservation of data that may be too high-volume, volatile, or varied for regular data management systems--has become a topic of interest for a variety of domains, such as e-Goverment, online retail, and online gaming. Addressing this interest, complex ecosystems such as the Hive-MapReduce-Hadoop-HDFS-etc., the DryadLINQ-Dataflow-Dryad-CosmosFS-etc., the Meteor-PACT-Nephele-HDFS-etc. have appeared.<br/><br/>
+
+    In this presentation we focus on three main topics in Big Data processing and preservation: Graph Processing, Time-Based Data Analytics, and Data Preservation in Large-Scale Distributed Systems. We look at each from a systems' perspective.<br/><br/>
+
+    For graph processing, we propose and apply a method (benchmarking suite) for evaluating and comparing graph-processing platforms. Our method consists of a selection of representative metrics, datasets, and algorithmic classes; and of an empirical process that exhaustively evaluates each platform. We experiment with 6 platforms, with 5 classes of graph-processing algorithms, and with 7 graphs of up to 1.8 billion edges each. Besides per-platform insights, our results present the first comprehensive comparison of graph-processing platforms.<br/><br/>
+
+    For time-based analytics, we focus on a use case derived from monitoring global systems. We have designed and used for the past three years BTWorld, which obtains information about the performance, scalability, and reliability of the global BitTorrent network via thousands of public trackers. We show how a multi-year, multi-TB data set covering information about tens of millions of files can pose significant challenges to today's Big Data processing tools.<br/><br/>
+
+    For data preservation, we present an ambitious goal: logging and preserving the entire history of distributed systems. The implications of archiving large amounts of daily information for science and society are clear since at least the 1940s, when Vannevar Bush defined the concept of the personal memex as an individual's device for storing and accessing all information and communication involving that individual. Among these benefits are learning about and eradicating humankind diseases, enabling human beings more creative and thought-related time by eliminating tasks that can be automated, etc. Similarly, we posit that archiving large amounts of operational traces collected from the many distributed systems that currently underpin societies across the world would be beneficial for tuning today's systems and designing better systems in the future. What is the Distributed Systems Memex? How can such a Memex be designed and implemented? To address these and related questions, we discuss a bottom-up approach, in which we focus on the archival needs of specific application areas in which distributed systems are prominent and hope to gain sufficient understanding for the future. We focus therefore on the Grid Workloads Archive, and on the Game, Peer-to-Peer, and Failure Trace Archives.<br/><br/>
+
+    This work is based on recently published material [1-5], a digest of many publications from the past seven years, and several upcoming publications.<br/><br/>
+
+    References:<br/>
+    [1] Yong Guo, Alexandru Iosup: The Game Trace Archive. NetGames 2012: 1-6<br/>
+
+    [2] Derrick Kondo, Bahman Javadi, Alexandru Iosup, Dick H. J. Epema: The Failure Trace Archive: Enabling Comparative Analysis of Failures in Diverse Distributed Systems. CCGRID 2010: 398-407<br/>
+
+    [3] Boxun Zhang and Alexandru Iosup and Johan A Pouwelse and Dick Epema (2010). The peer-to-peer trace archive: design and comparative trace analysis. CoNEXT 2010 Student Workshop: Proceedings of the ACM CoNEXT Student Workshop. ACM.<br/>
+
+    [4] Maciej Wojciechowski, Mihai Capota, Johan A. Pouwelse, Alexandru Iosup: BTWorld: towards observing the global BitTorrent file-sharing network. HPDC 2010: 581-588<br/>
+
+    [5] Alexandru Iosup, Hui Li, Mathieu Jan, Shanny Anoep, Catalin Dumitrescu, Lex Wolters, Dick H. J. Epema: The Grid Workloads Archive. Future Generation Comp. Syst. 24(7): 672-686 (2008)
+
+  pdf: "/Presentations/2013/2013-06-06_aiosup_BigData13technion.pdf"
+
+
+- id: 2013-cloud-benchmarking-technion-iosup
+  speaker: aiosup
+  title: >
+    IaaS Cloud Benchmarking: Approaches, Challenges, and Experience
+  venue: Invited Lecture, CS Dept., Technion, Israel
+  year: 2013
+  abstract: >
+    Over the past five years, Infrastructure-as-a-Service clouds have grown into the branch of ICT that offers services related to on-demand lease of storage, computation, and network. One of the major impediments in the selection and even use of (commercial) IaaS clouds is the lack of benchmarking results, that is, the lack of trustworthy quantitative information that allows (potential) cloud users to compare and reason about IaaS clouds.<br/><br/>
+
+    In this talk we discuss empirical approaches to quantitative evaluation, which we find to be a necessary bumpy road toward cloud benchmarking. Both industry and academia have used empirical approaches for years, but the limited success achieved so far for IaaS clouds and similar systems (e.g., grids) is perhaps indicative of the complexity and the size of real-world challenges. We present the lessons we have learned in developing the SkyMark framework for cloud performance evaluation and the results of our SkyMark-based investigation of three research questions: What is the performance of production IaaS cloud services? How variable is the performance of widely used production cloud services? and What is the impact on performance of the user-level middleware, such as the provisioning and allocation policies that interact with IaaS clouds? We discuss the impact of our findings on large-scale, many-task, and many-user cloud applications (for which we also characterize and model the workload); notably, we discuss not only cloud performance, but also operation and behavior.<br/><br/>
+
+    In contrast to previous attempts, our research combines empirical and other approaches, for example modeling and simulation, for deeper analysis; is based on a combination of short-term and multi-year measurements for better longevity of results; and uses large, comprehensive studies of several real clouds for an overall broader study. This presentation can also provide useful insights for fields related to benchmarking, for example experimental evaluation conducted in any large-scale distributed system.<br/><br/>
+
+    Last but not least, we present a roadmap toward cloud benchmarking and the way we plan to progress on it with other members of the RG Cloud Group of the Standard Performance Evaluation Corporation (SPEC) [ http://research.spec.org/working-groups/rg-cloud-working-group.html ].<br/><br/>
+
+    This work is based on recently published material [1-5], a digest of many publications from the past seven years, and several upcoming publications.<br/><br/>
+
+    References:<br/>
+    [1] Alexandru Iosup, Simon Ostermann, Nezih Yigitbasi, Radu Prodan, Thomas Fahringer, Dick H. J. Epema: Performance Analysis of Cloud Computing Services for Many-Tasks Scientific Computing. IEEE Trans. Parallel Distrib. Syst. 22(6): 931-945 (2011)<br/>
+
+    [2] Alexandru Iosup, Dick H. J. Epema: Grid Computing Workloads. IEEE Internet Computing 15(2): 19-26 (2011)<br/>
+
+    [3] David Villegas, Athanasios Antoniou, Seyed Masoud Sadjadi, Alexandru Iosup: An Analysis of Provisioning and Allocation Policies for Infrastructure-as-a-Service Clouds. CCGRID 2012: 612-619<br/>
+
+    [4] Enno Folkerts, Alexander Alexandrov, Kai Sachs, Alexandru Iosup, Volker Markl, Cafer Tosun: Benchmarking in the Cloud: What It Should, Can, and Cannot Be. TPCTC 2012: 173-188<br/>
+
+    [5] Alexandru Iosup, Nezih Yigitbasi, Dick H. J. Epema: On the Performance Variability of Production Cloud Services. CCGRID 2011: 104-113
+
+  pdf: "/Presentations/2013/2013-05-07_aiosup_cloud-benchmarking13technion.pdf"
+
+
+- id: 2013-massivizing-online-gaming-technion-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Social Games: Distributed Computing Challenges and High Quality Time
+  venue: Invited Lecture, CS Dept., Technion, Israel
+  year: 2013
+  abstract: >
+    Hundreds of Massively Multiplayer Online Games (MMOGs) entertain over 250,000,000 online gamers in a maturing global market of over 30 billion Euros. In the Netherlands and world-wide, gaming revenues exceed those of the film industry since 2007. To maintain competitiveness in games played over the Internet, Dutch studios (employing 1,500 developers) rely on innovation and advanced analysis of gamer profiles.<br/><br/>
+
+    The exponential growth of the gaming community since 1998 means that resource and cost scalability is the biggest challenge of MMOGs. Faced with the Quality-of-Service constraints imposed by gamers, the current industry approach is to operate large-scale infrastructures. Resource-wise, this approach is un-scalable for player surges, and cost-wise it blocks market access to amateur and small game developers as it requires millions of Euros of initial (risky) investment. Thus, companies such as Khaeon (NL) are unable to capitalize on their innovative game designs and sell at-loss their services to larger (foreign) companies, forfeiting major operational benefits.<br/><br/>
+
+    To overcome the scalability barriers and massivize online games, we could create a new fabric for small gaming studios that leverages cloud computing resources. Using this fabric, game operators can lease resources from commercial clouds and add them to their infrastructure on-demand--exclusively when, where, and for how long needed; cloud operators can consolidate MMOG and other workloads to gain economies-of-scale and focus expertise.<br/><br/>
+
+    In this talk I discuss three general research challenges in massivizing online games through the use of cloud computing: scaling the gaming platform, generating player-customized content automatically, and performing gaming analytics. Our view is that scaling games technically is generally insufficient, as game designs commonly prevent larger in-game worlds from operating satisfactorily. We also show that the use of clouds raises numerous distributed systems challenges; for example, variability in MMOG workload and cloud resource performance can incur, when unaccounted for, orders-of-magnitude higher operational costs.<br/><br/>
+
+    This work is based on recently published material [1-5], a digest of many publications from the past seven years, and several upcoming publications.<br/>
+
+    References:<br/>
+    [1] Ruud van de Bovenkamp, Siqi Shen, Alexandru Iosup, Fernando A. Kuipers: Understanding and recommending play relationships in online social gaming. COMSNETS 2013: 1-10<br/>
+
+    [2] Yong Guo, Alexandru Iosup: The Game Trace Archive. NetGames 2012: 1-6<br/>
+
+    [3] Alexandru Iosup: POGGI: generating puzzle instances for online games on grid infrastructures. Concurrency and Computation: Practice and Experience 23(2): 158-171 (2011)<br/>
+
+    [4] Vlad Nae, Alexandru Iosup, Radu Prodan: Dynamic Resource Provisioning in Massively Multiplayer Online Games. IEEE Trans. Parallel Distrib. Syst. 22(3): 380-395 (2011)<br/>
+
+    [5] Alexandru Iosup, Adrian Lascateu, Nicolae Tapus: CAMEO: Enabling social networks for Massively Multiplayer Online Games through Continuous Analytics and cloud computing. NETGAMES 2010: 1-6
+
+  pdf: "/Presentations/2013/2013-05-09_aiosup_massivizing-online-games13technion.pdf"
+
+
+- id: 2013-cloud-benchmarking-intel-haifa-iosup
+  speaker: aiosup
+  title: >
+    IaaS Cloud Benchmarking: Approaches, Challenges, and Experience
+  venue: Invited Lecture, Intel Haifa, Israel
+  year: 2013
+  abstract: >
+    Over the past five years, Infrastructure-as-a-Service clouds have grown into the branch of ICT that offers services related to on-demand lease of storage, computation, and network. One of the major impediments in the selection and even use of (commercial) IaaS clouds is the lack of benchmarking results, that is, the lack of trustworthy quantitative information that allows (potential) cloud users to compare and reason about IaaS clouds.<br/><br/>
+
+    In this talk we discuss empirical approaches to quantitative evaluation, which we find to be a necessary bumpy road toward cloud benchmarking. Both industry and academia have used empirical approaches for years, but the limited success achieved so far for IaaS clouds and similar systems (e.g., grids) is perhaps indicative of the complexity and the size of real-world challenges. We present the lessons we have learned in developing the SkyMark framework for cloud performance evaluation and the results of our SkyMark-based investigation of three research questions: What is the performance of production IaaS cloud services? How variable is the performance of widely used production cloud services? and What is the impact on performance of the user-level middleware, such as the provisioning and allocation policies that interact with IaaS clouds? We discuss the impact of our findings on large-scale, many-task, and many-user cloud applications (for which we also characterize and model the workload); notably, we discuss not only cloud performance, but also operation and behavior.<br/><br/>
+
+    In contrast to previous attempts, our research combines empirical and other approaches, for example modeling and simulation, for deeper analysis; is based on a combination of short-term and multi-year measurements for better longevity of results; and uses large, comprehensive studies of several real clouds for an overall broader study. This presentation can also provide useful insights for fields related to benchmarking, for example experimental evaluation conducted in any large-scale distributed system.<br/><br/>
+
+    Last but not least, we present a roadmap toward cloud benchmarking and the way we plan to progress on it with other members of the RG Cloud Group of the Standard Performance Evaluation Corporation (SPEC) [ http://research.spec.org/working-groups/rg-cloud-working-group.html ].<br/><br/>
+
+    This work is based on recently published material [1-5], a digest of many publications from the past seven years, and several upcoming publications.<br/><br/>
+
+    References:<br/>
+    [1] Alexandru Iosup, Simon Ostermann, Nezih Yigitbasi, Radu Prodan, Thomas Fahringer, Dick H. J. Epema: Performance Analysis of Cloud Computing Services for Many-Tasks Scientific Computing. IEEE Trans. Parallel Distrib. Syst. 22(6): 931-945 (2011)<br/>
+
+    [2] Alexandru Iosup, Dick H. J. Epema: Grid Computing Workloads. IEEE Internet Computing 15(2): 19-26 (2011)<br/>
+
+    [3] David Villegas, Athanasios Antoniou, Seyed Masoud Sadjadi, Alexandru Iosup: An Analysis of Provisioning and Allocation Policies for Infrastructure-as-a-Service Clouds. CCGRID 2012: 612-619<br/>
+
+    [4] Enno Folkerts, Alexander Alexandrov, Kai Sachs, Alexandru Iosup, Volker Markl, Cafer Tosun: Benchmarking in the Cloud: What It Should, Can, and Cannot Be. TPCTC 2012: 173-188<br/>
+
+    [5] Alexandru Iosup, Nezih Yigitbasi, Dick H. J. Epema: On the Performance Variability of Production Cloud Services. CCGRID 2011: 104-113<br/>
+
+  pdf: "/Presentations/2013/2013-06-03_aiosup_cloud-benchmarking13intelhaifa.pdf"
+
+- id: 2012-cloud-computing-history-preservation-iosup
+  speaker: aiosup
+  title: >
+    Towards Logging and Preserving the Entire History of Distributed Systems
+  venue: >
+    Dagstuhl Seminar 12472: Is the Future of Preservation Cloudy?
+  year: 2012
+  abstract: >
+    Towards Logging and Preserving the Entire History of Distributed Systems: a Sistributed Systems Memex<br/><br/>
+
+    The implications of archiving large amounts of daily information for science and society
+    are clear since at least the 1940s, when Vannevar Bush defined the concept of the personal
+    memex as an individual’s device for storing and accessing all information and communication
+    involving that individual. Among these benefits are learning about and eradicating humankind
+    diseases, enabling human beings more creative and thought-related time by eliminating tasks
+    that can be automated, etc. Similarly, we posit that archiving large amounts of operational
+    traces collected from the many distributed systems that currently underpin societies across
+    the world would be beneficial for tuning today’s systems and designing better systems in the
+    future. What is the Distributed Systems Memex? How can such a Memex be designed and
+    implemented? To address these and related questions, we have taken a bottom-up approach,
+    in which we focus on the archival needs of specific application areas in which distributed
+    systems are prominent and hope to gain sufficient understanding for the future.<br/><br/>
+
+    In the mid 1990s, the grid computing community promised the “compute power grid,” a
+    utility computing infrastructure for scientists and engineers. Since then, a variety of grids
+    have been built worldwide, for academic purposes, specific application domains, and general
+    production work. The Grid Workloads Archive (GWA) [4] is a workload data exchange and
+    a meeting point for the grid community. We have defined the requirements for building a
+    workload archive and have described the approach taken to meet these requirements with
+    the GWA. We have introduced a format for sharing grid workload information and the tools
+    associated with this format. Using these tools, we have collected, ingested in the archive,
+    and processed data from over fifteen well-known grid environments, covering thousands of
+    scientists submitting millions of jobs over a period of over twenty operational years, and with
+    working environments spanning hundreds of operational sites comprised of tens of thousands
+    of processing machines.<br/><br/>
+
+    Resource failures are currently common in distributed systems, likely as a side-effect of
+    the increasing complexity and scale of these systems in real- life deployments. To facilitate
+    the design, validation, and comparison of fault-tolerant models and algorithms, we have
+    created the Failure Trace Archive (FTA) [2] as an online public repository of availability
+    traces taken from diverse parallel and distributed systems. We have designed a new data
+    format and a toolbox that facilitates automated analysis of trace data sets. We have collected,
+    ingested in the archive, and processed data from over twenty-five well-known distributed
+    systems, covering millions of users over a period of over twenty operational years, and with
+    working environments spanning the entire world and millions of computers.
+    Peer-to-Peer (P2P) systems have gained a phenomenal popularity in the past few years;
+    among them, BitTorrent alone serves daily tens of millions of people and generates an
+    important fraction of the Internet traffic. Measurement data collected from real P2P systems
+    are fundamental for gaining solid knowledge of the usage patterns and the characteristics
+    of these systems and can improve the modeling, the design, and the evaluation of P2P
+    systems. We have created the P2P Trace Archive (P2PTA) [3], an archive that facilitates
+    the collection and exchange of P2P traces. Currently, the P2PTA hosts over twenty traces of
+    various P2P applications (from file-sharing to VoIP to video-streaming), with over 60 million
+    sessions, tens of millions of content items, and multiple years of system operation.<br/><br/>
+
+    Spurred by the rapid development of the gaming industry and the expansion of Online
+    Meta-Gaming Networks (OMGNs), we have designed the Game Trace Archive (GTA) [1] to
+    be a virtual meeting space for the game community. We have proposed a unified format for
+    game traces and introduced a number of tools associated with the format. With these tools,
+    we have collected, processed, and analyzed 9 traces of both games and OMGNs. We have
+    already collected in the GTA traces corresponding to more than 8 million real players and
+    more than 200 million information items, spanning over 14 operational years. We also show
+    that the GTA can be extended to include a variety of real-game trace types.
+    Our work in designing and building a Distributed Systems Memex has only just begun.<br/><br/>
+
+    References<br/>
+    [1] Yong Guo, Alexandru Iosup: The Game Trace Archive. NetGames 2012: 1-6<br/>
+    [2] Derrick Kondo, Bahman Javadi, Alexandru Iosup, Dick H. J. Epema: The Failure Trace
+    Archive: Enabling Comparative Analysis of Failures in Diverse Distributed Systems.
+    CCGRID 2010: 398-407. Best paper award.<br/>
+    [3] Boxun Zhang, Alexandru Iosup, Johan Pouwelse, and Dick Epema. 2010. The peer-to-peer
+    trace archive: design and comparative trace analysis. In Proceedings of the ACM CoNEXT
+    Student Workshop (CoNEXT ’10 Student Workshop). ACM, New York, NY, USA, Article
+    21.<br/>
+    [4] Alexandru Iosup, Hui Li, Mathieu Jan, Shanny Anoep, Catalin Dumitrescu, Lex Wolters,
+    Dick H. J. Epema: The Grid Workloads Archive. Future Generation Comp. Syst. 24(7):
+    672-686 (2008)<br/>
+
+    URL: <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=12472">http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=12472</a>
+
+  slideshare: "https://www.slideshare.net/aiosup/iaas-cloud-benchmarking-approaches-challenges-and-experience"
+  pdf: "/Presentations/2012/2012-11-11_aiosup_cloud-benchmarking12mtags.pdf"
+
+
+- id: 2013-gamification-education-day-tudelft-iosup
+  speaker: aiosup
+  title: >
+    Gamification: Playful Teaching for Generation-X/-Y/-Z/…
+  venue: Keynote, TU Delft Yearly Education Day
+  year: 2013
+  abstract: >
+    We discuss in this talk our experience with using gamification in higher education, over multiple years.
+
+  pdf: "/Presentations/2013/2013_AIosup_gamification-primer-tud-odag.pdf"
+
+- id: 2013-cloud-benchmarking-hottopics-iosup
+  speaker: aiosup
+  title: >
+    IaaS Cloud Benchmarking: Approaches, Challenges, and Experience
+  venue: Keynote, HotTopiCS @ ICPE 2013
+  year: 2013
+  abstract: >
+    Over the past five years, Infrastructure-as-a-Service clouds have grown into the branch of ICT that offers services related to on-demand lease of storage, computation, and network. One of the major impediments in the selection and even use of (commercial) IaaS clouds is the lack of benchmarking results, that is, the lack of trustworthy quantitative information that allows (potential) cloud users to compare and reason about IaaS clouds.<br/><br/>
+
+    In this talk we discuss empirical approaches to quantitative evaluation, which we find to be a necessary bumpy road toward cloud benchmarking. Both industry and academia have used empirical approaches for years, but the limited success achieved so far for IaaS clouds and similar systems (e.g., grids) is perhaps indicative of the complexity and size of challenges. We present initial results of our research into cloud workload characterization, including Big Data applications. We present the lessons we have learned in developing the SkyMark framework for cloud performance evaluation and the results of our SkyMark-based investigation of three research questions: What is the performance of production IaaS cloud services? How variable is the performance of widely used production cloud services? and What is the impact on performance of the user-level middleware, such as the provisioning and allocation policies that interact with IaaS clouds? We discuss the impact of our findings on large-scale, many-task, and many-user applications; notably, we discuss not only cloud performance, but also operation and behavior.<br/><br/>
+
+    In contrast to previous attempts, our research combines empirical and other approaches, for example modeling and simulation, for gaining more insight; is based on a combination of short-term and multi-year measurements, for ensuring the longevity of our results; and uses large, comprehensive studies of several real clouds, for reducing the threats to validity related to the experimental environment. This presentation can also provide useful insights for fields related to benchmarking, for example experimental evaluation conducted in other large-scale distributed systems.<br/><br/>
+
+    Last but not least, we present a roadmap toward cloud benchmarking and the way we plan to progress on it with other members of the RG Cloud Group of the Standard Performance Evaluation Corporation (SPEC).<br/><br/>
+
+    URL: <a href="http://research.spec.org/working-groups/rg-cloud-working-group.html">http://research.spec.org/working-groups/rg-cloud-working-group.html</a>
+
+
+  pdf: "/Presentations/2013/2013-04-20_aiosup_cloud-benchmarking13hottopics.pdf"
+
+
+- id: 2012-iaas-cloud-benchmarking-iosup
+  speaker: aiosup
+  title: >
+    IaaS Cloud Benchmarking: Approaches, Challenges, and Experience
+  venue: MTAGS/ACM SC'12
+  year: 2012
+  abstract: >
+    IaaS Cloud Benchmarking: Approaches, Challenges, and Experience. Impact Award lecture at MTAGS/ACM SC'12.<br/><br/>
+
+    Infrastructure-as-a-Service (IaaS) cloud computing
+    is an emerging commercial infrastructure paradigm under which
+    clients (users) can lease resources when and for how long
+    needed, under a cost model that reflects the actual usage of
+    resources by the client. For IaaS clouds to become mainstream
+    technology and for current cost models to become more client-friendly,
+    benchmarking and comparing the non-functional system
+    properties of various IaaS clouds is important, especially for
+    the cloud users. In this article we focus on the IaaS cloud-specific
+    elements of benchmarking, from a user’s perspective. We
+    propose a generic approach for IaaS cloud benchmarking, discuss
+    numerous challenges in developing this approach, and summarize
+    our experience towards benchmarking IaaS clouds. We argue
+    for an experimental approach that requires, among others,
+    new techniques for experiment compression, new benchmarking
+    methods that go beyond blackbox and isolated-user testing, new
+    benchmark designs that are domain-specific, and new metrics for
+    elasticity and variability.<br/><br/>
+
+    URL: <a href="http://datasys.cs.iit.edu/events/MTAGS12/biggest-impact-award.html">http://datasys.cs.iit.edu/events/MTAGS12/biggest-impact-award.html</a>
+  slideshare: "https://www.slideshare.net/aiosup/iaas-cloud-benchmarking-approaches-challenges-and-experience"
+  pdf: "/Presentations/2012/2012-11-11_aiosup_cloud-benchmarking12mtags.pdf"
+
+
+- id: 2011-cloud-computing-challenge-iosup
+  speaker: aiosup
+  title: >
+    Cloud Computing: Open Research Questions for the Next Decade
+  venue: Invited Talk at ICT.OPEN
+  year: 2011
+  abstract: >
+    Cloud computing is a promising paradigm for IT, in which the infrastructure, the platform, and even the software
+    are outsourced services. As a new-formed community, we should ask ourselves what cloud computing is, and try to
+    envision what cloud computing could become and which challenges we must overcome to do so.<br/><br/>
+
+    In this talk, we survey what the cloud is, discarding the hyperbole and focusing on a pragmatic definition.
+    We then ask if there a role for computer science academics in cloud computing, other than as mere users, and
+    attempt to construct a pragmatic answer. We explicitly warn against the danger of merely re-hashing old results, in
+    particular from grid computing research. We focus on applications that could benefit from cloud computing, and
+    for them present two main challenges for the community: how to build a toolbox for (credible) cloud computing
+    research? and how to build the (computing and data) core of cloud computing? We point out examples of hurdles to
+    overcome: deployment models, scheduling, performance and reliability Engineering, scalability and elasticity,
+    cloud inter-operation (federation), and mention how many others we left out (including usability, security,
+    utility models, and programming models).
+
+  pdf: "/Presentations/2011/2011-11-15_cloud-comp-open-res-q11ictopen.pdf"
+
+
+- id: 2010-cloud-massively-social-gaming-iosup
+  speaker: aiosup
+  title: >
+    Cloud Computing Support for Massively Social Gaming (Rain for the Thirsty)
+  venue: Microsoft MSR Conference on Cloud Futures 2010
+  year: 2010
+  abstract: >
+    Cloud computing is a promising paradigm for IT, in which the infrastructure, the platform, and even the software
+    are outsourced services. As a new-formed community, we have already run out of hyperbole at the prospects
+    of cloud computing. Still, we lack an understanding of the true capabilities of this paradigm. This talk covers
+    the cloud-related research agenda and the vision for the future of a team of grid and peer-to-peer veterans
+    becoming cloud explorers (www.pds.ewi.tudelft.nl).<br/><br/>
+
+    Our main goal is to design and build fully functional, cloud-based systems, and to uncover in the process the
+    fundamental laws that govern their operation. We currently focus on the continuous analysis of player status for
+    massively social games such as RuneScape and FarmVille. As a use case, we consider third-parties that build and
+    maintain player communities, and rely on continuous game analytics to improve the experience of their own
+    users; these have millions of daily requests and relatively strict service response time requirements.<br/><br/>
+
+    This talk includes a summary of our two-year, hands-on experience with clouds.
+    We have built CAMEO, a cloud-based, continuous analytics platform,
+    and acquired and analyzed the status of almost 3,000,000 RuneScape players. We have also evaluated the
+    performance of four clouds (Amazon Web Services, ElasticHosts, Mosso, and GoGrid) using various benchmarks.
+    Further, we have assessed the performance variation over the complete year 2009 of AWS and Google App
+    Engine services. Based on our experience, we foresee that clouds will become a viable solution for small
+    enterprises and startup social applications.<br/><br/>
+
+    URL: <a href="https://www.microsoft.com/en-us/research/event/cloud-futures-2010/">https://www.microsoft.com/en-us/research/event/cloud-futures-2010/</a>
+
+  pdf: "/Presentations/2010/2010-04-09_aiosup-games-clouds10msr-redmond.pdf"
+
+
+- id: 2010-massivizing-social-gaming-iosup
+  speaker: aiosup
+  title: >
+    Massivizing Social Games: Yesterday, Today, and The Next Five Years
+  venue: Keynote Annual Syposium of the The Foundation for Fundamental Research on Matter (FOM)
+  year: 2010
+  abstract: >
+    In this talk, we discuss the emerging field of massiziving social gaming for over 1 billion gamers world-wide.
+    We present a short history of (online) gaming, and discuss ongoing research results.
+    We further explore challenges from scaling virtual worlds, procedural game content generation at scale,
+    and large-scale game analytics.
+
+  pdf: "/Presentations/2010/2010-12-17_msg-amolf.pdf"
+
